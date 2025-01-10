@@ -5,13 +5,16 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>UpConstruction Bootstrap Template - Blog Details</title>
+    {{-- <title>UpConstruction Bootstrap Template - Blog Details</title> --}}
+    @section('title')
+    Detail Artikel
+    @endsection
     <meta content="" name="description">
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets_2/img/LOGO MACROSTRUKTUR 4.png" rel="icon">
-    <link href="assets_2/img/LOGO MACROSTRUKTUR 4.png" rel="apple-touch-icon">
+    <link href="{{ asset('assets_2/img/LOGO MACROSTRUKTUR 4.png') }}" rel="icon">
+    <link href="{{ asset('assets_2/img/LOGO MACROSTRUKTUR 4.png') }}" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -80,17 +83,16 @@
             <div class="container mt-5">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1 class="mb-3">{{ $artikel['title'] }}</h1>
+                        <h1 class="mb-3">{{ $artikel->judul }}</h1>
                         <div class="d-flex align-items-center mb-3">
-                            <span class="me-3"><i class="bi bi-person"></i> {{ $artikel['author'] }}</span>
-                            <span class="me-3"><i class="bi bi-folder2"></i> {{ $artikel['category'] }}</span>
-                            <span><i class="bi bi-calendar"></i> {{ $artikel['date'] }}</span>
+                            <span class="me-3"><i class="bi bi-person"></i> {{ $artikel->users->name  }}</span>
+                            <span class="me-3"><i class="bi bi-folder2"></i> {{ $artikel->category->name }}</span>
+                            <span><i class="bi bi-calendar"></i> {{ \Carbon\Carbon::parse($artikel->created_at)->format('d F Y') }}</span>
                         </div>
-                        <img src="{{ asset($artikel['image']) }}" class="img-fluid mb-3"
-                            alt="{{ $artikel['title'] }}">
-                        {{-- <p>{{ $artikel['content'] }}</p> --}}
-                        @isset($artikel['content'])
-                            <p>{{ $artikel['content'] }}</p>
+                        <img src="{{ asset($artikel->gambar) }}" class="img-fluid mb-3"
+                            alt="{{ $artikel->judul }}">
+                        @isset($artikel->content)
+                            <p>{!! $artikel->content !!}</p>
                         @else
                             <p>Content not available.</p>
                         @endisset

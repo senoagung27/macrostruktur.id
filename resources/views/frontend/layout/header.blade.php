@@ -34,13 +34,13 @@
 
             <nav id="navmenu" class="navmenu">
                 <ul>
-                    <li><a href="{{ url('/') }}"class="{{ request()->is('/') ? 'active' : '' }}">Home</a></li>
+                    <li><a href="{{ url('/') }}"class="{{ request()->is('/') ? 'active' : '' }}"> Home</a></li>
                     <li><a href="#profil">Profil</a></li>
-                    <li><a href="#services">Testimoni</a></li>
+                    <li><a href="#services">Layanan</a></li>
+                    <li><a href="#testimonials">Testimonial</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
-                    {{-- <li><a href="#team">Team</a></li> --}}
                     <li class="{{ request()->routeIs('artikel.list_artikel') ? 'active' : '' }}">
-                        <a href="{{ route('artikel.list_artikel') }}">Artikel</a>
+                        <a href="{{ route('artikel.list_artikel') }}"> Artikel</a>
                     </li>
                     <li class="dropdown {{ request()->is('layanan-detail/*') ? 'active' : '' }}">
                         <a href="#"><span>Jasa Layanan</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -65,7 +65,7 @@
                             </li>
                         </ul>
                     </li>                    
-                    <li><a href="#contact">Pricing</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>

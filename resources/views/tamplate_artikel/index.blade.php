@@ -117,7 +117,7 @@
                                     <p>{!! Str::limit($details->content, 150) !!}</p>
                                     </p>
                                     <hr>
-                                    <a href="{{ url('/artikel-detail/' . $slug) }}"
+                                    <a href="{{ route('artikel.detail', $details->slug ) }}"
                                         class="readmore stretched-link"><span>Read More</span><i
                                             class="bi bi-arrow-right"></i></a>
                                 </div>

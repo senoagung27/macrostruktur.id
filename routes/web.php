@@ -34,7 +34,7 @@ Route::get('/', [LandingpageController::class, 'index']);
 Route::get('/list-artikel', [ArtikelController::class, 'list_artikel'])->name('artikel.list_artikel');
 Route::get('/artikel-detail/{slug}', [ArtikelController::class, 'detail'])->name('artikel.detail');
 
-Route::get('/layanan', 'LayananController@index');
+// Route::get('/layanan', 'LayananController@index');
 // Route::get('/layanan-detail', 'LayananController@detail');
 Route::get('/layanan', [LayananController::class, 'index']);
 Route::get('/layanan-detail/{slug}', [LayananController::class, 'detail'])->name('layanan.detail');
