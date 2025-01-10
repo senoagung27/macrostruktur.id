@@ -38,7 +38,7 @@
                         <li><a href="#services">Testimoni</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
                         {{-- <li><a href="#team">Team</a></li> --}}
-                        <li><a href="{{ url('/list-artikel') }}">Artikel</a></li>
+                        <li><a href="{{ route('artikel.list_artikel') }}">Artikel</a></li>
                         <li class="dropdown"><a href="#"><span>Jasa Layanan</span> <i
                                     class="bi bi-chevron-down toggle-dropdown"></i></a>
                             <ul>
