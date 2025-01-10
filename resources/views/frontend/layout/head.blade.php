@@ -21,8 +21,8 @@
 	<meta name="twitter:description" content="Suplemen kesehatan untuk membantu memproteksi tubuh dari minyak jahat yang terdapat di makanan yang digoreng dan juga di makanan sehari-hari">
 
     <!-- Favicons -->
-    <link href="assets_2/img/LOGO MACROSTRUKTUR 4.png" rel="icon">
-    <link href="assets_2/img/LOGO MACROSTRUKTUR 4.png" rel="apple-touch-icon">
+    <link href="public/assets_2/img/LOGO MACROSTRUKTUR 4.png" rel="icon">
+    <link href="public/assets_2/img/LOGO MACROSTRUKTUR 4.png" rel="apple-touch-icon">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
