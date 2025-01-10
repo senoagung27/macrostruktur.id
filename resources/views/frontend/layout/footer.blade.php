@@ -1,23 +1,5 @@
 <footer id="footer" class="footer">
 
-    {{-- <div class="footer-newsletter">
-        <div class="container">
-            <div class="row justify-content-center text-center">
-                <div class="col-lg-6">
-                    <h4>Join Our Newsletter</h4>
-                    <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-                    <form action="forms/newsletter.php" method="post" class="php-email-form">
-                        <div class="newsletter-form"><input type="email" name="email"><input type="submit"
-                                value="Subscribe"></div>
-                        <div class="loading">Loading</div>
-                        <div class="error-message"></div>
-                        <div class="sent-message">Your subscription request has been sent. Thank you!</div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div> --}}
-
     <div class="container footer-top">
         <div class="row gy-4">
             <div class="col-lg-4 col-md-6 footer-about">
@@ -33,7 +15,7 @@
                     <p>Senin - Jumat : 08:00 - 17:00</p>
                     <p>Sabtu : 08:00 - 12:00</p>
                     <p class="mt-3"><strong>Kontak: </strong> <span>0878-3439-9815/span></p>
-                    <p><strong>Email: </strong> <span>macro.struktur@gmail.com</span></p>
+                    <p><strong>Email: </strong> <span>customercare@macrostruktur.id</span> <span>macro.struktur@gmail.com</span></p>
                 </div>
             </div>
 
