@@ -117,14 +117,15 @@ class ArtikelController extends Controller
         $data = Posts::latest()->paginate(6);
         return view('admin.artikel.index', compact('data','category_widget'));
     }
+    private $title = 'Artikel';
 
-    public function list_artikel(Posts $posts ){
-        $category_widget = Category::all();
-
-
-    	$data = Posts::latest()->paginate(6);
-    	return view('tamplate_artikel.index', compact('data','category_widget'));
-    }
+    public function list_artikel(Posts $posts)
+{
+    $category_widget = Category::all();
+    $data['title'] = $this->title;
+    $data = Posts::latest()->paginate(6); // Slug akan otomatis disertakan jika ada di tabel posts
+    return view('tamplate_artikel.index', compact('data', 'category_widget'));
+}
 
 
 
