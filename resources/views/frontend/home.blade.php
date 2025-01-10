@@ -27,7 +27,7 @@
             <div class="container position-relative d-flex align-items-center justify-content-between">
                 <a href="index.html" class="logo d-flex align-items-center">
                     <!-- Uncomment the line below if you also wish to use an image logo -->
-                    <img src="assets_2/img/Group 1.png" alt="">
+                    <img src="public/assets_2/img/Group 1.png" alt="">
                     {{-- <h1 class="sitename">BizLand</h1> --}}
                 </a>
 
@@ -94,7 +94,7 @@
 
                     <!-- Right Image -->
                     <div class="col-lg-6">
-                        <img src="assets_2/img/macrohitungstruktur-banner3.png" alt="Blueprints"
+                        <img src="public/assets_2/img/macrohitungstruktur-banner3.png" alt="Blueprints"
                             class="img-fluid rounded">
                     </div>
                 </div>
@@ -112,7 +112,7 @@
 
                     <!-- Right Image -->
                     <div class="col-lg-6">
-                        <img src="assets_2/img/macrohitungstruktur-banner3.png" alt="Blueprints"
+                        <img src="public/assets_2/img/macrohitungstruktur-banner3.png" alt="Blueprints"
                             class="img-fluid rounded full-height-img">
                     </div>
                 </div>
@@ -217,7 +217,7 @@
                 <div class="row gy-3">
 
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                        <img src="assets_2/img/macro-hitung-struktur-profil.png" alt="" class="img-fluid">
+                        <img src="public/assets_2/img/macro-hitung-struktur-profil.png" alt="" class="img-fluid">
                     </div>
 
                     <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up"
@@ -251,25 +251,25 @@
 
                             <!-- Image 1 -->
                             <div class="col-sm-6" data-aos="fade-up" data-aos-delay="100">
-                                <img src="assets_2/img/2_logo.png" alt="SAP2000 Logo" class="img-fluid">
+                                <img src="public/assets_2/img/2_logo.png" alt="SAP2000 Logo" class="img-fluid">
                             </div>
 
                             <!-- Image 2 -->
                             <div class="col-sm-4" data-aos="fade-up" data-aos-delay="200">
-                                <img src="assets_2/img/ETABS-CSI.png" alt="ETABS Logo" class="img-fluid">
+                                <img src="public/assets_2/img/ETABS-CSI.png" alt="ETABS Logo" class="img-fluid">
                             </div>
 
                             <!-- Image 3 -->
                             <div class="col-sm-2" data-aos="fade-up" data-aos-delay="300">
-                                <img src="assets_2/img/sni-logo-6BC4A3F52A-seeklogo.com.png" alt="SNI Logo"
+                                <img src="public/assets_2/img/sni-logo-6BC4A3F52A-seeklogo.com.png" alt="SNI Logo"
                                     class="img-fluid">
                             </div>
                             <div class="col-sm-4" data-aos="fade-up" data-aos-delay="300">
-                                <img src="assets_2/img/AutoCAD-logo.png" alt="SNI Logo"
+                                <img src="public/assets_2/img/AutoCAD-logo.png" alt="SNI Logo"
                                     class="img-fluid">
                             </div>
                             <div class="col-sm-4" data-aos="fade-up" data-aos-delay="300">
-                                <img src="assets_2/img/autodesk-revit-1280x720.png" alt="SNI Logo"
+                                <img src="public/assets_2/img/autodesk-revit-1280x720.png" alt="SNI Logo"
                                     class="img-fluid">
                             </div>
                             <div class="row">
@@ -314,7 +314,7 @@
                         <div class="service-item position-relative ">
                             <div class="img-fluid">
 
-                                <img src="assets_2/img/45.png" alt="" class="img-fluid">
+                                <img src="public/assets_2/img/45.png" alt="" class="img-fluid">
                             </div>
                             <a href="#" class="stretched-link">
                                 <h3>Jasa Hitung Struktur Gedung</h3>
@@ -328,7 +328,7 @@
                         <div class="service-item position-relative">
                             <div class="img-fluid">
 
-                                <img src="assets_2/img/jasa-hitung-struktur-rumah-tinggal-ruko (1).png" alt=""
+                                <img src="public/assets_2/img/jasa-hitung-struktur-rumah-tinggal-ruko (1).png" alt=""
                                     class="img-fluid">
                             </div>
                             <a href="#" class="stretched-link">
@@ -342,7 +342,7 @@
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                         <div class="service-item position-relative ">
                             <div class="img-fluid">
-                                <img src="assets_2/img/jasa-hitung-struktur-gudang (1).png" alt=""
+                                <img src="public/assets_2/img/jasa-hitung-struktur-gudang (1).png" alt=""
                                     class="img-fluid">
                             </div>
                             <a href="#" class="stretched-link">
@@ -356,7 +356,7 @@
                         <div class="service-item position-relative">
                             <div class="img-fluid">
 
-                                <img src="assets_2/img/46.png" alt="" class="img-fluid">
+                                <img src="public/assets_2/img/46.png" alt="" class="img-fluid">
                             </div>
                             <a href="#" class="stretched-link">
                                 <h3>Jasa hitung struktur Non Gedung</h3>
@@ -370,7 +370,7 @@
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
                         <div class="service-item position-relative ">
                             <div class="img-fluid">
-                                <img src="assets_2/img/44.png" alt="" class="img-fluid">
+                                <img src="public/assets_2/img/44.png" alt="" class="img-fluid">
                             </div>
                             <a href="#" class="stretched-link">
                                 <h3> Assesment Struktur</h3>
@@ -384,7 +384,7 @@
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                         <div class="service-item position-relative">
                             <div class="img-fluid">
-                                <img src="assets_2/img/48.png" alt="" class="img-fluid">
+                                <img src="public/assets_2/img/48.png" alt="" class="img-fluid">
                             </div>
                             <a href="#" class="stretched-link">
                                 <h3> Modeling Bim & Tekla Structures</h3>
@@ -397,7 +397,7 @@
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                         <div class="service-item position-relative">
                             <div class="img-fluid">
-                                <img src="assets_2/img/rab.png" alt="" class="img-fluid">
+                                <img src="public/assets_2/img/rab.png" alt="" class="img-fluid">
                             </div>
                             <a href="#" class="stretched-link">
                                 <h3> jasa hitung RAB</h3>
@@ -409,7 +409,7 @@
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                         <div class="service-item position-relative">
                             <div class="img-fluid">
-                                <img src="assets_2/img/49.png" alt="" class="img-fluid">
+                                <img src="public/assets_2/img/49.png" alt="" class="img-fluid">
                             </div>
                             <a href="#" class="stretched-link">
                                 <h3> jasa DED Arsitek</h3>
@@ -421,7 +421,7 @@
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                         <div class="service-item position-relative">
                             <div class="img-fluid">
-                                <img src="assets_2/img/50.png" alt="" class="img-fluid">
+                                <img src="public/assets_2/img/50.png" alt="" class="img-fluid">
                             </div>
                             <a href="#" class="stretched-link">
                                 <h3> Jasa DED Mechanical, Electrical, and Plumbing</h3>
@@ -736,41 +736,41 @@
             }
           </script>
                     {{-- <div class="swiper-wrapper align-items-center">
-                        <div class="swiper-slide"><img src="assets_2/img/unair-ewm.png" class="img-fluid"
+                        <div class="swiper-slide"><img src="public/assets_2/img/unair-ewm.png" class="img-fluid"
                                 alt=""></div>
-                        <div class="swiper-slide"><img src="assets_2/img/RS-Umum-Aminah.png" class="img-fluid"
+                        <div class="swiper-slide"><img src="public/assets_2/img/RS-Umum-Aminah.png" class="img-fluid"
                                 alt=""></div>
-                        <div class="swiper-slide"><img src="assets_2/img/LOGO-WEB4.png" class="img-fluid"
+                        <div class="swiper-slide"><img src="public/assets_2/img/LOGO-WEB4.png" class="img-fluid"
                                 alt=""></div>
-                        <div class="swiper-slide"><img src="assets_2/img/logoppns-1-768x403.png" class="img-fluid"
+                        <div class="swiper-slide"><img src="public/assets_2/img/logoppns-1-768x403.png" class="img-fluid"
                                 alt=""></div>
                         <div class="swiper-slide"><img
-                                src="assets_2/img/272965842_110381708222020_1530594946246873803_n 1.png"
+                                src="public/assets_2/img/272965842_110381708222020_1530594946246873803_n 1.png"
                                 class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="assets_2/assets/img/clients/client-6.png" class="img-fluid"
+                        <div class="swiper-slide"><img src="public/assets_2/assets/img/clients/client-6.png" class="img-fluid"
                                 alt=""></div>
-                        <div class="swiper-slide"><img src="assets_2/assets/img/clients/client-7.png" class="img-fluid"
+                        <div class="swiper-slide"><img src="public/assets_2/assets/img/clients/client-7.png" class="img-fluid"
                                 alt=""></div>
-                        <div class="swiper-slide"><img src="assets_2/assets/img/clients/client-8.png" class="img-fluid"
+                        <div class="swiper-slide"><img src="public/assets_2/assets/img/clients/client-8.png" class="img-fluid"
                                 alt=""></div>
                     </div> --}}
                     <div class="container my-4">
                         <div class="row g-3">
                             <div class="col-6 col-md-4 col-lg-3">
-                                <img src="assets_2/img/unair-ewm.png" class="img-fluid rounded" alt="">
+                                <img src="public/assets_2/img/unair-ewm.png" class="img-fluid rounded" alt="">
                             </div>
                             <div class="col-6 col-md-4 col-lg-2">
-                                <img src="assets_2/img/RS-Umum-Aminah.png" class="img-fluid rounded" alt="">
+                                <img src="public/assets_2/img/RS-Umum-Aminah.png" class="img-fluid rounded" alt="">
                             </div>
                             <div class="col-6 col-md-4 col-lg-3">
-                                <img src="assets_2/img/LOGO-WEB4.png" class="img-fluid rounded" alt="">
+                                <img src="public/assets_2/img/LOGO-WEB4.png" class="img-fluid rounded" alt="">
                             </div>
                             <div class="col-6 col-md-4 col-lg-2">
-                                <img src="assets_2/img/logoppns-1-768x403.png" class="img-fluid rounded"
+                                <img src="public/assets_2/img/logoppns-1-768x403.png" class="img-fluid rounded"
                                     alt="">
                             </div>
                             <div class="col-6 col-md-4 col-lg-2">
-                                <img src="assets_2/img/272965842_110381708222020_1530594946246873803_n 1.png"
+                                <img src="public/assets_2/img/272965842_110381708222020_1530594946246873803_n 1.png"
                                     class="img-fluid rounded" alt="">
                             </div>
                             <!-- Uncomment the following for additional images -->
@@ -824,11 +824,11 @@
                     <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                            <img src="assets_2/img/Mask group.png" class="img-fluid" alt="">
+                            <img src="public/assets_2/img/Mask group.png" class="img-fluid" alt="">
                             {{-- <div class="portfolio-info">
                                 <h4>App 1</h4>
                                 <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets_2/assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="App 1"
+                                <a href="public/assets_2/assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="App 1"
                                     data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
                                         class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i
@@ -837,11 +837,11 @@
                         </div><!-- End Portfolio Item -->
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                            <img src="assets_2/img/Mask group.png" class="img-fluid" alt="">
+                            <img src="public/assets_2/img/Mask group.png" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>App 2</h4>
                                 <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets_2/assets/img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2"
+                                <a href="public/assets_2/assets/img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2"
                                     data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
                                         class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i
@@ -849,11 +849,11 @@
                             </div>
                         </div><!-- End Portfolio Item -->
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                            <img src="assets_2/img/Group 40.png" class="img-fluid" alt="">
+                            <img src="public/assets_2/img/Group 40.png" class="img-fluid" alt="">
                             {{-- <div class="portfolio-info">
                                 <h4>Product 1</h4>
                                 <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets_2/assets/img/masonry-portfolio/masonry-portfolio-1.jpg"
+                                <a href="public/assets_2/assets/img/masonry-portfolio/masonry-portfolio-1.jpg"
                                     title="Product 1" data-gallery="portfolio-gallery-product"
                                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i
@@ -862,7 +862,7 @@
                         </div><!-- End Portfolio Item -->
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                            <img src="assets_2/img/Group 49.png" class="img-fluid" alt="">
+                            <img src="public/assets_2/img/Group 49.png" class="img-fluid" alt="">
                             {{-- <div class="portfolio-info">
                                 <h4>Branding 1</h4>
                                 <p>Lorem ipsum, dolor sit</p>
@@ -875,11 +875,11 @@
                         </div><!-- End Portfolio Item -->
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                            <img src="assets_2/img/Group 52.png" class="img-fluid" alt="">
+                            <img src="public/assets_2/img/Group 52.png" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>App 2</h4>
                                 <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets_2/assets/img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2"
+                                <a href="public/assets_2/assets/img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2"
                                     data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
                                         class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i
@@ -888,11 +888,11 @@
                         </div><!-- End Portfolio Item -->
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                            <img src="assets_2/img/Mask group.png" class="img-fluid" alt="">
+                            <img src="public/assets_2/img/Mask group.png" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>Product 2</h4>
                                 <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets_2/assets/img/masonry-portfolio/masonry-portfolio-5.jpg"
+                                <a href="public/assets_2/assets/img/masonry-portfolio/masonry-portfolio-5.jpg"
                                     title="Product 2" data-gallery="portfolio-gallery-product"
                                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i
@@ -901,11 +901,11 @@
                         </div><!-- End Portfolio Item -->
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                            <img src="assets_2/img/Mask group.png" class="img-fluid" alt="">
+                            <img src="public/assets_2/img/Mask group.png" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>Branding 2</h4>
                                 <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets_2/assets/img/masonry-portfolio/masonry-portfolio-6.jpg"
+                                <a href="public/assets_2/assets/img/masonry-portfolio/masonry-portfolio-6.jpg"
                                     title="Branding 2" data-gallery="portfolio-gallery-branding"
                                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i
@@ -914,7 +914,7 @@
                         </div><!-- End Portfolio Item -->
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                            <img src="assets_2/img/Mask group.png" class="img-fluid" alt="">
+                            <img src="public/assets_2/img/Mask group.png" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>App 3</h4>
                                 <p>Lorem ipsum, dolor sit</p>
@@ -927,7 +927,7 @@
                         </div><!-- End Portfolio Item -->
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                            <img src="assets_2/img/Mask group.png" class="img-fluid" alt="">
+                            <img src="public/assets_2/img/Mask group.png" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>Product 3</h4>
                                 <p>Lorem ipsum, dolor sit</p>
@@ -940,11 +940,11 @@
                         </div><!-- End Portfolio Item -->
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                            <img src="assets_2/img/Mask group.png" class="img-fluid" alt="">
+                            <img src="public/assets_2/img/Mask group.png" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>Branding 3</h4>
                                 <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets_2/assets/img/masonry-portfolio/masonry-portfolio-9.jpg"
+                                <a href="public/assets_2/assets/img/masonry-portfolio/masonry-portfolio-9.jpg"
                                     title="Branding 2" data-gallery="portfolio-gallery-branding"
                                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i
@@ -976,25 +976,25 @@
                 <div class="row">
                     <!-- Baris pertama (2 gambar) -->
                     <div class="col-md-6 d-flex justify-content-center align-items-center mb-4" data-aos="fade-up" data-aos-delay="100">
-                        <img src="assets_2/img/ssk-1.png" class="img-fluid w-75" alt="Image 1">
+                        <img src="public/assets_2/img/ssk-1.png" class="img-fluid w-75" alt="Image 1">
                     </div>
                     <div class="col-md-6 d-flex justify-content-center align-items-center mb-4" data-aos="fade-up" data-aos-delay="200">
-                        <img src="assets_2/img/ssk-2.png" class="img-fluid w-75" alt="Image 2">
+                        <img src="public/assets_2/img/ssk-2.png" class="img-fluid w-75" alt="Image 2">
                     </div>
                 </div>
                 <div class="row">
                     <!-- Baris kedua (2 gambar) -->
                     <div class="col-md-6 d-flex justify-content-center align-items-center mb-4" data-aos="fade-up" data-aos-delay="300">
-                        <img src="assets_2/img/ssk-3.png" class="img-fluid w-75" alt="Image 3">
+                        <img src="public/assets_2/img/ssk-3.png" class="img-fluid w-75" alt="Image 3">
                     </div>
                     <div class="col-md-6 d-flex justify-content-center align-items-center mb-4" data-aos="fade-up" data-aos-delay="400">
-                        <img src="assets_2/img/ssk-4.png" class="img-fluid w-75" alt="Image 4">
+                        <img src="public/assets_2/img/ssk-4.png" class="img-fluid w-75" alt="Image 4">
                     </div>
                 </div>
                 <div class="row">
                     <!-- Baris terakhir (1 gambar di tengah) -->
                     <div class="col-12 d-flex justify-content-center align-items-center mb-4" data-aos="fade-up" data-aos-delay="500">
-                        <img src="assets_2/img/43d34971-7ea7-48d1-bba2-2d8c2f8000e8.png" class="img-fluid w-50" alt="Image 5">
+                        <img src="public/assets_2/img/43d34971-7ea7-48d1-bba2-2d8c2f8000e8.png" class="img-fluid w-50" alt="Image 5">
                     </div>
                 </div>
 
@@ -1020,7 +1020,7 @@
                         <div class="pricing-item">
                             <h3 class="bg-primary text-white">Bangunan Gedung</h3>
                             <h4><sup>Rp</sup>4.500<span> /m²</span></h4>
-                            <img src="assets_2/img/jasa-hitung-struktur-gedung.png" class="img-fluid img-same-size"
+                            <img src="public/assets_2/img/jasa-hitung-struktur-gedung.png" class="img-fluid img-same-size"
                                 alt="">
                             {{-- <ul>
                                 <li>Aida dere</li>
@@ -1039,7 +1039,7 @@
                         <div class="pricing-item">
                             <h3 class="bg-primary text-white">Rumah Tinggal/ ruko</h3>
                             <h4><sup>Rp</sup>8.000<span> /m²</span></h4>
-                            <img src="assets_2/img/jasa-hitung-struktur-rumah-tinggal-ruko.png"
+                            <img src="public/assets_2/img/jasa-hitung-struktur-rumah-tinggal-ruko.png"
                                 class="img-fluid img-same-size" alt="">
                             {{-- <ul>
                                 <li>Aida dere</li>
@@ -1059,7 +1059,7 @@
                             {{-- <span class="advanced bg-danger">Best</span> --}}
                             <h3 class="bg-primary text-white">Gudang Baja</h3>
                             <h4><sup>Rp</sup>4.500<span>/m²</span></h4>
-                            <img src="assets_2/img/jasa-hitung-struktur-gudang.png" class="img-fluid img-same-size"
+                            <img src="public/assets_2/img/jasa-hitung-struktur-gudang.png" class="img-fluid img-same-size"
                                 alt="">
                             {{-- <ul>
                                 <li>Aida dere</li>
@@ -1077,7 +1077,7 @@
                         <div class="pricing-item">
                             <h3>Non Gedung</h3>
                             {{-- <h4><sup>$</sup>29<span> / month</span></h4> --}}
-                            <img src="assets_2/img/jasa-hitung-struktur-non-gedung.png"
+                            <img src="public/assets_2/img/jasa-hitung-struktur-non-gedung.png"
                                 class="img-fluid img-same-size" alt="">
                             <span>Analisa struktur</span>
                             <span>Bangunan IPAL</span>
@@ -1096,7 +1096,7 @@
                         <div class="pricing-item">
                             <h3>Project Lainnya</h3>
                             {{-- <h4><sup>$</sup>29<span> / month</span></h4> --}}
-                            <img src="assets_2/img/modeling-bim-tekla-structures.png"
+                            <img src="public/assets_2/img/modeling-bim-tekla-structures.png"
                             class="img-fluid img-same-size" alt="">
                             <p>Modeling Tekla</p>
                             <p>BIM Structure</p>
@@ -1109,7 +1109,7 @@
                         <div class="pricing-item">
                             <h3>RAB Struktur</h3>
                             {{-- <h4><sup>$</sup>29<span> / month</span></h4> --}}
-                            <img src="assets_2/img/rab.png"
+                            <img src="public/assets_2/img/rab.png"
                             class="img-fluid img-same-size" alt="">
                             {{-- <ul>
                                 <li>Aida dere</li>
@@ -1129,7 +1129,7 @@
                         <div class="pricing-item">
                             <h3>Assesment Struktur</h3>
                             {{-- <h4><sup>$</sup>29<span> / month</span></h4> --}}
-                            <img src="assets_2/img/272965844.png"
+                            <img src="public/assets_2/img/272965844.png"
                             class="img-fluid img-same-size" alt="">
                             {{-- <ul>
                                 <li>Aida dere</li>
@@ -1149,7 +1149,7 @@
                         <div class="pricing-item">
                             <h3>Special Order</h3>
                             {{-- <h4><sup>$</sup>29<span> / month</span></h4> --}}
-                            <img src="assets_2/img/272965843.png"
+                            <img src="public/assets_2/img/272965843.png"
                             class="img-fluid img-same-size" alt="">
                             {{-- <ul>
                                 <li>Aida dere</li>
