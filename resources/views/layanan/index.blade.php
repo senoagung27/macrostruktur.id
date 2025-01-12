@@ -62,7 +62,7 @@
 
                 <h2>Services</h2>
                 <ol>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="{{ url('/') }}"">Home</a></li>
                     <li>Services</li>
                 </ol>
 

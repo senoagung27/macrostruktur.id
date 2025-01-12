@@ -127,7 +127,7 @@
                 <h1 class="mb-2 mb-lg-0">{{ $layanan['title'] }}</h1>
                 <nav class="breadcrumbs">
                     <ol>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="{{ url('/') }}"">Home</a></li>
                         <li class="current">{{ $layanan['title'] }}</li>
                     </ol>
                 </nav>
@@ -188,7 +188,7 @@
         <div class="container footer-top">
             <div class="row gy-4">
                 <div class="col-lg-4 col-md-6 footer-about">
-                    <a href="index.html" class="d-flex align-items-center">
+                    <a href="{{ url('/') }}"" class="d-flex align-items-center">
                         {{-- <span class="sitename">BizLand</span> --}}
                         <div class="col-lg-6 col-md-6 footer-about">
                             <img src="{{ asset('assets_2/img/Group 3.png') }}" class="img-fluid " alt="">

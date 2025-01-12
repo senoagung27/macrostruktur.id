@@ -3,7 +3,7 @@
     <div class="container footer-top">
         <div class="row gy-4">
             <div class="col-lg-4 col-md-6 footer-about">
-                <a href="index.html" class="d-flex align-items-center">
+                <a href="{{ url('/') }}" class="d-flex align-items-center">
                     {{-- <span class="sitename">BizLand</span> --}}
                     <div class="col-lg-6 col-md-6 footer-about">
                         <img src="assets_2/img/Group 3.png" class="img-fluid " alt="">
@@ -22,10 +22,10 @@
             <div class="col-lg-2 col-md-3 footer-links">
                 <h4 class="text-white">Menu Unggulan</h4>
                 <ul>
-                    <li><i class="bi bi-chevron-right"></i> <a href="#">Artikel</a></li>
+                    <li><i class="bi bi-chevron-right"></i> <a href="{{ route('artikel.list_artikel') }}">Artikel</a></li>
                     <li><i class="bi bi-chevron-right"></i> <a href="#">Jasa Layanan</a></li>
-                    <li><i class="bi bi-chevron-right"></i> <a href="#">Bagunan Gedung</a></li>
-                    <li><i class="bi bi-chevron-right"></i> <a href="#">Rumah Tinggal/Ruko</a></li>
+                    <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/layanan-detail/bangunan-gedung') }}">Bagunan Gedung</a></li>
+                    <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/layanan-detail/rumah-tinggal-ruko') }}">Rumah Tinggal/Ruko</a></li>
                 </ul>
             </div>
 
@@ -33,10 +33,10 @@
                 {{-- <h4>Our Services</h4> --}}
                 <br><br>
                 <ul>
-                    <li><i class="bi bi-chevron-right"></i> <a href="#">Gudang Baja</a></li>
-                    <li><i class="bi bi-chevron-right"></i> <a href="#">Assesment</a></li>
-                    <li><i class="bi bi-chevron-right"></i> <a href="#">BIM, Tekla, RAB</a></li>
-                    <li><i class="bi bi-chevron-right"></i> <a href="#">DED Arsitek, MEP</a></li>
+                    <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/layanan-detail/bangunan-gudang') }}">Gudang Baja</a></li>
+                    <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/layanan-detail/assesment') }}">Assesment</a></li>
+                    <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/layanan-detail/bim-tekla-rab') }}">BIM, Tekla, RAB</a></li>
+                    <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/layanan-detail/ded-arsitek-mep') }}">DED Arsitek, MEP</a></li>
                 </ul>
             </div>
 

@@ -22,7 +22,7 @@
                         <!-- Right Image -->
                         <div class="col-lg-6">
                             <img src="assets_2/img/macrohitungstruktur-banner3.png" alt="Blueprints"
-                                class="img-fluid rounded full-height-img">
+                                class="img-fluid rounded w-100">
                         </div>
                     </div>
                 </div>
