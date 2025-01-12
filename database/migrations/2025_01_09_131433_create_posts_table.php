@@ -19,6 +19,8 @@ return new class extends Migration
             $table->string('gambar');
             $table->integer('users_id');
             $table->string('slug');     
+            $table->string('meta_description');     
+            $table->string('meta_keyword');     
             $table->softDeletes();
             $table->timestamps();
         });

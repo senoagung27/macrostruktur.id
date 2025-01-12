@@ -5,8 +5,10 @@
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
   <title>Admin &mdash; MacroStruktur</title>
 
-  <link href="assets_2/img/LOGO MACROSTRUKTUR 4.png" rel="icon">
-  <link href="assets_2/img/LOGO MACROSTRUKTUR 4.png" rel="apple-touch-icon">
+  <link href="{{ asset('assets_2/img/LOGO MACROSTRUKTUR 4.png') }}" rel="icon">
+  <link href="{{ asset('assets_2/img/LOGO MACROSTRUKTUR 4.png') }}" rel="apple-touch-icon">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
 
   <!-- General CSS Files -->
   <link rel="stylesheet" href="{{ asset('assets/modules/bootstrap/css/bootstrap.min.css') }}">
@@ -83,8 +85,13 @@
             <h1>@yield('sub-judul')</h1>
           </div>
           @yield('content')
-          <div class="section-body">
-          </div>
+          {{-- <div class="section-body">
+          </div> --}}
+          <section class="section">
+  
+            <div class="section-body">
+            </div>
+          </section>
         </section>
       </div>
       

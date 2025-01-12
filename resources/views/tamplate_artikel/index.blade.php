@@ -71,7 +71,7 @@
                 </h1>
                 <nav class="breadcrumbs">
                     <ol>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="{{ url('/') }}">Home</a></li>
                         <li class="current">Portfolio</li>
                     </ol>
                 </nav>
@@ -88,8 +88,10 @@
                             <div class="post-item position-relative h-100">
 
                                 <div class="post-img position-relative overflow-hidden">
-                                    <img src="assets_3/assets/img/blog/blog-1.jpg" class="img-fluid" alt="">
+                                    {{-- <img src="assets_3/assets/img/blog/blog-1.jpg" class="img-fluid" alt=""> --}}
                                     {{-- <span class="post-date">December 12</span> --}}
+                                    <img src="{{ asset($details->gambar) }}" class="img-fluid"
+                            alt="{{ $details->judul }}">
                                     <span
                                         class="post-date">{{ \Carbon\Carbon::parse($details['date'])->format('F j') }}</span>
                                 </div>
@@ -117,7 +119,7 @@
                                     <p>{!! Str::limit($details->content, 150) !!}</p>
                                     </p>
                                     <hr>
-                                    <a href="{{ url('/artikel-detail/' . $slug) }}"
+                                    <a href="{{ route('artikel.detail', $details->slug ) }}"
                                         class="readmore stretched-link"><span>Read More</span><i
                                             class="bi bi-arrow-right"></i></a>
                                 </div>

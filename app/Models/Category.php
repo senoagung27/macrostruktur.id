@@ -15,7 +15,7 @@ class Category extends Model
     protected $table = 'category';
 
     public function posts(){
-    	return $this->hasMany('App\Posts');
+    	return $this->hasMany('App\Models\Posts');
     }
 
     public function getRouteKeyName()

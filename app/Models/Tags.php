@@ -12,6 +12,6 @@ class Tags extends Model
     protected $fillable = ['name','slug'];
 
     public function posts(){
-    	return $this->belongsToMany('App\Posts');
+    	return $this->belongsToMany('App\Models\Posts');
     }
 }

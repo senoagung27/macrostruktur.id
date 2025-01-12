@@ -15,14 +15,14 @@ class Posts extends Model
 	protected $fillable = ['judul','category_id','content','gambar','slug','users_id','meta_keyword','meta_description'];
 
     public function category(){
-    	return $this->belongsTo('App\Category');
+    	return $this->belongsTo('App\Models\Category');
     }
 
     public function tags(){
-    	return $this->belongsToMany('App\Tags');
+    	return $this->belongsToMany('App\Models\Tags');
     }
 
     public function users(){
-    	return $this->belongsTo('App\User');
+    	return $this->belongsTo('App\Models\User');
     }
 }

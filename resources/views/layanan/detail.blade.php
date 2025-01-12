@@ -124,11 +124,11 @@
         <!-- Page Title -->
         <div class="page-title" data-aos="fade">
             <div class="container d-lg-flex justify-content-between align-items-center">
-                <h1 class="mb-2 mb-lg-0">Service Details</h1>
+                <h1 class="mb-2 mb-lg-0">{{ $layanan['title'] }}</h1>
                 <nav class="breadcrumbs">
                     <ol>
-                        <li><a href="index.html">Home</a></li>
-                        <li class="current">Service Details</li>
+                        <li><a href="{{ url('/') }}"">Home</a></li>
+                        <li class="current">{{ $layanan['title'] }}</li>
                     </ol>
                 </nav>
             </div>
@@ -141,20 +141,6 @@
 
                 <div class="row gy-4">
 
-                    {{-- <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                        <div class="services-list">
-                            <a href="#" class="active">Web Design</a>
-                            <a href="#">Software Development</a>
-                            <a href="#">Product Management</a>
-                            <a href="#">Graphic Design</a>
-                            <a href="#">Marketing</a>
-                        </div>
-
-                        <h4>Enim qui eos rerum in delectus</h4>
-                        <p>Nam voluptatem quasi numquam quas fugiat ex temporibus quo est. Quia aut quam quod facere ut
-                            non occaecati ut aut. Nesciunt mollitia illum tempore corrupti sed eum reiciendis. Maxime
-                            modi rerum.</p>
-                    </div> --}}
 
                     <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
                         <img src="{{ asset('assets_2/assets/img/services.jpg') }}" alt="" class="img-fluid services-img">
@@ -202,7 +188,7 @@
         <div class="container footer-top">
             <div class="row gy-4">
                 <div class="col-lg-4 col-md-6 footer-about">
-                    <a href="index.html" class="d-flex align-items-center">
+                    <a href="{{ url('/') }}"" class="d-flex align-items-center">
                         {{-- <span class="sitename">BizLand</span> --}}
                         <div class="col-lg-6 col-md-6 footer-about">
                             <img src="{{ asset('assets_2/img/Group 3.png') }}" class="img-fluid " alt="">

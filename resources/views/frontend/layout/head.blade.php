@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    {{-- <title>Home - MacroStruktur</title> --}}
     <title>Home - MacroStruktur</title>
     <meta name="description" content="Suplemen kesehatan untuk membantu memproteksi tubuh dari minyak jahat yang terdapat di makanan yang digoreng dan juga di makanan sehari-hari">
 	<meta name="keywords" content="Yuk Makan Enak Tanpa Worry!">
