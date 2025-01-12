@@ -120,15 +120,15 @@
                                     <img src="assets_2/img/autodesk-revit-1280x720.png" alt="SNI Logo" class="img-fluid">
                                 </div>
                                 <div class="row">
-                                    <h3>Konsultasi Gratis</h3>
+                                    <h3 class="mt-3">Konsultasi Gratis</h3>
                                     <div class="contact-info">
-                                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+                                        <div class="col-lg-6 mt-3" data-aos="fade-up" data-aos-delay="300">
                                             <span><img
                                                     src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFCUlEQVR4nO2aW4hVZRTHf45Tjs5QzdGxC3Q1uxM9ZBlF9SCWlTUNJRgKFUoXUcMub009lNEFAkmSoJfsZvVQhkWWmmGWWqmFlbeITLEaungbR80Ti/4fLM7Ze5999jl7ToR/2HD4vrXXd1vfWv+19oEj+P+iAHQCTwOLgO+B34E+Pfb7O/WZzE1AO/8RtACTgcXA30CxyucQ8AEwCRjUiAUMBu4HdrhJ7QeWAg/rZM7Vjh+lp11t1tcNLNM74f3twCxtTr/gemCrm8AaYApwbAZdxwFTgS+cvi3AOHKE7dQ8N+CXwNg66r8WWOv0z83jdE7QxG2AvcB0YGC9B+FfnTOBfe60j6+X8tN13EV5nQvIHxcCGzXmZs2hJnQ4hauBYfQf2oEVGnurrCITWpw5rQRa6X+0Ap87M8t0Z+Y5c7Jg1ygMdVZhDqBqFxsudn/ciTR3Zp/mZN4tdbALccK8UxwsuH2oxZrsj8BV5If73OVPZWIPuDgR52JHAr9FUI7t2og80Ays0zi2qES0ONoRF+xscask866L6KvVdif5YZzG+LkSN5vkPEQcbpSMsdshrn2y2o1u5IUBzpPeliS4WELGneKwUDJ3RJzmr+q7lPxwl8Z4P06gIFq9vwIB3ClFp0X0PaG++eQbKPuAg3Hz7NQkjIon4YDkoi71KdqM3bqceeFjzcHMvAzPqNPyiST0SO6siL6x6vsjJ1IZ8KjGeYoILFKnpaBJWCo5u9weZ7tFWoKUJ252XrMMm9RpgS4J0yX3Scxxv53zaRjOd56zDGE3jdskwS7YHsmOce0hy7uX/DFMY1lQLkOfOo9OoehxyW5ydOFWte0CziBfDHJ1gjL0JnijUgxxydazrn2B2r4BjqFBC9mhzpNSKrtErvgwMEFtNvlvpeezCvFolBxLW71Na4M67SKlxUy9YxR7tNpOBX5Q+8aYNGCKNqCowp0F0hPrddkD9eiiOjyv934RKw6Bca1bZLfLMK92J7nGMWcz7bkp8/Pgfm3OZehWp+1ONWgW7wk0/hy12117we18j3QH+j9bchcDb7pK5SHgoVoC4nUpKUoUbLeXuAnbrgdcAXxakrdYIGsq0WHx62X1m3tPwnLJjY+bzB6RseEZFmOe7B0NcEC76gPj5aoDPFZC/z2G6/0/E8YpONIY6xlfl6JpZEOTjjuY0wqZTlp06T1LJ+Jwt2TeI0XStE5JTFZcA2yTrsOiLWMizMnjTFcreDBGxub0lWQmJk2gycWBar1XVIF6tih90aWoTwJXigq1aQF2ef9ym9haobqzLc1niJDurqc+6FBqEEhp0vNGgt03a04mNyPNwCdLeHcFU8iCy4A5wNcqI+1SGelVnVISZrkgm+qj0O1JwaZBuMhxwdSfMmr1XPVGh4pyRZ1mKgx0eckIGo82V0NbVc13xtGuLNloFBwj2FLtB59H9OJzNP5ObHbJW1TpKREr9fINNAbN8k69zpyqpku+QBcXkEaotvuSonVnjQwgYICC3XoXU+Zk/fY+QQo+cm0jlQTNd5Sj9LG09p6MRLMg7hRoR1GmVNPX4helyOj4K8otSidttd23VBKa6uhMyCOWiZbcApynrK9FBY2hyha7dBeXu4JHoB0z6vEPiJ8iJr5TtGGa0stSM2pSTrDAlYiqeQ6qMDixnn/hWKJTeE2mUqlQV4rBsvNu3Z8NKmj0aud7dIILRfXH51xpOQIaiX8Aj4PBez3GiikAAAAASUVORK5CYII="
                                                     alt="whatsapp--v1" width="24" height="24">
                                                 0878-3439-9815</span>
                                         </div>
-                                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+                                        <div class="col-lg-6 mt-3" data-aos="fade-up" data-aos-delay="300">
                                             <span><img
                                                     src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB7UlEQVR4nO3YT6hNURTH8Y/nP+UlQoT0CgMGDKSkSCkpSSmlGChTQ6NXeiNTQwO9kjJRMjFgQErKSzJhQAyI/Mn//3/e0a316vS69/Z679x7zzntb+06nb322nuf3W+vtQ6JRCKR6BFZTZrabaSqZLXdyIDqMdBsI5+wX3XYg/etxD6K0+hTXqbhJP61EvtgrvMK+pWP/lhbFmsdbCX2/HE9xgblYR0eNpFBy1trFUbi3Rcc1Hv24WOs6cG4i6nt9TsHw7m+s5ip+0wPzY7GOi5i/mTiyHH8jv6bWKp7LMK1mPtPCHxKAXE7XoXNc2zReTbhacz5FruKiuwrcCfsfuKYznEY32Kue1hddIoyG2fG6WaW4pgRehjzfx5zO5lrHcH3GHMby02dJbiRO/GGNruSNG7Gsxj3BjtNnm14Gb5eYGu3s9/FuD6BW6UdjS//K3zcwrJepfHj7/kLmDeBcY04da6gOJUVWY8cwtfwcx9r2tiuxN2w/YGjZSus1uNR+HqH3U1sduB12DzBxrJWiAtwOfz9xakoCRqp94nQUqPvKhaWvdTtw1BON5eijdU7QwXXO1mna/a9+JDz/xkHqvrzYW2UBCPx3Amy2v5FqSpZ2kjJyNKJlIwsnUjJyGp7IlnFm9psJJFIJBK6zX+RmLvdeUFJ9AAAAABJRU5ErkJggg=="
                                                     alt="new-post--v1" width="24" height="24">
@@ -241,7 +241,7 @@
                                 <a href="#" class="stretched-link"></a>
                             </div>
                         </div><!-- End Service Item -->
-                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                        {{-- <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                             <div class="service-item position-relative">
                                 <div class="img-fluid">
                                     <img src="assets_2/img/rab.png" alt="" class="img-fluid">
@@ -252,20 +252,20 @@
                                 <p>Layanan spesial order</p>
                                 <a href="#" class="stretched-link"></a>
                             </div>
-                        </div><!-- End Service Item -->
+                        </div><!-- End Service Item --> --}}
                         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                             <div class="service-item position-relative">
                                 <div class="img-fluid">
                                     <img src="assets_2/img/49.png" alt="" class="img-fluid">
                                 </div>
                                 <a href="#" class="stretched-link">
-                                    <h3> jasa DED Arsitek</h3>
+                                    <h3> special order and request</h3>
                                 </a>
-                                <p>Layanan spesial order</p>
+                                <p>Layanan spesial order dari MacroStruktur.id seperti jasa hitung RAB, DED Arsitek, DED Mechanical, Electrical & Plumbing</p>
                                 <a href="#" class="stretched-link"></a>
                             </div>
                         </div><!-- End Service Item -->
-                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                        {{-- <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                             <div class="service-item position-relative">
                                 <div class="img-fluid">
                                     <img src="assets_2/img/50.png" alt="" class="img-fluid">
@@ -276,7 +276,7 @@
                                 <p>Layanan spesial order</p>
                                 <a href="#" class="stretched-link"></a>
                             </div>
-                        </div><!-- End Service Item -->
+                        </div><!-- End Service Item --> --}}
                     </div>
 
                 </div>
@@ -949,7 +949,7 @@
                                                     <a href="https://wa.me/6287834399815?text=Bisa%20kami%20bantu%3F"
                                                         target="_blank" class="btn text-white mt-2"
                                                         style="background-color: #1F8AD1">
-                                                        Hubungi via WhatsApp
+                                                        Chat Sekarang!
                                                     </a>
                                                 </div>
                                             </div>
@@ -966,7 +966,7 @@
                                                     <p>Jl. Legian III Blok H6/17, Gununganyar, Surabaya, Jawa Timur</p>
                                                     <a href="https://maps.app.goo.gl/Cn8htCpTaDffDtdP7" target="_blank"
                                                         class="btn text-white mt-2" style="background-color: #1F8AD1">
-                                                        Buka di Google Maps
+                                                        lihat lokasi di Maps
                                                     </a>
 
                                                 </div>
