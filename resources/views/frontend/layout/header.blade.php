@@ -1,6 +1,6 @@
 <style>
     .active > a {
-    color: #007bff; /* Active link color */
+    color: #1F8AD1; /* Active link color */
     font-weight: bold; /* Optional styling */
 }
 </style>

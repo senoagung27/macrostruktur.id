@@ -770,7 +770,7 @@
 
                         <div class="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="100">
                             <div class="pricing-item">
-                                <h3 class="bg-primary text-white">Bangunan Gedung</h3>
+                                <h3 class="text-white" style="background-color: #1F8AD1">Bangunan Gedung</h3>
                                 <h4><sup>Rp</sup>4.500<span> /m²</span></h4>
                                 <img src="assets_2/img/jasa-hitung-struktur-gedung.png" class="img-fluid img-same-size"
                                     alt="">
@@ -792,7 +792,7 @@
 
                         <div class="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="100">
                             <div class="pricing-item">
-                                <h3 class="bg-primary text-white">Rumah Tinggal/ ruko</h3>
+                                <h3 class="text-white" style="background-color: #1F8AD1">Rumah Tinggal/ ruko</h3>
                                 <h4><sup>Rp</sup>8.500<span> /m²</span></h4>
                                 <img src="assets_2/img/jasa-hitung-struktur-rumah-tinggal-ruko.png"
                                     class="img-fluid img-same-size" alt="">
@@ -815,7 +815,7 @@
                         <div class="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
                             <div class="pricing-item">
                                 {{-- <span class="advanced bg-danger">Best</span> --}}
-                                <h3 class="bg-primary text-white">Gudang Baja</h3>
+                                <h3 class="text-white" style="background-color: #1F8AD1">Gudang Baja</h3>
                                 <h4><sup>Rp</sup>4.500<span>/m²</span></h4>
                                 <img src="assets_2/img/jasa-hitung-struktur-gudang.png" class="img-fluid img-same-size"
                                     alt="">
@@ -972,7 +972,7 @@
                                                     <h3>WhatsApp</h3>
                                                     <p>0878-3439-9815</p>
                                                     <a href="https://wa.me/6287834399815?text=Bisa%20kami%20bantu%3F"
-                                                        target="_blank" class="btn btn-primary mt-2">
+                                                        target="_blank" class="btn text-white mt-2" style="background-color: #1F8AD1">
                                                         Hubungi via WhatsApp
                                                     </a>
                                                 </div>
@@ -989,7 +989,7 @@
                                                     <h3>Alamat</h3>
                                                     <p>Jl. Legian III Blok H6/17, Gununganyar, Surabaya, Jawa Timur</p>
                                                     <a href="https://maps.app.goo.gl/Cn8htCpTaDffDtdP7" target="_blank"
-                                                        class="btn btn-primary mt-2">
+                                                        class="btn text-white mt-2" style="background-color: #1F8AD1">
                                                         Buka di Google Maps
                                                     </a>
                                                     
@@ -1007,7 +1007,7 @@
                                                     <h3>Email</h3>
                                                     <p>customercare@macrostruktur.id</p>
                                                     <a href="mailto:customercare@macrostruktur.id?subject=Halo%20Macrostruktur"
-                                                        class="btn btn-primary mt-2">
+                                                        class="btn text-white mt-2" style="background-color: #1F8AD1">
                                                         Kirim Email
                                                     </a>
                                                 </div>
