@@ -35,13 +35,6 @@
             <section id="featured-services" class="featured-services section">
                 <div class="container">
                     <div class="row gy-4">
-                        {{-- <div class="col-6 col-md-6 col-xl-3 d-flex" data-aos="fade-up" data-aos-delay="100">
-                            <div class="service-item position-relative">
-                                <div class="icon"><i class="bi bi-person-check icon"></i></div>
-                                <h4><a href="" class="stretched-link">Berpengalaman</a></h4>
-                                <p>Sejak tahun 2019, kami telah membangun reputasi sebagai perencana struktur ahli.</p>
-                            </div>
-                        </div> --}}
                         <div class="col-6 col-md-6 col-xl-3 d-flex" data-aos="fade-up" data-aos-delay="400">
                             <div class="service-item position-relative">
                                 <div class="icon"><i class="bi bi-person-check icon"></i></div>
@@ -56,14 +49,14 @@
                                 <p>Setiap detail struktur dihitung dan dirancang dengan cermat serta akurat.</p>
                             </div>
                         </div>
-                        <div class="col-6 col-md-6 col-xl-3 d-flex" data-aos="fade-up" data-aos-delay="300">
+                        <div class="col-6 col-md-6 col-xl-3 d-flex" data-aos="fade-up" data-aos-delay="400">
                             <div class="service-item position-relative">
                                 <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
                                 <h4><a href="" class="stretched-link">Cepat</a></h4>
                                 <p>Perencanaan struktur bangunan, paling cepat selesai hanya dalam 3 hari!*</p>
                             </div>
                         </div>
-                        <div class="col-6 col-md-6 col-xl-3 d-flex" data-aos="fade-up" data-aos-delay="400">
+                        <div class="col-6 col-md-6 col-xl-3 d-flex" data-aos="fade-up" data-aos-delay="200">
                             <div class="service-item position-relative">
                                 <div class="icon"><i class="bi bi-calendar-week icon"></i></div>
                                 <h4><a href="" class="stretched-link">Berkualitas</a></h4>
