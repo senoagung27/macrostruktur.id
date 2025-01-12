@@ -44,10 +44,14 @@
 				<td>
 					@foreach($hasil->tags as $tag)
 					<ul>
-						<h6><span class="badge badge-info">{{ $tag->name }}</span></h6>
+						<h6>
+							<span class="badge badge-info">
+								<i class="fas fa-tag me-1"></i>{{ $tag->name }}
+							</span>
+						</h6>
 					</ul>
-					@endforeach		
-				</td>
+					@endforeach
+				</td>				
 				<td>{{ $hasil->users->name }}</td>
 				{{-- <td><img src="{{ asset($hasil->gambar) }}" class="img-fluid" style="width:100px"></td> --}}
                 <td>
@@ -64,13 +68,23 @@
                 <td>{{ $hasil->meta_description }}</td>
                 <td>{{ $hasil->meta_keyword }}</td>
 				<td>
-                    <form action="{{ route('artikel.destroy', $hasil->id) }}" method="POST">
-                        @csrf
-                        @method('delete')
-                        <a href="{{ route('artikel.edit', $hasil->id) }}" class="btn btn-primary btn-sm">Edit</a>
-                        <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete this article?')">Delete</button>
-                    </form>
-                </td>
+					<div class="d-flex align-items-center">
+						<a href="{{ route('artikel.edit', $hasil->id) }}" 
+						   class="btn btn-primary btn-sm me-2 d-flex align-items-center">
+							<i class="fas fa-edit me-1"></i>Edit
+						</a>
+						<form action="{{ route('artikel.destroy', $hasil->id) }}" method="POST" style="display: inline;">
+							@csrf
+							@method('delete')
+							<button type="submit" 
+									class="btn btn-danger btn-sm d-flex align-items-center" 
+									onclick="return confirm('Are you sure you want to delete this article?')">
+								<i class="fas fa-trash-alt me-1"></i>Delete
+							</button>
+						</form>
+					</div>
+				</td>
+				
 			</tr>
 			@endforeach
 

@@ -85,26 +85,39 @@
                     <div class="col-md-12">
                         <h1 class="mb-3">{{ $artikel->judul }}</h1>
                         <div class="d-flex align-items-center mb-3">
-                            <span class="me-3"><i class="bi bi-person"></i> {{ $artikel->users->name  }}</span>
-                            <span class="me-3"><i class="bi bi-folder2"></i> {{ $artikel->category->name }}</span>
-                            <span><i class="bi bi-calendar"></i> {{ \Carbon\Carbon::parse($artikel->created_at)->format('d F Y') }}</span>
+                            <span class="me-3">
+                                <i class="bi bi-person"></i> {{ $artikel->users->name }}
+                            </span>
+                            <span class="me-3">
+                                <i class="bi bi-folder2"></i> {{ $artikel->category->name }}
+                            </span>
+                            <span>
+                                <i class="bi bi-calendar"></i> {{ \Carbon\Carbon::parse($artikel->created_at)->format('d F Y') }}
+                            </span>
                         </div>
                         <a href="{{ $artikel->link_url }}" target="_blank">
-                            {{-- <img src="{{ asset($artikel->gambar) }}" class="img-fluid mb-3" > --}}
-                            <img src="{{ asset($artikel->gambar) }}" class="img-fluid mb-3" >
+                            <img src="{{ asset($artikel->gambar) }}" class="img-fluid mb-3">
                         </a>
-                            <p>{!! $artikel->content !!}</p>
-                            <img src="{{ asset($artikel->gambar_2) }}" class="img-fluid mb-3" >
-                        {{-- @isset($artikel->content)
-                            <p>{!! $artikel->content !!}</p>
-                        @else
-                            <p>Content not available.</p>
-                        @endisset --}}
+                        <p>{!! $artikel->content !!}</p>
+                        <img src="{{ asset($artikel->gambar_2) }}" class="img-fluid mb-3">
+                        <p>{!! $artikel->content !!}</p>
 
+                        <!-- Menambahkan daftar tags -->
+                        <div class="tags mt-3">
+                            <h6>Tags:</h6>
+                            <div class="d-flex flex-wrap">
+                                @foreach($artikel->tags as $tag)
+                                    <span class="badge bg-info text-white me-2 mb-2">
+                                        <i class="fas fa-tag me-1"></i>{{ $tag->name }}
+                                    </span>
+                                @endforeach
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section><!-- End Blog Details Section -->
+        
 
     </main><!-- End #main -->
 

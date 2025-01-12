@@ -6,7 +6,7 @@
                 <a href="{{ url('/') }}" class="d-flex align-items-center">
                     {{-- <span class="sitename">BizLand</span> --}}
                     <div class="col-lg-6 col-md-6 footer-about">
-                        <img src="assets_2/img/Group 3.png" class="img-fluid " alt="">
+                        <img src="{{ asset('assets_2/img/Group 3.png') }}" class="img-fluid " alt="">
                     </div>
                 </a>
                 <div class="footer-contact pt-3">
