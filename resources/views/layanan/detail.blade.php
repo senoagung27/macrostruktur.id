@@ -127,7 +127,7 @@
                 <h1 class="mb-2 mb-lg-0">{{ $layanan['title'] }}</h1>
                 <nav class="breadcrumbs">
                     <ol>
-                        <li><a href="{{ url('/') }}"">Home</a></li>
+                        <li><a href="{{ url('/') }}">Home</a></li>
                         <li class="current">{{ $layanan['title'] }}</li>
                     </ol>
                 </nav>

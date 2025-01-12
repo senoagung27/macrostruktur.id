@@ -20,6 +20,7 @@
 				<th>Daftar Tags</th>
 				<th>Creator</th>
 				<th>Thumbnail</th>
+				<th>Gambar Kedua</th>
 				<th>Action</th>
 			</tr>
 		</thead>

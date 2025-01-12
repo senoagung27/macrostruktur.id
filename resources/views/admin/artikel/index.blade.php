@@ -29,6 +29,7 @@
 				<th>Daftar Tags</th>
 				<th>Creator</th>
 				<th>Thumbnail</th>
+				<th>Gambar Kedua</th>
 				<th>Meta Description</th>
 				<th>Meta Keyword</th>
 				<th>Action</th>
@@ -51,6 +52,11 @@
 				{{-- <td><img src="{{ asset($hasil->gambar) }}" class="img-fluid" style="width:100px"></td> --}}
                 <td>
                     <img src="{{ $hasil->gambar ? asset($hasil->gambar) : asset('assets/img/example-image-50.jpg') }}" 
+                         class="img-fluid" 
+                         style="width:100px">
+                </td>
+				<td>
+                    <img src="{{ $hasil->gambar_2 ? asset($hasil->gambar_2) : asset('assets/img/example-image-50.jpg') }}" 
                          class="img-fluid" 
                          style="width:100px">
                 </td>

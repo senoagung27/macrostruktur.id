@@ -56,6 +56,14 @@
             <label>Thumbnail</label>
             <input type="file" name="gambar" class="form-control">
         </div>
+        <div class="form-group">
+            <label>Link Url Pertama</label>
+            <input type="text" class="form-control" name="link_url" value="{{ $post->link_url }}">
+        </div>
+        <div class="form-group">
+            <label>Link Url Kedua</label>
+            <input type="text" class="form-control" name="link_url_2" value="{{ $post->link_url }}">
+        </div>
 
         <div class="form-group">
             <label>Meta Keyword</label>

@@ -861,6 +861,26 @@ section,
   background: linear-gradient(to right, #0A6CAD, #0A6CAD);
   color: white;
 }
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .hero .col-lg-6 {
+    width: 100%;
+  }
+
+  .hero .col-lg-6 img {
+    margin-top: 20px;
+  }
+
+  .hero .btn {
+    margin: 20px auto 0;
+  }
+}
+
 
 .hero h1 {
   font-size: 2rem;
@@ -1058,6 +1078,26 @@ section,
   border-radius: 0px;
 }
 
+.featured-services .service-item {
+  background-color: var(--surface-color);
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  padding: 50px 30px;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Pastikan box-nya seragam */
+}
+
+@media (max-width: 576px) {
+  .featured-services .row > [class*="col-"] {
+      flex: 0 0 50%; /* 2 kolom dalam 1 baris */
+      max-width: 50%;
+  }
+}
+
+
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
@@ -1210,6 +1250,44 @@ section,
 .clients .swiper-slide img:hover {
   transform: scale(1.1);
 }
+
+/* Container Slider */
+.logo-slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 1rem; /* Optional for spacing */
+  padding: 1rem 0;
+}
+
+/* Item di dalam slider */
+.logo-slider .col-6 {
+  flex: 0 0 auto;
+  width: 100%;
+  max-width: 120px; /* Atur ukuran box */
+  scroll-snap-align: center;
+}
+
+/* Hapus margin grid row untuk tampilan rapat */
+.logo-slider .col-6 img {
+  width: 100%;
+  border-radius: 8px; /* Untuk estetika */
+}
+
+/* Styling untuk scrollbar (opsional) */
+.logo-slider::-webkit-scrollbar {
+  height: 6px;
+}
+
+.logo-slider::-webkit-scrollbar-thumb {
+  background-color: #0a6cad;
+  border-radius: 10px;
+}
+
+.logo-slider::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
 
 /*--------------------------------------------------------------
 # Services Section

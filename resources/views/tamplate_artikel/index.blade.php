@@ -72,7 +72,7 @@
                 <nav class="breadcrumbs">
                     <ol>
                         <li><a href="{{ url('/') }}">Home</a></li>
-                        <li class="current">Portfolio</li>
+                        <li class="current">Artikel</li>
                     </ol>
                 </nav>
             </div>
@@ -116,7 +116,7 @@
                                         </div>
                                     </div>
                                     <p>
-                                    <p>{!! Str::limit($details->content, 150) !!}</p>
+                                    <span>{!! Str::limit($details->content, 150) !!}</span>
                                     </p>
                                     <hr>
                                     <a href="{{ route('artikel.detail', $details->slug ) }}"

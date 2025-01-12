@@ -89,13 +89,16 @@
                             <span class="me-3"><i class="bi bi-folder2"></i> {{ $artikel->category->name }}</span>
                             <span><i class="bi bi-calendar"></i> {{ \Carbon\Carbon::parse($artikel->created_at)->format('d F Y') }}</span>
                         </div>
-                        <img src="{{ asset($artikel->gambar) }}" class="img-fluid mb-3"
-                            alt="{{ $artikel->judul }}">
-                        @isset($artikel->content)
+                        <a href="{{ $artikel->link_url }}" target="_blank">
+                            {{-- <img src="{{ asset($artikel->gambar) }}" class="img-fluid mb-3" > --}}
+                            <img src="{{ asset($artikel->gambar) }}" class="img-fluid mb-3" >
+                        </a>
+                            <p>{!! $artikel->content !!}</p>
+                        {{-- @isset($artikel->content)
                             <p>{!! $artikel->content !!}</p>
                         @else
                             <p>Content not available.</p>
-                        @endisset
+                        @endisset --}}
 
                     </div>
                 </div>

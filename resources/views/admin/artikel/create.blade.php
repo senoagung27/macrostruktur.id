@@ -50,6 +50,19 @@
             <input type="file" name="gambar" class="form-control">
         </div>
         <div class="form-group">
+            <label>Gambar Kedua</label>
+            <input type="file" name="gambar_2" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Link Url Pertama</label>
+            <input type="text" class="form-control" name="link_url" placeholder="Masukkan URL pertama">
+        </div>
+        <div class="form-group">
+            <label>Link Url Kedua</label>
+            <input type="text" class="form-control" name="link_url_2" placeholder="Masukkan URL kedua">
+        </div>
+        
+        <div class="form-group">
             <label>Meta Keyword</label>
             <input type="text" class="form-control" name="meta_keyword">
         </div>
