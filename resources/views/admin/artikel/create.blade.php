@@ -77,9 +77,11 @@
 
     </form>
 
-    <script src="https://cdn.ckeditor.com/4.13.0/standard/ckeditor.js"></script>
+    {{-- <script src="https://cdn.ckeditor.com/4.13.0/standard/ckeditor.js"></script> --}}
     <script>
         CKEDITOR.replace('content');
     </script>
-
+        <script src="{{ asset('vendor/unisharp/laravel-ckeditor/ckeditor.js') }}"></script>
+        <link rel="stylesheet" href="{{ asset('vendor/unisharp/laravel-ckeditor/skins/moono-lisa/editor.css') }}">
+        <script src="{{ asset('vendor/unisharp/laravel-ckeditor-upload/ckeditor.js') }}">
 @endsection

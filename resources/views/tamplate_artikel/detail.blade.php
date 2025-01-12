@@ -94,6 +94,7 @@
                             <img src="{{ asset($artikel->gambar) }}" class="img-fluid mb-3" >
                         </a>
                             <p>{!! $artikel->content !!}</p>
+                            <img src="{{ asset($artikel->gambar_2) }}" class="img-fluid mb-3" >
                         {{-- @isset($artikel->content)
                             <p>{!! $artikel->content !!}</p>
                         @else

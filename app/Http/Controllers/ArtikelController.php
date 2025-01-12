@@ -274,7 +274,7 @@ public function detail($slug)
             'category_id' => 'required|integer',
             'content' => 'required',
             'gambar_2' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
-            // 'meta_description' => 'nullable|string|max:500',
+            'meta_description' => 'nullable|string|max:500',
             'meta_keyword' => 'nullable|string|max:500',
             'tags' => 'nullable|array',
             'link_url' => 'nullable|url', // Validasi URL pertama
@@ -305,7 +305,7 @@ public function detail($slug)
                 'meta_description' => $meta_description,
                 'meta_keyword' => $request->meta_keyword,
                 'gambar' => 'public/uploads/posts/' . $new_gambar,
-                'gambar_2' => 'public/uploads/posts/' . $new_gambar_2,
+                'gambar_2' => $new_gambar_2 ? 'public/uploads/posts/' . $new_gambar_2 : null,
                 'link_url' => $request->link_url, // Simpan URL pertama
                 'link_url_2' => $request->link_url_2, // Simpan URL kedua
                 'slug' => Str::slug($request->judul),
