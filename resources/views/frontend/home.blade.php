@@ -66,7 +66,7 @@
                     </div>
                 </div>
             </section>
-            
+
 
             <!-- About Section -->
             <section id="profil" class="about section light-background">
@@ -310,8 +310,7 @@
 
                             <div class="swiper-slide">
                                 <div class="testimonial-item">
-                                    <img src="assets_2/img/testi-2-100x100.png" class="testimonial-img"
-                                        alt="">
+                                    <img src="assets_2/img/testi-2-100x100.png" class="testimonial-img" alt="">
                                     <h3>Ir. Agung Tavianto</h3>
                                     <h4> Architect and Head of Planning in Universal Surabaya</h4>
                                     <div class="stars">
@@ -321,7 +320,7 @@
                                     </div>
                                     <p>
                                         <i class="bi bi-quote quote-icon-left"></i>
-                                        <span>Tim professional dan bisa diandalkan, 
+                                        <span>Tim professional dan bisa diandalkan,
                                             pekerjaan sangat bagus dan proses pengerjaan lumayan cepat.</span>
                                         <i class="bi bi-quote quote-icon-right"></i>
                                     </p>
@@ -330,8 +329,7 @@
 
                             <div class="swiper-slide">
                                 <div class="testimonial-item">
-                                    <img src="assets_2/img/testi-1-100x100.png" class="testimonial-img"
-                                        alt="">
+                                    <img src="assets_2/img/testi-1-100x100.png" class="testimonial-img" alt="">
                                     <h3>M. AMIN, ST,MT</h3>
                                     <h4>Architect and Director di PT. Diah Nurjanah Arsitek</h4>
                                     <div class="stars">
@@ -341,7 +339,8 @@
                                     </div>
                                     <p>
                                         <i class="bi bi-quote quote-icon-left"></i>
-                                        <span>Sudah berpartner beberapa project dan tidak pernah mengecewakan, sampai sekarang 
+                                        <span>Sudah berpartner beberapa project dan tidak pernah mengecewakan, sampai
+                                            sekarang
                                             masih berkolaborasi dengan MacroStudio.id</span>
                                         <i class="bi bi-quote quote-icon-right"></i>
                                     </p>
@@ -350,8 +349,7 @@
 
                             <div class="swiper-slide">
                                 <div class="testimonial-item">
-                                    <img src="assets_2/img/testi-3-100x100.png" class="testimonial-img"
-                                        alt="">
+                                    <img src="assets_2/img/testi-3-100x100.png" class="testimonial-img" alt="">
                                     <h3>Suharjo Wibowo, S.E.</h3>
                                     <h4>Director of CV. Prasada Ambangun Sejahtera</h4>
                                     <div class="stars">
@@ -361,7 +359,7 @@
                                     </div>
                                     <p>
                                         <i class="bi bi-quote quote-icon-left"></i>
-                                        <span>Partner project yang bagus, 
+                                        <span>Partner project yang bagus,
                                             pekerjaan jadi cepat selesai, dan harganya sangat terjangkau</span>
                                         <i class="bi bi-quote quote-icon-right"></i>
                                     </p>
@@ -370,8 +368,7 @@
 
                             <div class="swiper-slide">
                                 <div class="testimonial-item">
-                                    <img src="assets_2/img/thumb 1.png" class="testimonial-img"
-                                        alt="">
+                                    <img src="assets_2/img/thumb 1.png" class="testimonial-img" alt="">
                                     <h3>Dafit Efendi</h3>
                                     <h4>UI / UX Designer</h4>
                                     <div class="stars">
@@ -381,10 +378,13 @@
                                     </div>
                                     <p>
                                         <i class="bi bi-quote quote-icon-left"></i>
-                                        <span>Kami sangat puas dengan layanan struktur bangunan dari Macro Studio. 
-                                            Dari awal konsultasi hingga pengerjaan, tim mereka sangat profesional dan responsif. 
-                                            Yang paling penting, kami merasa aman dan tenang karena struktur bangunan yang dibangun sangat kokoh dan sesuai standar. 
-                                            Kami merekomendasikan Macro Studio bagi siapa pun yang membutuhkan jasa struktur bangunan yang andal dan terpercaya."</span>
+                                        <span>Kami sangat puas dengan layanan struktur bangunan dari Macro Studio.
+                                            Dari awal konsultasi hingga pengerjaan, tim mereka sangat profesional dan
+                                            responsif.
+                                            Yang paling penting, kami merasa aman dan tenang karena struktur bangunan yang
+                                            dibangun sangat kokoh dan sesuai standar.
+                                            Kami merekomendasikan Macro Studio bagi siapa pun yang membutuhkan jasa struktur
+                                            bangunan yang andal dan terpercaya."</span>
                                         <i class="bi bi-quote quote-icon-right"></i>
                                     </p>
                                 </div>
@@ -490,11 +490,12 @@
               }
             }
           </script>
-                        
+
                         <div class="container my-4">
                             <div class="row g-3">
                                 <div class="col-3 col-md-4 col-lg-3">
-                                    <img src="assets_2/img/ubaya-logo-width.png" class="img-fluid rounded" alt="">
+                                    <img src="assets_2/img/ubaya-logo-width.png" class="img-fluid rounded"
+                                        alt="">
                                 </div>
                                 <div class="col-2 col-md-4 col-lg-2">
                                     <img src="assets_2/img/RS-Umum-Aminah.png" class="img-fluid rounded" alt="">
@@ -532,7 +533,7 @@
                                 </div>
                             </div>
                         </div> --}}
-                        
+
 
                     </div>
 
@@ -561,142 +562,116 @@
 
                         <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
                             <li data-filter="*" class="filter-active">Semua</li>
-                            <li data-filter=".filter-app">Gedung</li>
-                            <li data-filter=".filter-product">Rumah Tinggal</li>
-                            <li data-filter=".filter-branding">Gudang</li>
-                            <li data-filter=".filter-branding">BIM Modeling</li>
+                            <li data-filter=".gedung">Gedung</li>
+                            <li data-filter=".rumah-tinggal">Rumah Tinggal</li>
+                            <li data-filter=".gudang">Gudang</li>
+                            <li data-filter=".bim-modeling">BIM Modeling</li>
                         </ul><!-- End Portfolio Filters -->
 
                         <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                                <img src="assets_2/img/Mask group.png" class="img-fluid" alt="">
-                                {{-- <div class="portfolio-info">
-                                <h4>App 1</h4>
-                                <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets_2/assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="App 1"
-                                    data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
-                            </div> --}}
-                            </div><!-- End Portfolio Item -->
-
-                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                                <img src="assets_2/img/Mask group.png" class="img-fluid" alt="">
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item gedung">
+                                <img src="assets_2/img/Group 23.png" class="img-fluid" alt="">
                                 <div class="portfolio-info">
-                                    <h4>App 2</h4>
-                                    <p>Lorem ipsum, dolor sit</p>
-                                    <a href="assets_2/assets/img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2"
+                                    <h4>RSU AMINAH BLITAR</h4>
+                                    <p>Gedung</p>
+                                    <a href="assets_2/img/Group 23.png" title="Gedung"
                                         data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
                                             class="bi bi-zoom-in"></i></a>
-                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                    <a href="{{ url('/portfolio') }}" title="More Details" class="details-link"><i
                                             class="bi bi-link-45deg"></i></a>
                                 </div>
                             </div><!-- End Portfolio Item -->
-                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item gedung">
                                 <img src="assets_2/img/Group 40.png" class="img-fluid" alt="">
-                                {{-- <div class="portfolio-info">
-                                <h4>Product 1</h4>
-                                <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets_2/assets/img/masonry-portfolio/masonry-portfolio-1.jpg"
-                                    title="Product 1" data-gallery="portfolio-gallery-product"
-                                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
-                            </div> --}}
+                                <div class="portfolio-info">
+                                    <h4>HOTEL KALPATARU - MALANG</h4>
+                                    <p>Project Gedung</p>
+                                    <a href="assets_2/img/Group 40.png" title="Project Gedung"
+                                        data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="{{ url('/portfolio') }}" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
                             </div><!-- End Portfolio Item -->
-
-                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item rumah-tinggal">
                                 <img src="assets_2/img/Group 49.png" class="img-fluid" alt="">
-                                {{-- <div class="portfolio-info">
-                                <h4>Branding 1</h4>
-                                <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets_2/assets/img/masonry-portfolio/masonry-portfolio-3.jpg"
-                                    title="Branding 1" data-gallery="portfolio-gallery-branding"
-                                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
-                            </div> --}}
+                                <div class="portfolio-info">
+                                    <h4>RUMAH TINGGAL - 3 LANTAI</h4>
+                                    <p>Project Rumah Tinggal</p>
+                                    <a href="assets_2/img/Group 49.png" title="Product 1"
+                                        data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="{{ url('/portfolio') }}" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
                             </div><!-- End Portfolio Item -->
-
-                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item rumah-tinggal">
                                 <img src="assets_2/img/Group 52.png" class="img-fluid" alt="">
                                 <div class="portfolio-info">
-                                    <h4>App 2</h4>
-                                    <p>Lorem ipsum, dolor sit</p>
-                                    <a href="assets_2/assets/img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2"
+                                    <h4>RUMAH 2 LANTAI JAKARTA</h4>
+                                    <p>Project Rumah Tinggal</p>
+                                    <a href="assets_2/img/Group 52.png" title="Project Rumah Tinggal"
+                                        data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="{{ url('/portfolio') }}" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
+                            </div><!-- End Portfolio Item -->
+
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item gudang">
+                                <img src="assets_2/img/Group 64.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>HANGGAR PESAWAT - NTT</h4>
+                                    <p>Project Gudang</p>
+                                    <a href="assets_2/img/Group 64.png" title="Project Gudang"
                                         data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
                                             class="bi bi-zoom-in"></i></a>
-                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                    <a href="{{ url('/portfolio') }}" title="More Details" class="details-link"><i
                                             class="bi bi-link-45deg"></i></a>
                                 </div>
                             </div><!-- End Portfolio Item -->
 
-                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                                <img src="assets_2/img/Mask group.png" class="img-fluid" alt="">
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item gudang">
+                                <img src="assets_2/img/Group 59.png" class="img-fluid" alt="">
                                 <div class="portfolio-info">
-                                    <h4>Product 2</h4>
-                                    <p>Lorem ipsum, dolor sit</p>
-                                    <a href="assets_2/assets/img/masonry-portfolio/masonry-portfolio-5.jpg"
-                                        title="Product 2" data-gallery="portfolio-gallery-product"
-                                        class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
-                                </div>
-                            </div><!-- End Portfolio Item -->
-
-                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                                <img src="assets_2/img/Mask group.png" class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>Branding 2</h4>
-                                    <p>Lorem ipsum, dolor sit</p>
-                                    <a href="assets_2/assets/img/masonry-portfolio/masonry-portfolio-6.jpg"
-                                        title="Branding 2" data-gallery="portfolio-gallery-branding"
-                                        class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
-                                </div>
-                            </div><!-- End Portfolio Item -->
-
-                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                                <img src="assets_2/img/Mask group.png" class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>App 3</h4>
-                                    <p>Lorem ipsum, dolor sit</p>
-                                    <a href="assets_2/assets/img/masonry-portfolio/masonry-portfolio-7.jpg" title="App 3"
+                                    <h4>WAREHOUSE PT. HARVESTAR..</h4>
+                                    <p>Project Gudang</p>
+                                    <a href="assets_2/img/Group 59.png" title="Project Gudang"
                                         data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
                                             class="bi bi-zoom-in"></i></a>
-                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                    <a href="{{ url('/portfolio') }}" title="More Details" class="details-link"><i
                                             class="bi bi-link-45deg"></i></a>
                                 </div>
                             </div><!-- End Portfolio Item -->
 
-                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                                <img src="assets_2/img/Mask group.png" class="img-fluid" alt="">
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item bim-modeling">
+                                <img src="assets_2/img/Group 67.png" class="img-fluid" alt="">
                                 <div class="portfolio-info">
-                                    <h4>Product 3</h4>
-                                    <p>Lorem ipsum, dolor sit</p>
-                                    <a href="assets_2/assets/img/masonry-portfolio/masonry-portfolio-8.jpg"
-                                        title="Product 3" data-gallery="portfolio-gallery-product"
-                                        class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                    <h4>Showroom (PT. Auto 2000)</h4>
+                                    <p>Project BIM Modeling</p>
+                                    <a href="assets_2/img/Group 67.png" title="Project BIM Modeling"
+                                        data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="{{ url('/portfolio') }}" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
+                            </div><!-- End Portfolio Item -->
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item bim-modeling">
+                                <img src="assets_2/img/Group 68.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Pelabuhan Benoa (PT. Pelindo)</h4>
+                                    <p>Project BIM Modeling</p>
+                                    <a href="assets_2/img/Group 68.png" title="Project BIM Modeling"
+                                        data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="{{ url('/portfolio') }}" title="More Details" class="details-link"><i
                                             class="bi bi-link-45deg"></i></a>
                                 </div>
                             </div><!-- End Portfolio Item -->
 
-                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                                <img src="assets_2/img/Mask group.png" class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>Branding 3</h4>
-                                    <p>Lorem ipsum, dolor sit</p>
-                                    <a href="assets_2/assets/img/masonry-portfolio/masonry-portfolio-9.jpg"
-                                        title="Branding 2" data-gallery="portfolio-gallery-branding"
-                                        class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
-                                </div>
-                            </div><!-- End Portfolio Item -->
+                           
 
                         </div><!-- End Portfolio Container -->
                         <div class="text-center mt-4">
@@ -888,9 +863,9 @@
                                 <p>Arsitek, dan ME</p>
                                 <div class="btn-wrap">
                                     <a href="https://wa.me/6287834399815?text=Bisa%20kami%20bantu%3F" target="_blank"
-                                    class="btn-buy">
-                                    Hubungi Kami
-                                </a>
+                                        class="btn-buy">
+                                        Hubungi Kami
+                                    </a>
                                 </div>
                             </div>
                         </div><!-- End Pricing Item -->
@@ -929,9 +904,9 @@
                                 <p>DED MEP</p>
                                 <div class="btn-wrap">
                                     <a href="https://wa.me/6287834399815?text=Bisa%20kami%20bantu%3F" target="_blank"
-                                    class="btn-buy">
-                                    Hubungi Kami
-                                </a>
+                                        class="btn-buy">
+                                        Hubungi Kami
+                                    </a>
                                 </div>
                             </div>
                         </div><!-- End Pricing Item -->
@@ -943,7 +918,7 @@
             </section><!-- /Pricing Section -->
 
             @include('frontend.faq')
-            
+
 
             <!-- Contact Section -->
             <section id="contact" class="contact section">
@@ -972,7 +947,8 @@
                                                     <h3>WhatsApp</h3>
                                                     <p>0878-3439-9815</p>
                                                     <a href="https://wa.me/6287834399815?text=Bisa%20kami%20bantu%3F"
-                                                        target="_blank" class="btn text-white mt-2" style="background-color: #1F8AD1">
+                                                        target="_blank" class="btn text-white mt-2"
+                                                        style="background-color: #1F8AD1">
                                                         Hubungi via WhatsApp
                                                     </a>
                                                 </div>
@@ -992,7 +968,7 @@
                                                         class="btn text-white mt-2" style="background-color: #1F8AD1">
                                                         Buka di Google Maps
                                                     </a>
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -1022,8 +998,9 @@
                                 src="https://maps.app.goo.gl/EPCZT8abfD3x7Vjt5"
                                 frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen=""
                                 loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> --}}
-                                
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.1254042206797!2d112.7885445!3d-7.339811399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fab67425ad57%3A0x94de3d16a3161aef!2sJl.%20Legian%20III%20No.H6%2C%20RW.19%2C%20Gn.%20Anyar%2C%20Kec.%20Gn.%20Anyar%2C%20Surabaya%2C%20Jawa%20Timur%2060294!5e0!3m2!1sid!2sid!4v1736482229891!5m2!1sid!2sid" 
+
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.1254042206797!2d112.7885445!3d-7.339811399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fab67425ad57%3A0x94de3d16a3161aef!2sJl.%20Legian%20III%20No.H6%2C%20RW.19%2C%20Gn.%20Anyar%2C%20Kec.%20Gn.%20Anyar%2C%20Surabaya%2C%20Jawa%20Timur%2060294!5e0!3m2!1sid!2sid!4v1736482229891!5m2!1sid!2sid"
                                     frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen=""
                                     loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
