@@ -5,12 +5,23 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    {{-- <title>UpConstruction Bootstrap Template - Blog Details</title> --}}
-    @section('title')
-    Detail Artikel
-    @endsection
-    <meta content="" name="description">
-    <meta content="" name="keywords">
+    <title>MacroStruktur Official Website - Artikel Detail</title>
+    <meta name="description" content="{{ $artikel->meta_description }}">
+	<meta name="keywords" content="{{ $artikel->meta_keyword }}">
+
+	<meta name="author" content="MacroStruktur">
+
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://macrostruktur.id/">
+	<meta property="og:site_name" content="MacroStruktur">
+	<meta property="og:title" content="MacroStruktur Official Website - Analisa dan Perencanaan Struktur Bangunan">
+	<meta property="og:description" content="{{ $artikel->meta_description }}">
+	<meta name="theme-color" content="#1F8AD1">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="MacroStruktur Official Website - Analisa dan Perencanaan Struktur Bangunan">
+	<meta name="twitter:description" content="{{ $artikel->meta_description }}">
+
 
     <!-- Favicons -->
     <link href="{{ asset('assets_2/img/LOGO MACROSTRUKTUR 4.png') }}" rel="icon">
@@ -79,8 +90,10 @@
         </div><!-- End Page Title -->
 
         <!-- ======= Blog Details Section ======= -->
-        <section id="blog" class="blog">
-            <div class="container mt-5">
+        <section id="blog" class="blog" style="
+        padding: 15px;
+    ">
+            <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <h1 class="mb-3">{{ $artikel->judul }}</h1>

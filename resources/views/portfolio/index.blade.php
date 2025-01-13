@@ -4,9 +4,25 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Starter Page - BizLand Bootstrap Template</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+
+    <title>MacroStruktur Official Website - Portfolio</title>
+    <meta name="description" content="Solusi Terpercaya untuk Analisa dan Perencanaan Struktur Bangunan">
+	<meta name="keywords" content="Yuk Makan Enak Tanpa Worry!">
+
+	<meta name="author" content="MacroStruktur">
+
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://macrostruktur.id/">
+	<meta property="og:site_name" content="MacroStruktur">
+	<meta property="og:title" content="MacroStruktur Official Website - Analisa dan Perencanaan Struktur Bangunan">
+	<meta property="og:description" content="Solusi Terpercaya untuk Analisa dan Perencanaan Struktur Bangunan">
+	<meta name="theme-color" content="#1F8AD1">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="MacroStruktur Official Website - Analisa dan Perencanaan Struktur Bangunan">
+	<meta name="twitter:description" content="Solusi Terpercaya untuk Analisa dan Perencanaan Struktur Bangunan">
+
+
 
     <!-- Favicons -->
     <link href="assets_2/img/LOGO MACROSTRUKTUR 4.png" rel="icon">
@@ -96,6 +112,7 @@
             color: #333;
             margin-top: 10px;
         }
+        
     </style>
 
     <!-- =======================================================
@@ -351,7 +368,7 @@
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Serba Guna Kab. Gresik" height="150"
-                        src="assets_2/img/16. RUMAH TINGGAL 2 LANTAI - JOMBANG.png"
+                        src="assets_2/img/15. RUMAH 2 LANTAI JAKARTA BARAT P SUPRIAJI.png"
                         width="200" />
                     <p>
                         RUMAH 2 LANTAI JAKARTA BARAT P SUPRIAJI
@@ -359,7 +376,7 @@
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Serba Guna Kab. Gresik" height="150"
-                        src="assets_2/img/16. RUMAH TINGGAL 2 LANTAI - JOMBANG.png"
+                        src="assets_2/img/10.RUMAH TINGGAL, KLINIK, DAN KOS 2 LANTAI - SIDOARJO.png"
                         width="200" />
                     <p>
                         RUMAH TINGGAL, KLINIK, DAN KOS 2 LANTAI - SIDOARJO
@@ -367,7 +384,7 @@
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Serba Guna Kab. Gresik" height="150"
-                        src="assets_2/img/16. RUMAH TINGGAL 2 LANTAI - JOMBANG.png"
+                        src="assets_2/img/8.RUMAH TINGGAL 3 LANTAI - BSD.png"
                         width="200" />
                     <p>
                         RUMAH TINGGAL 3 LANTAI BSD
@@ -375,7 +392,7 @@
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Serba Guna Kab. Gresik" height="150"
-                    src="assets_2/img/16. RUMAH TINGGAL 2 LANTAI - JOMBANG.png"
+                    src="assets_2/img/12.RUMAH TINGGAL 3 LANTAI SPLIT LEVEL - SURABAYA.png"
                     width="200" />
                     <p>
                         RUMAH TINGGAL 3 LANTAI SPLIT LEVEL - SURABAYA
@@ -383,7 +400,7 @@
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Serba Guna Kab. Gresik" height="150"
-                        src="assets_2/img/16. RUMAH TINGGAL 2 LANTAI - JOMBANG.png"
+                        src="assets_2/img/11.RUMAH TINGGAL 3 LANTAI SEMI BASEMENT - SURABAYA.png"
                         width="200" />
                     <p>
                         RUMAH TINGGAL 3 LANTAI SEMI BASEMENT - SURABAYA
@@ -391,7 +408,7 @@
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Serba Guna Kab. Gresik" height="150"
-                        src="assets_2/img/16. RUMAH TINGGAL 2 LANTAI - JOMBANG.png"
+                        src="assets_2/img/9.RUMAH TINGGAL 3 LANTAI - KEMANG VILLAGE.png"
                         width="200" />
                     <p>
                         RUMAH TINGGAL 3 LANTAI KEMANG VILLAGE
@@ -399,7 +416,7 @@
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Serba Guna Kab. Gresik" height="150"
-                        src="assets_2/img/16. RUMAH TINGGAL 2 LANTAI - JOMBANG.png"
+                        src="assets_2/img/7.RUMAH TINGGAL 2 LANTAI - SURABAYA.png"
                         width="200" />
                     <p>
                         RUMAH TINGGAL 2 LANTAI SURABAYA
@@ -407,7 +424,7 @@
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Serba Guna Kab. Gresik" height="150"
-                        src="assets_2/img/16. RUMAH TINGGAL 2 LANTAI - JOMBANG.png"
+                        src="assets_2/img/6.VILLA 4 LANTAI - DAGO JAWA BARAT.png"
                         width="200" />
                     <p>
                         VILLA 4 LANTAI DAGO JAWA BARAT
@@ -415,7 +432,7 @@
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Serba Guna Kab. Gresik" height="150"
-                    src="assets_2/img/16. RUMAH TINGGAL 2 LANTAI - JOMBANG.png"
+                    src="assets_2/img/5.RUMAH TINGGAL 3 LANTAI - STRUKTUR BAJA.png"
                     width="200" />
                     <p>
                         RUMAH TINGGAL 3 LANTAI STRUKTUR BAJA
@@ -423,7 +440,7 @@
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Serba Guna Kab. Gresik" height="150"
-                    src="assets_2/img/16. RUMAH TINGGAL 2 LANTAI - JOMBANG.png"
+                    src="assets_2/img/4.RUMAH TINGGAL 3 LANTAI - SURABAYA.png"
                     width="200" />
                     <p>
                         RUMAH TINGGAL 3 LANTAI SURABAYA
@@ -431,7 +448,7 @@
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Serba Guna Kab. Gresik" height="150"
-                    src="assets_2/img/16. RUMAH TINGGAL 2 LANTAI - JOMBANG.png"
+                    src="assets_2/img/7.GEDUNG FAKULTAS FARMASI UNIVERSITAS SURABAYA - UBAYA.png"
                     width="200" />
                     <p>
                         GEDUNG FAKULTAS FARMASI UNIVERSITAS SURABAYA - (UBAYA)
@@ -439,7 +456,7 @@
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Serba Guna Kab. Gresik" height="150"
-                        src="assets_2/img/16. RUMAH TINGGAL 2 LANTAI - JOMBANG.png"
+                        src="assets_2/img/2.RUMAH DAN KLINIK 2 LANTAI A - KEDIRI.png"
                         width="200" />
                     <p>
                         RUMAH DAN KLINIK 2 LANTAI A KEDIRI
@@ -447,7 +464,7 @@
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Serba Guna Kab. Gresik" height="150"
-                        src="assets_2/img/16. RUMAH TINGGAL 2 LANTAI - JOMBANG.png"
+                        src="assets_2/img/1. VILLA PAK ANDY - TRAWAS MOJOKERTO.png"
                         width="200" />
                     <p>
                         VILLA PAK ANDY TRAWAS MOJOKERTO
@@ -455,7 +472,7 @@
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Serba Guna Kab. Gresik" height="150"
-                    src="assets_2/img/16. RUMAH TINGGAL 2 LANTAI - JOMBANG.png"
+                    src="assets_2/img/20. RUMAH TINGGAL 2 LANTAI - UBUD BALI.png"
                     width="200" />
                     <p>
                         RUMAH TINGGAL 2 LANTAI UBUD BALI
@@ -463,7 +480,7 @@
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Serba Guna Kab. Gresik" height="150"
-                        src="assets_2/img/16. RUMAH TINGGAL 2 LANTAI - JOMBANG.png"
+                        src="assets_2/img/27. RUMAH 2 LANTAI - SIDOARJO.png"
                         width="200" />
                     <p>
                         RUMAH 2 LANTAI SIDOARJO
@@ -471,7 +488,7 @@
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Serba Guna Kab. Gresik" height="150"
-                        src="assets_2/img/16. RUMAH TINGGAL 2 LANTAI - JOMBANG.png"
+                        src="assets_2/img/28. RUMAH DAN KANTOR 3 LANTAI - SURABAYA.png"
                         width="200" />
                     <p>
                         RUMAH DAN KANTOR 3 LANTAI SURABAYA
@@ -484,177 +501,97 @@
             <div class="content">
                 <div class="text-container">
                     <div class="main-title">
-                        Project Bangunan Gedung
+                        Project Bangunan Gudang
                     </div>
                     <div class="sub-title">
-                        Macro Engineering Studio
+                        MacroStruktur.id
                     </div>
                 </div>
                 <div class="image-container">
                     <img alt="3D model of a building structure" height="400"
-                        src="https://storage.googleapis.com/a1aa/image/y3acOFue71xYXqaayzjTTafiSYs1G5DyG1JdMsnlgZ6HkAAUA.jpg"
+                        src="assets_2/img/2.GUDANG PACKAGING.png"
                         width="800" />
                 </div>
             </div>
             <div class="grid-container">
                 <div class="grid-item">
                     <img alt="3D model of Masjid Universitas Muhammadiyah Bengkulu" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/RWLsSikxrb6aKJfFSzHjRqNkoZiJs49afJijBjhQgsnUkAAUA.jpg"
+                        src="assets_2/img/4.GUDANG MOJOKERTO.png"
                         width="200" />
                     <p>
-                        MASJID UNIVERSITAS MUHAMMADIYAH BENGKULU
+                        GUDANG MOJOKERTO
                     </p>
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Masjid Guod-Jombang" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/XmTNijaIEs7GJ5Gf8xAAYHfmzAFIeeAWlWihNfOpBn0deIAAF.jpg"
+                        src="assets_2/img/5.GUDANG LOGISTIK.png"
                         width="200" />
                     <p>
-                        MASJID GUOD-JOMBANG
+                        GUDANG LOGISTIK
                     </p>
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Auditorium Sekolah Al Hikmah-Batu" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/dYiYdju4P3pfQa0Aja7647WMTjo0xuwRoVi9b5VztIaASAAKA.jpg"
+                        src="assets_2/img/6. GUDANG EXTENDED - PASURUAN.png"
                         width="200" />
                     <p>
-                        AUDITORIUM SEKOLAH AL HIKMAH-BATU
+                        GUDANG EXTENDED PASURUAN
                     </p>
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Serba Guna Kab. Gresik" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/xXa5mzCbsGY0AxeuCECQZMRzo1LcckNGxZrcoJNKf4B5jAAUA.jpg"
+                        src="assets_2/img/7. HANGGAR PESAWAT - NTT.png"
                         width="200" />
                     <p>
-                        GEDUNG SERBA GUNA KAB. GRESIK
+                        HANGGAR PESAWAT NTT
                     </p>
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Puskesmas Alun-Alun Gresik" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/DGWReBeYNyrta000Yjpc0G2Aq5ydmrHzYf3B4QUr5fUeeIAAF.jpg"
+                        src="assets_2/img/13. GUDANG PT. AISIN INDONESIA.png"
                         width="200" />
                     <p>
-                        GEDUNG PUSKESMAS ALUN-ALUN GRESIK
+                        GUDANG PT. AISIN INDONESIA
                     </p>
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Puskesmas Panceng" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/mrVVXvJS7aaFH9syVcWzyNZaBDu78lz7b7hoi0evYqDISAAKA.jpg"
+                        src="assets_2/img/15. CRUSH WHEAT TOWER PT. HARVESTAR FLOUR MILLS.png"
                         width="200" />
                     <p>
-                        GEDUNG PUSKESMAS PANCENG
+                        CRUSH WHEAT TOWER PT. HARVESTAR FLOUR MILLS
                     </p>
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Masjid Auliya 2 Lantai" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/QDv1zLibzzoxMtVc9eUWcq5yAOLbbie0EogMyfCISQufPCAQB.jpg"
+                        src="assets_2/img/1. GUDANG CEVA LOGISTIC.png"
                         width="200" />
                     <p>
-                        MASJID AULIYA 2 LANTAI
+                        GUDANG CEVA LOGISTIC
                     </p>
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Asrama Putra Auliya 4 Lantai" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/yVGwwZPcVfwaeEsHWeFRservXvPVNbnCY3eeWCl86ozABJAAF.jpg"
+                        src="assets_2/img/2.GUDANG PACKAGING.png"
                         width="200" />
                     <p>
-                        GEDUNG ASRAMA PUTRA AULIYA 4 LANTAI
+                        GUDANG PACKAGING
                     </p>
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Basic Science Fakultas Sains dan Teknologi - Unair C" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/UNkidoFefxq8a0l5MIxacpvV4ntefRQRwpqIT2pQ7up7QCAQB.jpg"
+                        src="assets_2/img/3.GUDANG EXTENSION RECOND DRUM.png"
                         width="200" />
                     <p>
-                        GEDUNG BASIC SCIENCE FAKULTAS SAINS DAN TEKNOLOGI - UNAIR C
+                        GUDANG EXTENSION RECOND DRUM
                     </p>
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Asrama Mahasiswa Univ Trunojoyo" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/lxfhiBksP7SRASV074nzVwLKGynB7dsVvIa2RfsohAeqHBAoA.jpg"
+                        src="assets_2/img/11. GUDANG WATER TREATMENT - DOMPU - NTB.png"
                         width="200" />
                     <p>
-                        GEDUNG ASRAMA MAHASISWA UNIV TRUNOJOYO
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Gedung Auditorium Universitas Muhammadiyah Sidoarjo" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/gKRLay178U6DMZHtUfcXzr3eMerdnt2mX3P51EcEQGXlIBAoA.jpg"
-                        width="200" />
-                    <p>
-                        GEDUNG AUDITORIUM UNIVERSITAS MUHAMMADIYAH SIDOARJO
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Gedung Laboratorium PAUD Unesa" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/qoEduvRQ62rhOBxZN21zr64otEr6LiVxOzckHbEyXq6eRAAKA.jpg"
-                        width="200" />
-                    <p>
-                        GEDUNG LABORATORIUM PAUD UNESA
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Gedung Bengkel PPNS ITS-Surabaya" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/uSXWoSU5fsUDbKdAeG0uIkW3Dm9NfR3dI1OCMPpKeMBaQCAQB.jpg"
-                        width="200" />
-                    <p>
-                        GEDUNG BENGKEL PPNS ITS-SURABAYA
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of RSU Aminah Blitar" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/h1URKK0rKSYOBhyPFeLQ6O7r0y9DjhgvqZiH8zS7zLtFSAAKA.jpg"
-                        width="200" />
-                    <p>
-                        RSU AMINAH BLITAR
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Gedung Fakultas Farmasi Universitas Surabaya - Ubaya" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/GHKwbjhwOxpCF57P4JqQeGjW0UfUIkhBlLfhehZPHRv2PCAQB.jpg"
-                        width="200" />
-                    <p>
-                        GEDUNG FAKULTAS FARMASI UNIVERSITAS SURABAYA - UBAYA
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Gedung Student Center Universitas Surabaya - Ubaya" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/TgBhkYwotL7NOhEE2DbjhuXtCnGIRaoxwJoZK4UcKdh8IAAF.jpg"
-                        width="200" />
-                    <p>
-                        GEDUNG STUDENT CENTER UNIVERSITAS SURABAYA - UBAYA
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Hotel Kalpataru - Malang" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/2XSNRahj8wL6Atnn2tMPeYCZE1EqraqzWaRFLpqihsKBSAAKA.jpg"
-                        width="200" />
-                    <p>
-                        HOTEL KALPATARU - MALANG
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Hotel Syariah Surabaya" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/CDIGa87Eefs7WEq7RKLegU8F7PAkzeVLqfia5hetpfknGSAAKA.jpg"
-                        width="200" />
-                    <p>
-                        HOTEL SYARIAH SURABAYA
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of RSWA Soreang - Bandung" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/q4srpGaNXuIEDVNC2ovljYbQM2ldrzOTMlFTFHnnFwfESAAKA.jpg"
-                        width="200" />
-                    <p>
-                        RSWA SOREANG - BANDUNG
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of SDM Muhammadiyah H5 Surabaya" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/KHB6c7a2GO4vIFUudSpq3AJ9gHEAA1U5mBHl8iPbaLcFJAAF.jpg"
-                        width="200" />
-                    <p>
-                        SDM MUHAMMADIYAH H5 SURABAYA
+                        GUDANG WATER TREATMENT DOMPU - NTB
                     </p>
                 </div>
             </div>
@@ -664,179 +601,100 @@
             <div class="content">
                 <div class="text-container">
                     <div class="main-title">
-                        Project Bangunan Gedung
+                        Project Bangunan (Non-Gedung)
                     </div>
                     <div class="sub-title">
-                        Macro Engineering Studio
+                        MacroStruktur.id
                     </div>
                 </div>
                 <div class="image-container">
                     <img alt="3D model of a building structure" height="400"
-                        src="https://storage.googleapis.com/a1aa/image/y3acOFue71xYXqaayzjTTafiSYs1G5DyG1JdMsnlgZ6HkAAUA.jpg"
+                        src="assets_2/img/1.RESERVOIR PDAM GRESIK.png"
                         width="800" />
                 </div>
             </div>
             <div class="grid-container">
                 <div class="grid-item">
                     <img alt="3D model of Masjid Universitas Muhammadiyah Bengkulu" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/RWLsSikxrb6aKJfFSzHjRqNkoZiJs49afJijBjhQgsnUkAAUA.jpg"
+                        src="assets_2/img/4.RUMAH POMPA SURABAYA.png"
                         width="200" />
                     <p>
-                        MASJID UNIVERSITAS MUHAMMADIYAH BENGKULU
+                        RUMAH POMPA SURABAYA
                     </p>
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Masjid Guod-Jombang" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/XmTNijaIEs7GJ5Gf8xAAYHfmzAFIeeAWlWihNfOpBn0deIAAF.jpg"
+                        src="assets_2/img/5.RUMAH POMPA SURABAYA 2.png"
                         width="200" />
                     <p>
-                        MASJID GUOD-JOMBANG
+                        RUMAH POMPA SURABAYA 2
                     </p>
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Auditorium Sekolah Al Hikmah-Batu" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/dYiYdju4P3pfQa0Aja7647WMTjo0xuwRoVi9b5VztIaASAAKA.jpg"
+                        src="assets_2/img/6. WATER TREATMENT - PROBOLINGGO.png"
                         width="200" />
                     <p>
-                        AUDITORIUM SEKOLAH AL HIKMAH-BATU
+                        WATER TREATMENT PROBOLINGGO
                     </p>
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Serba Guna Kab. Gresik" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/xXa5mzCbsGY0AxeuCECQZMRzo1LcckNGxZrcoJNKf4B5jAAUA.jpg"
+                        src="assets_2/img/7. ASSESMENT PENURUNAN PONDASI TANGKI PERTAMINA.png"
                         width="200" />
                     <p>
-                        GEDUNG SERBA GUNA KAB. GRESIK
+                        WATER TREATMENT PROBOLINGGO
                     </p>
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Puskesmas Alun-Alun Gresik" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/DGWReBeYNyrta000Yjpc0G2Aq5ydmrHzYf3B4QUr5fUeeIAAF.jpg"
+                        src="assets_2/img/8. PJB CORNER - PJB SURABAYA.png"
                         width="200" />
                     <p>
-                        GEDUNG PUSKESMAS ALUN-ALUN GRESIK
+                        PJB CORNER PJB SURABAYA
                     </p>
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Puskesmas Panceng" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/mrVVXvJS7aaFH9syVcWzyNZaBDu78lz7b7hoi0evYqDISAAKA.jpg"
+                        src="assets_2/img/9. RANGKA ATAP PUJASERA - MANYAR - GRESIK.png"
                         width="200" />
                     <p>
-                        GEDUNG PUSKESMAS PANCENG
+                        RANGKA ATAP PUJASERA MANYAR - GRESIK
                     </p>
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Masjid Auliya 2 Lantai" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/QDv1zLibzzoxMtVc9eUWcq5yAOLbbie0EogMyfCISQufPCAQB.jpg"
+                        src="assets_2/img/1.RESERVOIR PDAM GRESIK.png"
                         width="200" />
                     <p>
-                        MASJID AULIYA 2 LANTAI
+                        RESERVOIR PDAM GRESIK
                     </p>
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Asrama Putra Auliya 4 Lantai" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/yVGwwZPcVfwaeEsHWeFRservXvPVNbnCY3eeWCl86ozABJAAF.jpg"
+                        src="assets_2/img/2. WATER TREATMENT.png"
                         width="200" />
                     <p>
-                        GEDUNG ASRAMA PUTRA AULIYA 4 LANTAI
+                        WATER TREATMENT
                     </p>
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Basic Science Fakultas Sains dan Teknologi - Unair C" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/UNkidoFefxq8a0l5MIxacpvV4ntefRQRwpqIT2pQ7up7QCAQB.jpg"
+                        src="assets_2/img/3.RUMAH POMPA.png"
                         width="200" />
                     <p>
-                        GEDUNG BASIC SCIENCE FAKULTAS SAINS DAN TEKNOLOGI - UNAIR C
+                        RUMAH POMPA
                     </p>
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Asrama Mahasiswa Univ Trunojoyo" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/lxfhiBksP7SRASV074nzVwLKGynB7dsVvIa2RfsohAeqHBAoA.jpg"
+                        src="assets_2/img/10. SHIPYARD DOOR - JAWA BARAT.png"
                         width="200" />
                     <p>
-                        GEDUNG ASRAMA MAHASISWA UNIV TRUNOJOYO
+                        SHIPYARD DOOR JAWA BARAT
                     </p>
                 </div>
-                <div class="grid-item">
-                    <img alt="3D model of Gedung Auditorium Universitas Muhammadiyah Sidoarjo" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/gKRLay178U6DMZHtUfcXzr3eMerdnt2mX3P51EcEQGXlIBAoA.jpg"
-                        width="200" />
-                    <p>
-                        GEDUNG AUDITORIUM UNIVERSITAS MUHAMMADIYAH SIDOARJO
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Gedung Laboratorium PAUD Unesa" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/qoEduvRQ62rhOBxZN21zr64otEr6LiVxOzckHbEyXq6eRAAKA.jpg"
-                        width="200" />
-                    <p>
-                        GEDUNG LABORATORIUM PAUD UNESA
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Gedung Bengkel PPNS ITS-Surabaya" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/uSXWoSU5fsUDbKdAeG0uIkW3Dm9NfR3dI1OCMPpKeMBaQCAQB.jpg"
-                        width="200" />
-                    <p>
-                        GEDUNG BENGKEL PPNS ITS-SURABAYA
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of RSU Aminah Blitar" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/h1URKK0rKSYOBhyPFeLQ6O7r0y9DjhgvqZiH8zS7zLtFSAAKA.jpg"
-                        width="200" />
-                    <p>
-                        RSU AMINAH BLITAR
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Gedung Fakultas Farmasi Universitas Surabaya - Ubaya" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/GHKwbjhwOxpCF57P4JqQeGjW0UfUIkhBlLfhehZPHRv2PCAQB.jpg"
-                        width="200" />
-                    <p>
-                        GEDUNG FAKULTAS FARMASI UNIVERSITAS SURABAYA - UBAYA
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Gedung Student Center Universitas Surabaya - Ubaya" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/TgBhkYwotL7NOhEE2DbjhuXtCnGIRaoxwJoZK4UcKdh8IAAF.jpg"
-                        width="200" />
-                    <p>
-                        GEDUNG STUDENT CENTER UNIVERSITAS SURABAYA - UBAYA
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Hotel Kalpataru - Malang" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/2XSNRahj8wL6Atnn2tMPeYCZE1EqraqzWaRFLpqihsKBSAAKA.jpg"
-                        width="200" />
-                    <p>
-                        HOTEL KALPATARU - MALANG
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Hotel Syariah Surabaya" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/CDIGa87Eefs7WEq7RKLegU8F7PAkzeVLqfia5hetpfknGSAAKA.jpg"
-                        width="200" />
-                    <p>
-                        HOTEL SYARIAH SURABAYA
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of RSWA Soreang - Bandung" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/q4srpGaNXuIEDVNC2ovljYbQM2ldrzOTMlFTFHnnFwfESAAKA.jpg"
-                        width="200" />
-                    <p>
-                        RSWA SOREANG - BANDUNG
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of SDM Muhammadiyah H5 Surabaya" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/KHB6c7a2GO4vIFUudSpq3AJ9gHEAA1U5mBHl8iPbaLcFJAAF.jpg"
-                        width="200" />
-                    <p>
-                        SDM MUHAMMADIYAH H5 SURABAYA
-                    </p>
-                </div>
+                
             </div>
         </div>
 
@@ -844,46 +702,46 @@
             <div class="content">
                 <div class="text-container">
                     <div class="main-title">
-                        Project Bangunan Gedung
+                        Project Tekla
                     </div>
                     <div class="sub-title">
-                        Macro Engineering Studio
+                        MacroStruktur.id
                     </div>
                 </div>
                 <div class="image-container">
                     <img alt="3D model of a building structure" height="400"
-                        src="https://storage.googleapis.com/a1aa/image/y3acOFue71xYXqaayzjTTafiSYs1G5DyG1JdMsnlgZ6HkAAUA.jpg"
+                        src="assets_2/img/7.png"
                         width="800" />
                 </div>
             </div>
             <div class="grid-container">
                 <div class="grid-item">
                     <img alt="3D model of Masjid Universitas Muhammadiyah Bengkulu" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/RWLsSikxrb6aKJfFSzHjRqNkoZiJs49afJijBjhQgsnUkAAUA.jpg"
+                        src="assets_2/img/10.png"
                         width="200" />
                     <p>
-                        MASJID UNIVERSITAS MUHAMMADIYAH BENGKULU
+                        pembangunan gudang (PT. KIEC)
                     </p>
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Masjid Guod-Jombang" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/XmTNijaIEs7GJ5Gf8xAAYHfmzAFIeeAWlWihNfOpBn0deIAAF.jpg"
+                        src="assets_2/img/9.png"
                         width="200" />
                     <p>
-                        MASJID GUOD-JOMBANG
+                        pembangunan gudang (PT. Pelindo 3)
                     </p>
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Auditorium Sekolah Al Hikmah-Batu" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/dYiYdju4P3pfQa0Aja7647WMTjo0xuwRoVi9b5VztIaASAAKA.jpg"
+                        src="assets_2/img/8.png"
                         width="200" />
                     <p>
-                        AUDITORIUM SEKOLAH AL HIKMAH-BATU
+                        pembangunan movable bridge (PT. Cargill)
                     </p>
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Serba Guna Kab. Gresik" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/xXa5mzCbsGY0AxeuCECQZMRzo1LcckNGxZrcoJNKf4B5jAAUA.jpg"
+                        src="assets_2/img/12.png"
                         width="200" />
                     <p>
                         GEDUNG SERBA GUNA KAB. GRESIK
@@ -891,130 +749,66 @@
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Puskesmas Alun-Alun Gresik" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/DGWReBeYNyrta000Yjpc0G2Aq5ydmrHzYf3B4QUr5fUeeIAAF.jpg"
+                        src="assets_2/img/11.png"
                         width="200" />
                     <p>
-                        GEDUNG PUSKESMAS ALUN-ALUN GRESIK
+                        GEDUNG PUSKSEMAS ALUN-ALUN GRESIK
                     </p>
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Puskesmas Panceng" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/mrVVXvJS7aaFH9syVcWzyNZaBDu78lz7b7hoi0evYqDISAAKA.jpg"
+                        src="assets_2/img/2.png"
                         width="200" />
                     <p>
-                        GEDUNG PUSKESMAS PANCENG
+                        Sketsa
                     </p>
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Masjid Auliya 2 Lantai" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/QDv1zLibzzoxMtVc9eUWcq5yAOLbbie0EogMyfCISQufPCAQB.jpg"
+                        src="assets_2/img/1.png"
                         width="200" />
                     <p>
-                        MASJID AULIYA 2 LANTAI
+                        Sketsa
                     </p>
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Asrama Putra Auliya 4 Lantai" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/yVGwwZPcVfwaeEsHWeFRservXvPVNbnCY3eeWCl86ozABJAAF.jpg"
+                        src="assets_2/img/3.png"
                         width="200" />
                     <p>
-                        GEDUNG ASRAMA PUTRA AULIYA 4 LANTAI
+                        Sketsa
                     </p>
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Basic Science Fakultas Sains dan Teknologi - Unair C" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/UNkidoFefxq8a0l5MIxacpvV4ntefRQRwpqIT2pQ7up7QCAQB.jpg"
+                        src="assets_2/img/4.png"
                         width="200" />
                     <p>
-                        GEDUNG BASIC SCIENCE FAKULTAS SAINS DAN TEKNOLOGI - UNAIR C
+                        Pembangunan Showroom (PT. Auto 2000)
                     </p>
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Asrama Mahasiswa Univ Trunojoyo" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/lxfhiBksP7SRASV074nzVwLKGynB7dsVvIa2RfsohAeqHBAoA.jpg"
+                        src="assets_2/img/5.png"
                         width="200" />
                     <p>
-                        GEDUNG ASRAMA MAHASISWA UNIV TRUNOJOYO
+                        Pembangunan Transport Palletizer (PT. Semen Gresik)
                     </p>
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Auditorium Universitas Muhammadiyah Sidoarjo" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/gKRLay178U6DMZHtUfcXzr3eMerdnt2mX3P51EcEQGXlIBAoA.jpg"
+                        src="assets_2/img/29.png"
                         width="200" />
                     <p>
-                        GEDUNG AUDITORIUM UNIVERSITAS MUHAMMADIYAH SIDOARJO
+                        Pembangunan Pelabuhan Benoa (PT. Pelindo)
                     </p>
                 </div>
                 <div class="grid-item">
                     <img alt="3D model of Gedung Laboratorium PAUD Unesa" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/qoEduvRQ62rhOBxZN21zr64otEr6LiVxOzckHbEyXq6eRAAKA.jpg"
+                        src="assets_2/img/6.png"
                         width="200" />
                     <p>
-                        GEDUNG LABORATORIUM PAUD UNESA
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Gedung Bengkel PPNS ITS-Surabaya" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/uSXWoSU5fsUDbKdAeG0uIkW3Dm9NfR3dI1OCMPpKeMBaQCAQB.jpg"
-                        width="200" />
-                    <p>
-                        GEDUNG BENGKEL PPNS ITS-SURABAYA
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of RSU Aminah Blitar" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/h1URKK0rKSYOBhyPFeLQ6O7r0y9DjhgvqZiH8zS7zLtFSAAKA.jpg"
-                        width="200" />
-                    <p>
-                        RSU AMINAH BLITAR
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Gedung Fakultas Farmasi Universitas Surabaya - Ubaya" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/GHKwbjhwOxpCF57P4JqQeGjW0UfUIkhBlLfhehZPHRv2PCAQB.jpg"
-                        width="200" />
-                    <p>
-                        GEDUNG FAKULTAS FARMASI UNIVERSITAS SURABAYA - UBAYA
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Gedung Student Center Universitas Surabaya - Ubaya" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/TgBhkYwotL7NOhEE2DbjhuXtCnGIRaoxwJoZK4UcKdh8IAAF.jpg"
-                        width="200" />
-                    <p>
-                        GEDUNG STUDENT CENTER UNIVERSITAS SURABAYA - UBAYA
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Hotel Kalpataru - Malang" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/2XSNRahj8wL6Atnn2tMPeYCZE1EqraqzWaRFLpqihsKBSAAKA.jpg"
-                        width="200" />
-                    <p>
-                        HOTEL KALPATARU - MALANG
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Hotel Syariah Surabaya" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/CDIGa87Eefs7WEq7RKLegU8F7PAkzeVLqfia5hetpfknGSAAKA.jpg"
-                        width="200" />
-                    <p>
-                        HOTEL SYARIAH SURABAYA
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of RSWA Soreang - Bandung" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/q4srpGaNXuIEDVNC2ovljYbQM2ldrzOTMlFTFHnnFwfESAAKA.jpg"
-                        width="200" />
-                    <p>
-                        RSWA SOREANG - BANDUNG
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of SDM Muhammadiyah H5 Surabaya" height="150"
-                        src="https://storage.googleapis.com/a1aa/image/KHB6c7a2GO4vIFUudSpq3AJ9gHEAA1U5mBHl8iPbaLcFJAAF.jpg"
-                        width="200" />
-                    <p>
-                        SDM MUHAMMADIYAH H5 SURABAYA
+                        Pembangunan PLTU Dome (PT. Indonesia Power)
                     </p>
                 </div>
             </div>

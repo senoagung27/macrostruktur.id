@@ -83,6 +83,9 @@
     <link rel="stylesheet" href="assets/modules/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/modules/fontawesome/css/all.min.css">
 
+    <link href="assets_2/img/LOGO MACROSTRUKTUR 4.png" rel="icon">
+    <link href="assets_2/img/LOGO MACROSTRUKTUR 4.png" rel="apple-touch-icon">
+
     <!-- CSS Libraries -->
     <link rel="stylesheet" href="assets/modules/bootstrap-social/bootstrap-social.css">
 

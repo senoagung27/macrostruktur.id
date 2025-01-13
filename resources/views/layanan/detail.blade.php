@@ -4,9 +4,25 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Service Details - BizLand Bootstrap Template</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+
+    <title>MacroStruktur Official Website - Detail Layanan</title>
+    <meta name="description" content="Solusi Terpercaya untuk Analisa dan Perencanaan Struktur Bangunan">
+	<meta name="keywords" content="Yuk Makan Enak Tanpa Worry!">
+
+	<meta name="author" content="MacroStruktur">
+
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://macrostruktur.id/">
+	<meta property="og:site_name" content="MacroStruktur">
+	<meta property="og:title" content="MacroStruktur Official Website - Analisa dan Perencanaan Struktur Bangunan">
+	<meta property="og:description" content="Solusi Terpercaya untuk Analisa dan Perencanaan Struktur Bangunan">
+	<meta name="theme-color" content="#1F8AD1">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="MacroStruktur Official Website - Analisa dan Perencanaan Struktur Bangunan">
+	<meta name="twitter:description" content="Solusi Terpercaya untuk Analisa dan Perencanaan Struktur Bangunan">
+
+
 
     <!-- Favicons -->
     <link href="{{ asset('assets_2/img/LOGO MACROSTRUKTUR 4.png') }}" rel="icon">

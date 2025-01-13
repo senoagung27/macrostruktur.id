@@ -5,25 +5,22 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    {{-- <title>UpConstruction Bootstrap Template - Blog</title> --}}
-    @section('title')
-    Artikel
-    @endsection
-    <meta name="description" content="Suplemen kesehatan untuk membantu memproteksi tubuh dari minyak jahat yang terdapat di makanan yang digoreng dan juga di makanan sehari-hari">
+    <title>MacroStruktur Official Website - Artikel</title>
+    <meta name="description" content="Solusi Terpercaya untuk Analisa dan Perencanaan Struktur Bangunan">
 	<meta name="keywords" content="Yuk Makan Enak Tanpa Worry!">
 
-	<meta name="author" content="Noil Official">
+	<meta name="author" content="MacroStruktur">
 
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://noil.co.id">
-	<meta property="og:site_name" content="Noil">
-	<meta property="og:title" content="Noil Official Website - Suplemen Kesehatan">
-	<meta property="og:description" content="Suplemen kesehatan untuk membantu memproteksi tubuh dari minyak jahat yang terdapat di makanan yang digoreng dan juga di makanan sehari-hari">
-	<meta name="theme-color" content="#FFFFFF">
+	<meta property="og:url" content="https://macrostruktur.id/">
+	<meta property="og:site_name" content="MacroStruktur">
+	<meta property="og:title" content="MacroStruktur Official Website - Analisa dan Perencanaan Struktur Bangunan">
+	<meta property="og:description" content="Solusi Terpercaya untuk Analisa dan Perencanaan Struktur Bangunan">
+	<meta name="theme-color" content="#1F8AD1">
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="Noil Official Website - Suplemen Kesehatan">
-	<meta name="twitter:description" content="Suplemen kesehatan untuk membantu memproteksi tubuh dari minyak jahat yang terdapat di makanan yang digoreng dan juga di makanan sehari-hari">
+	<meta name="twitter:title" content="MacroStruktur Official Website - Analisa dan Perencanaan Struktur Bangunan">
+	<meta name="twitter:description" content="Solusi Terpercaya untuk Analisa dan Perencanaan Struktur Bangunan">
 
 
     <!-- Favicons -->

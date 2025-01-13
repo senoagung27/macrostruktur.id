@@ -82,11 +82,14 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-    <title>Register &mdash; Stisla</title>
+    <title>Register &mdash; Admin</title>
 
     <!-- General CSS Files -->
     <link rel="stylesheet" href="assets/modules/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/modules/fontawesome/css/all.min.css">
+
+    <link href="assets_2/img/LOGO MACROSTRUKTUR 4.png" rel="icon">
+    <link href="assets_2/img/LOGO MACROSTRUKTUR 4.png" rel="apple-touch-icon">
 
     <!-- CSS Libraries -->
     <link rel="stylesheet" href="assets/modules/jquery-selectric/selectric.css">
@@ -158,7 +161,7 @@
                                         <div class="form-group col-6">
                                             <label for="password2" class="d-block">Password Confirmation</label>
                                             <input id="password2" type="password" class="form-control"
-                                                name="password-confirm">
+                                                name="password_confirmation">
                                         </div>
                                     </div>
                                     {{-- <div class="row">
@@ -212,7 +215,10 @@
                             </div>
                         </div>
                         <div class="simple-footer">
-                            Copyright &copy; Stisla 2018
+                            <p>© <span>Copyright</span> <span>2020-2024</span><strong
+                                    class="px-1 sitename">MacroStruktur.id</strong>
+                                <span>All Rights Reserved</span>
+                            </p>
                         </div>
                     </div>
                 </div>
