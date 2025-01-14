@@ -46,7 +46,11 @@
             <textarea class="form-control" name="content" id="content"></textarea>
         </div>
         <div class="form-group">
-            <label>Thumbnail</label>
+            <label>Konten Kedua</label>
+            <textarea class="form-control" name="content_2" id="content"></textarea>
+        </div>
+        <div class="form-group">
+            <label>Gambar Pertama</label>
             <input type="file" name="gambar" class="form-control">
         </div>
         <div class="form-group">
