@@ -47,7 +47,7 @@
         </div>
         <div class="form-group">
             <label>Konten Kedua</label>
-            <textarea class="form-control" name="content_2" id="content"></textarea>
+            <textarea class="form-control" name="content_2" id="content_2"></textarea>
         </div>
         <div class="form-group">
             <label>Gambar Pertama</label>
@@ -84,6 +84,9 @@
     <script src="https://cdn.ckeditor.com/4.13.0/standard/ckeditor.js"></script>
     <script>
         CKEDITOR.replace('content');
+    </script>
+    <script>
+        CKEDITOR.replace('content_2');
     </script>
         {{-- <script src="{{ asset('vendor/unisharp/laravel-ckeditor/ckeditor.js') }}"></script>
         <link rel="stylesheet" href="{{ asset('vendor/unisharp/laravel-ckeditor/skins/moono-lisa/editor.css') }}">
