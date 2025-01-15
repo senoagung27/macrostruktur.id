@@ -53,7 +53,15 @@
             <textarea class="form-control" name="content" id="content">{{ $post->content }}</textarea>
         </div>
         <div class="form-group">
-            <label>Thumbnail</label>
+            <label>Konten Kedua</label>
+            <textarea class="form-control" name="content_2" id="content_2">{{ $post->content_2 }}</textarea>
+        </div>
+        <div class="form-group">
+            <label>Gambar</label>
+            <input type="file" name="gambar" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Gambar Kedua</label>
             <input type="file" name="gambar" class="form-control">
         </div>
         <div class="form-group">
@@ -62,7 +70,7 @@
         </div>
         <div class="form-group">
             <label>Link Url Kedua</label>
-            <input type="text" class="form-control" name="link_url_2" value="{{ $post->link_url }}">
+            <input type="text" class="form-control" name="link_url_2" value="{{ $post->link_url_2 }}">
         </div>
 
         <div class="form-group">
@@ -80,8 +88,11 @@
 
     </form>
 
-    <script src="https://cdn.ckeditor.com/4.13.0/standard/ckeditor.js"></script>
+    <script src="https://cdn.ckeditor.com/4.22.1/standard/ckeditor.js"></script>
     <script>
         CKEDITOR.replace('content');
     </script>
+        <script>
+            CKEDITOR.replace('content_2');
+        </script>
 @endsection
