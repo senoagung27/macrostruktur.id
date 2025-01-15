@@ -7,7 +7,7 @@
 
     <title>MacroStruktur Official Website - Artikel</title>
     <meta name="description" content="Solusi Terpercaya untuk Analisa dan Perencanaan Struktur Bangunan">
-	<meta name="keywords" content="Yuk Makan Enak Tanpa Worry!">
+	<meta name="keywords" content="MacroStruktur, analisa struktur bangunan, perencanaan struktur bangunan, konstruksi terpercaya, perhitungan struktur, desain struktur, jasa konsultasi bangunan, layanan konstruksi, teknik sipil, rekayasa struktur, arsitektur dan konstruksi, analisis bangunan, solusi struktur bangunan">
 
 	<meta name="author" content="MacroStruktur">
 
@@ -34,16 +34,7 @@
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
 
-    <!-- Vendor CSS Files -->
-    <link href="{{ asset('assets_3/assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets_3/assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets_3/assets/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets_3/assets/vendor/aos/aos.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets_3/assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets_3/assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
-
-    <!-- Template Main CSS File -->
-    <link href="{{ asset('assets_3/assets/css/main.css') }}" rel="stylesheet">
+   
 
 
     <!-- Vendor CSS Files -->
@@ -56,6 +47,16 @@
     <!-- Main CSS File -->
     <link href="{{ asset('assets_2/assets/css/main.css') }}" rel="stylesheet">
 </head>
+ <!-- Vendor CSS Files -->
+ <link href="{{ asset('assets_3/assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+ <link href="{{ asset('assets_3/assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+ <link href="{{ asset('assets_3/assets/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet">
+ <link href="{{ asset('assets_3/assets/vendor/aos/aos.css') }}" rel="stylesheet">
+ <link href="{{ asset('assets_3/assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+ <link href="{{ asset('assets_3/assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+
+ <!-- Template Main CSS File -->
+ <link href="{{ asset('assets_3/assets/css/main.css') }}" rel="stylesheet">
 
 <body>
 

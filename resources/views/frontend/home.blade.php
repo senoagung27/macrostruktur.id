@@ -163,7 +163,7 @@
 
                                     <img src="assets_2/img/45.png" alt="" class="img-fluid">
                                 </div>
-                                <a href="#" class="stretched-link">
+                                <a href="{{ url('/layanan-detail/bangunan-gedung') }}" class="stretched-link">
                                     <h3>Jasa Hitung Struktur Gedung</h3>
                                 </a>
                                 <p>Analisa struktur bangunan Gedung yang mengacu pada SNI pembebanan,
@@ -178,7 +178,7 @@
                                     <img src="assets_2/img/jasa-hitung-struktur-rumah-tinggal-ruko (1).png" alt=""
                                         class="img-fluid">
                                 </div>
-                                <a href="#" class="stretched-link">
+                                <a href="{{ url('/layanan-detail/rumah-tinggal-ruko') }}" class="stretched-link">
                                     <h3> Jasa Hitung Struktur Rumah & Ruko</h3>
                                 </a>
                                 <p> Analisa struktur rumah tinggal yang mengutamakan keamanan saat ditinggali dan tetap
@@ -192,7 +192,7 @@
                                     <img src="assets_2/img/jasa-hitung-struktur-gudang (1).png" alt=""
                                         class="img-fluid">
                                 </div>
-                                <a href="#" class="stretched-link">
+                                <a href="{{ url('/layanan-detail/bangunan-gudang') }}" class="stretched-link">
                                     <h3>Jasa Hitung Struktur Gudang/Warehouse</h3>
                                 </a>
                                 <p> Analisa struktur Gudang dan Pabrik dengan struktur baja berat</p>
@@ -205,12 +205,12 @@
 
                                     <img src="assets_2/img/46.png" alt="" class="img-fluid">
                                 </div>
-                                <a href="#" class="stretched-link">
+                                <a href="{{ url('/layanan-detail/bangunan-gudang') }}" class="stretched-link">
                                     <h3>Jasa hitung struktur Non Gedung</h3>
                                 </a>
                                 <p> Analisa struktur non Gedung, atap kanopi, rangka atap cremona, Bangunan IPAL, dan
                                     lain-lain</p>
-                                <a href="#" class="stretched-link"></a>
+                                <a href="{{ url('/layanan-detail/bangunan-gudang') }}" class="stretched-link"></a>
                             </div>
                         </div><!-- End Service Item -->
 
@@ -219,12 +219,12 @@
                                 <div class="img-fluid">
                                     <img src="assets_2/img/44.png" alt="" class="img-fluid">
                                 </div>
-                                <a href="#" class="stretched-link">
+                                <a href="{{ url('/layanan-detail/assesment') }}" class="stretched-link">
                                     <h3> Assesment Struktur</h3>
                                 </a>
                                 <p> Assesment dan SLF Struktur dipergunakan untuk Gedung atau Gudang
                                     atau pabrik yang membutuhkan studi kelayakan struktur</p>
-                                <a href="#" class="stretched-link"></a>
+                                <a href="{{ url('/layanan-detail/assesment') }}" class="stretched-link"></a>
                             </div>
                         </div><!-- End Service Item -->
 
@@ -233,12 +233,12 @@
                                 <div class="img-fluid">
                                     <img src="assets_2/img/48.png" alt="" class="img-fluid">
                                 </div>
-                                <a href="#" class="stretched-link">
+                                <a href="{{ url('/layanan-detail/bim-tekla') }}" class="stretched-link">
                                     <h3> Modeling Bim & Tekla Structures</h3>
                                 </a>
                                 <p> Modeling struktur baja dengan tekla, membantu proses gambar kerja agar hasil lebih
                                     detail dan akurat.</p>
-                                <a href="#" class="stretched-link"></a>
+                                <a href="{{ url('/layanan-detail/bim-tekla') }}" class="stretched-link"></a>
                             </div>
                         </div><!-- End Service Item -->
                         {{-- <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
@@ -258,11 +258,11 @@
                                 <div class="img-fluid">
                                     <img src="assets_2/img/49.png" alt="" class="img-fluid">
                                 </div>
-                                <a href="#" class="stretched-link">
+                                <a href="{{ url('/layanan-detail/ded-arsitek-mep-rab') }}" class="stretched-link">
                                     <h3> special order and request</h3>
                                 </a>
                                 <p>Layanan spesial order dari MacroStruktur.id seperti jasa hitung RAB, DED Arsitek, DED Mechanical, Electrical & Plumbing</p>
-                                <a href="#" class="stretched-link"></a>
+                                <a href="{{ url('/layanan-detail/ded-arsitek-mep-rab') }}" class="stretched-link"></a>
                             </div>
                         </div><!-- End Service Item -->
                         {{-- <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">

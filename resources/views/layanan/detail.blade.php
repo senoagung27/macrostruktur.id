@@ -4,24 +4,34 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>MacroStruktur - Solusi Analisa dan Perencanaan Struktur Bangunan</title>
+    <meta name="description"
+        content="MacroStruktur adalah solusi terpercaya untuk analisa dan perencanaan struktur bangunan. Temukan layanan terbaik untuk kebutuhan konstruksi Anda di sini!">
+    <meta name="keywords"
+        content="MacroStruktur, analisa struktur bangunan, perencanaan struktur bangunan, konstruksi terpercaya, perhitungan struktur, desain struktur, jasa konsultasi bangunan, layanan konstruksi, teknik sipil, rekayasa struktur, arsitektur dan konstruksi, analisis bangunan, solusi struktur bangunan">
 
-    <title>MacroStruktur Official Website - Detail Layanan</title>
-    <meta name="description" content="Solusi Terpercaya untuk Analisa dan Perencanaan Struktur Bangunan">
-	<meta name="keywords" content="Yuk Makan Enak Tanpa Worry!">
+    <meta name="author" content="MacroStruktur">
+    <meta name="robots" content="index, follow">
 
-	<meta name="author" content="MacroStruktur">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:locale" content="id_ID">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://macrostruktur.id/">
+    <meta property="og:site_name" content="MacroStruktur">
+    <meta property="og:title"
+        content="MacroStruktur - Solusi Terpercaya untuk Analisa dan Perencanaan Struktur Bangunan">
+    <meta property="og:description"
+        content="Solusi terbaik untuk analisa struktur bangunan dan perencanaan konstruksi. Tingkatkan kualitas proyek Anda bersama MacroStruktur.">
+    <meta property="og:image" content="https://macrostruktur.id/images/thumbnail.jpg">
 
-	<meta property="og:locale" content="en_US">
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://macrostruktur.id/">
-	<meta property="og:site_name" content="MacroStruktur">
-	<meta property="og:title" content="MacroStruktur Official Website - Analisa dan Perencanaan Struktur Bangunan">
-	<meta property="og:description" content="Solusi Terpercaya untuk Analisa dan Perencanaan Struktur Bangunan">
-	<meta name="theme-color" content="#1F8AD1">
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="MacroStruktur Official Website - Analisa dan Perencanaan Struktur Bangunan">
-	<meta name="twitter:description" content="Solusi Terpercaya untuk Analisa dan Perencanaan Struktur Bangunan">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="MacroStruktur - Solusi Analisa dan Perencanaan Struktur Bangunan">
+    <meta name="twitter:description"
+        content="MacroStruktur adalah partner terpercaya untuk kebutuhan analisa dan perencanaan struktur bangunan. Temukan layanan profesional kami sekarang!">
+    <meta name="twitter:image" content="https://macrostruktur.id/images/thumbnail.jpg">
 
+    <meta name="theme-color" content="#1F8AD1">
 
 
     <!-- Favicons -->
@@ -57,14 +67,16 @@
 <body class="service-details-page">
 
     <style>
-        .active > a {
-        color: #007bff; /* Active link color */
-        font-weight: bold; /* Optional styling */
-    }
+        .active>a {
+            color: #007bff;
+            /* Active link color */
+            font-weight: bold;
+            /* Optional styling */
+        }
     </style>
-    
+
     <header id="header" class="header sticky-top">
-    
+
         <div class="topbar d-flex align-items-center">
             <div class="container d-flex justify-content-center justify-content-md-between">
                 <div class="contact-info d-flex align-items-center">
@@ -80,16 +92,16 @@
                 </div>
             </div>
         </div><!-- End Top Bar -->
-    
+
         <div class="branding d-flex align-items-cente">
-    
+
             <div class="container position-relative d-flex align-items-center justify-content-between">
                 <a href="index.html" class="logo d-flex align-items-center">
                     <!-- Uncomment the line below if you also wish to use an image logo -->
                     <img src="{{ asset('assets_2/img/Group 1.png') }}" alt="">
                     {{-- <h1 class="sitename">BizLand</h1> --}}
                 </a>
-    
+
                 <nav id="navmenu" class="navmenu">
                     <ul>
                         <li><a href="{{ url('/') }}"class="{{ request()->is('/') ? 'active' : '' }}">Home</a></li>
@@ -101,7 +113,8 @@
                             <a href="{{ route('artikel.list_artikel') }}">Artikel</a>
                         </li>
                         <li class="dropdown {{ request()->is('layanan-detail/*') ? 'active' : '' }}">
-                            <a href="#"><span>Jasa Layanan</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <a href="#"><span>Jasa Layanan</span> <i
+                                    class="bi bi-chevron-down toggle-dropdown"></i></a>
                             <ul>
                                 <li class="{{ request()->is('layanan-detail/bangunan-gedung') ? 'active' : '' }}">
                                     <a href="{{ url('/layanan-detail/bangunan-gedung') }}">Bangunan Gedung</a>
@@ -115,24 +128,24 @@
                                 <li class="{{ request()->is('layanan-detail/assesment') ? 'active' : '' }}">
                                     <a href="{{ url('/layanan-detail/assesment') }}">Assesment</a>
                                 </li>
-                                <li class="{{ request()->is('layanan-detail/bim-tekla-rab') ? 'active' : '' }}">
-                                    <a href="{{ url('/layanan-detail/bim-tekla-rab') }}">BIM, Tekla, RAB</a>
+                                <li class="{{ request()->is('layanan-detail/bim-tekla') ? 'active' : '' }}">
+                                    <a href="{{ url('/layanan-detail/bim-tekla') }}">BIM, Tekla</a>
                                 </li>
-                                <li class="{{ request()->is('layanan-detail/ded-arsitek-mep') ? 'active' : '' }}">
-                                    <a href="{{ url('/layanan-detail/ded-arsitek-mep') }}">DED Arsitek, MEP</a>
+                                <li class="{{ request()->is('layanan-detail/ded-arsitek-mep-rab') ? 'active' : '' }}">
+                                    <a href="{{ url('/layanan-detail/ded-arsitek-mep-rab') }}">DED Arsitek, MEP, RAB</a>
                                 </li>
                             </ul>
-                        </li>                    
+                        </li>
                         <li><a href="#contact">Pricing</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                     <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
                 </nav>
-    
+
             </div>
-    
+
         </div>
-    
+
     </header>
 
     <main class="main">
@@ -144,6 +157,7 @@
                 <nav class="breadcrumbs">
                     <ol>
                         <li><a href="{{ url('/') }}">Home</a></li>
+                        {{-- <li class="current">{{ $layanan['title'] }}</li> --}}
                         <li class="current">{{ $layanan['title'] }}</li>
                     </ol>
                 </nav>
@@ -159,36 +173,40 @@
 
 
                     <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
-                        <img src="{{ asset('assets_2/assets/img/services.jpg') }}" alt="" class="img-fluid services-img">
-                        {{-- <h3>Temporibus et in vero dicta aut eius lidero plastis trand lined voluptas dolorem ut voluptas
-                        </h3> --}}
-                        <h1>{{ $layanan['title'] }}</h1>
-                        {{-- <p>
-                            Blanditiis voluptate odit ex error ea sed officiis deserunt. Cupiditate non consequatur et
-                            doloremque consequuntur. Accusantium labore reprehenderit error temporibus saepe perferendis
-                            fuga doloribus vero. Qui omnis quo sit. Dolorem architecto eum et quos deleniti officia qui.
-                        </p> --}}
+                        {{-- <img src="{{ asset('assets_2/img/gedung1.png') }}" alt=""
+                            class="img-fluid services-img w-100"> --}}
+                            <div>
+                                {!! $layanan['images'] !!}
+                            </div>
+                            
+                        {{-- <h1>{{ $layanan['title'] }}</h1> --}}
+                        <h1>{{ $layanan['judul'] }}</h1>
                         <p>{{ $layanan['description'] }}</p>
+                        <h5>{!! $layanan['h5'] !!}</h5>
+                        <p>{!! $layanan['description_2'] !!}</p>
                         <ul>
-                            <li><i class="bi bi-check-circle"></i> <span>Aut eum totam accusantium voluptatem.</span>
-                            </li>
-                            <li><i class="bi bi-check-circle"></i> <span>Assumenda et porro nisi nihil nesciunt
-                                    voluptatibus.</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span>
-                            </li>
+                            @foreach ($layanan['list'] as $item)
+                                {!! $item !!}
+                            @endforeach
                         </ul>
+                        
                         <p>
-                            Est reprehenderit voluptatem necessitatibus asperiores neque sed ea illo. Deleniti quam
-                            sequi optio iste veniam repellat odit. Aut pariatur itaque nesciunt fuga.
+                            {!! $layanan['description_3'] !!}
                         </p>
-                        <p>
-                            Sunt rem odit accusantium omnis perspiciatis officia. Laboriosam aut consequuntur recusandae
-                            mollitia doloremque est architecto cupiditate ullam. Quia est ut occaecati fuga. Distinctio
-                            ex repellendus eveniet velit sint quia sapiente cumque. Et ipsa perferendis ut nihil.
-                            Laboriosam vel voluptates tenetur nostrum. Eaque iusto cupiditate et totam et quia dolorum
-                            in. Sunt molestiae ipsum at consequatur vero. Architecto ut pariatur autem ad non cumque
-                            nesciunt qui maxime. Sunt eum quia impedit dolore alias explicabo ea.
-                        </p>
+                        {{-- <img src="{{ asset('assets_2/img/DALL·E 2025-01-15 09.38.28 - A detailed blueprint of a high-rise building on a professional desk, surrounded by engineering tools like rulers, calculators, and 3D structural model.png.png') }}" alt=""
+                        class="img-fluid services-img w-100"> --}}
+                        <div>
+                            {!! $layanan['images_2'] !!}
+                        </div>
+                        
+                        
+                        <ul>
+                            <p>{!! $layanan['description_4'] !!}</p>
+                            @foreach ($layanan['list_items'] as $item)
+                                {!! $item !!}
+                            @endforeach
+                        </ul>
+                        <p>{!! $layanan['description_5'] !!}</p>
                     </div>
 
                 </div>
@@ -216,10 +234,11 @@
                         <p>Senin - Jumat : 08:00 - 17:00</p>
                         <p>Sabtu : 08:00 - 12:00</p>
                         <p class="mt-3"><strong>Kontak: </strong> <span>0878-3439-9815/span></p>
-                        <p><strong>Email: </strong> <span>customercare@macrostruktur.id</span> <span>macro.struktur@gmail.com</span></p>
+                        <p><strong>Email: </strong> <span>customercare@macrostruktur.id</span>
+                            <span>macro.struktur@gmail.com</span></p>
                     </div>
                 </div>
-    
+
                 <div class="col-lg-2 col-md-3 footer-links">
                     <h4 class="text-white">Menu Unggulan</h4>
                     <ul>
@@ -229,7 +248,7 @@
                         <li><i class="bi bi-chevron-right"></i> <a href="#">Rumah Tinggal/Ruko</a></li>
                     </ul>
                 </div>
-    
+
                 <div class="col-lg-2 col-md-3 footer-links">
                     {{-- <h4>Our Services</h4> --}}
                     <br><br>
@@ -240,7 +259,7 @@
                         <li><i class="bi bi-chevron-right"></i> <a href="#">DED Arsitek, MEP</a></li>
                     </ul>
                 </div>
-    
+
                 <div class="col-lg-4 col-md-12">
                     <h4 class="text-white">Follow Us</h4>
                     <p class="text-white">Ikuti akun sosial media kami agar tidak ketinggalan info terkini !</p>
@@ -251,23 +270,23 @@
                         <a href=""><i class="bi bi-linkedin"></i></a>
                     </div>
                 </div>
-    
+
             </div>
         </div>
-    
+
         <hr>
         <div class="container text-center mt-4 ">
             <p>© <span>Copyright</span> <span>2020-2024</span><strong class="px-1 sitename">MacroStruktur.id</strong>
                 <span>All Rights Reserved</span>
             </p>
         </div>
-    
+
     </footer>
-    
+
     <!-- Scroll Top -->
     <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
-    
+
     <!-- Preloader -->
     <div id="preloader">
         <div></div>

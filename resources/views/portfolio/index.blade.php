@@ -7,7 +7,7 @@
 
     <title>MacroStruktur Official Website - Portfolio</title>
     <meta name="description" content="Solusi Terpercaya untuk Analisa dan Perencanaan Struktur Bangunan">
-	<meta name="keywords" content="Yuk Makan Enak Tanpa Worry!">
+	<meta name="keywords" content="MacroStruktur, analisa struktur bangunan, perencanaan struktur bangunan, konstruksi terpercaya, perhitungan struktur, desain struktur, jasa konsultasi bangunan, layanan konstruksi, teknik sipil, rekayasa struktur, arsitektur dan konstruksi, analisis bangunan, solusi struktur bangunan">
 
 	<meta name="author" content="MacroStruktur">
 

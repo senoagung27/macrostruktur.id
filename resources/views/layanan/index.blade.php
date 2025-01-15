@@ -60,10 +60,10 @@
             style="background-image: url('assets_3/assets/img/breadcrumbs-bg.jpg');">
             <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
 
-                <h2>Services</h2>
+                <h2>Layanan</h2>
                 <ol>
                     <li><a href="{{ url('/') }}">Home</a></li>
-                    <li>Services</li>
+                    <li>Layanan</li>
                 </ol>
 
             </div>

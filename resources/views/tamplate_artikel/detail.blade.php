@@ -9,7 +9,8 @@
     <meta name="description" content="{{ $artikel->meta_description }}">
 	<meta name="keywords" content="{{ $artikel->meta_keyword }}">
 
-	<meta name="author" content="MacroStruktur">
+    <meta name="author" content="MacroStruktur">
+    <meta name="robots" content="index, follow">
 
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="website">

@@ -57,11 +57,11 @@
                             <li class="{{ request()->is('layanan-detail/assesment') ? 'active' : '' }}">
                                 <a href="{{ url('/layanan-detail/assesment') }}">Assesment</a>
                             </li>
-                            <li class="{{ request()->is('layanan-detail/bim-tekla-rab') ? 'active' : '' }}">
-                                <a href="{{ url('/layanan-detail/bim-tekla-rab') }}">BIM, Tekla, RAB</a>
+                            <li class="{{ request()->is('layanan-detail/bim-tekla') ? 'active' : '' }}">
+                                <a href="{{ url('/layanan-detail/bim-tekla') }}">BIM, Tekla</a>
                             </li>
-                            <li class="{{ request()->is('layanan-detail/ded-arsitek-mep') ? 'active' : '' }}">
-                                <a href="{{ url('/layanan-detail/ded-arsitek-mep') }}">DED Arsitek, MEP</a>
+                            <li class="{{ request()->is('layanan-detail/ded-arsitek-mep-rab') ? 'active' : '' }}">
+                                <a href="{{ url('/layanan-detail/ded-arsitek-mep-rab') }}">DED Arsitek, MEP, RAB</a>
                             </li>
                         </ul>
                     </li>                    
