@@ -62,7 +62,7 @@
         </div>
         <div class="form-group">
             <label>Gambar Kedua</label>
-            <input type="file" name="gambar" class="form-control">
+            <input type="file" name="gambar_2" class="form-control">
         </div>
         <div class="form-group">
             <label>Link Url Pertama</label>

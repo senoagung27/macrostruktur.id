@@ -30,8 +30,8 @@
     
     <meta name="theme-color" content="#1F8AD1">
     <!-- Favicons -->
-    <link href="assets_2/img/LOGO MACROSTRUKTUR 4.png" rel="icon">
-    <link href="assets_2/img/LOGO MACROSTRUKTUR 4.png" rel="apple-touch-icon">
+    <link href="{{ asset('assets_2/img/LOGO MACROSTRUKTUR 4.png') }}" rel="icon">
+    <link href="{{ asset('assets_2/img/LOGO MACROSTRUKTUR 4.png') }}" rel="apple-touch-icon">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">

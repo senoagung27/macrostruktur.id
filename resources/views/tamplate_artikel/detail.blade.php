@@ -114,7 +114,7 @@
                         </a>
                         <p>{!! $artikel->content !!}</p>
                         <img src="{{ asset($artikel->gambar_2) }}" class="img-fluid mb-3">
-                        <p>{!! $artikel->content !!}</p>
+                        <p>{!! $artikel->content_2 !!}</p>
 
                         <!-- Menambahkan daftar tags -->
                         <div class="tags mt-3">
