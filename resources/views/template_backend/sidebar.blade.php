@@ -89,12 +89,12 @@
                         <li><a class="nav-link {{ Request::routeIs('tag.index') ? 'active' : '' }}" href="{{ route('tag.index') }}">List Tag</a></li>
                     </ul>
                 </li>
-                <li class="dropdown {{ Request::routeIs('keyword.index') ? 'active' : '' }}">
+                {{-- <li class="dropdown {{ Request::routeIs('keyword.index') ? 'active' : '' }}">
                     <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fab fa-searchengin"></i> <span>Keyword</span></a>
                     <ul class="dropdown-menu">
                         <li><a class="nav-link {{ Request::routeIs('keyword.index') ? 'active' : '' }}" href="{{ route('tag.index') }}">List Keyword</a></li>
                     </ul>
-                </li>
+                </li> --}}
                 <li class="dropdown {{ Request::routeIs('user.index') ? 'active' : '' }}">
                     <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="far fa-user"></i> <span>Users</span></a>
                     <ul class="dropdown-menu">

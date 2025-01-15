@@ -412,20 +412,43 @@ class ArtikelController extends Controller
                 'slug' => Str::slug($request->judul),
                 'users_id' => Auth::id(),
             ];
+            // dd($post_data);
         } else {
+            if ($request->hasFile('gambar')) {
+                $gambar = $request->file('gambar');
+                $new_gambar = time() . '_' . $gambar->getClientOriginalName();
+                $gambar->move(public_path('public/uploads/posts/'), $new_gambar);
+    
+                // Proses gambar kedua jika ada
+                $new_gambar_2 = null;
+                if ($request->hasFile('gambar_2')) {
+                    $gambar_2 = $request->file('gambar_2');
+                    $new_gambar_2 = time() . '_2_' . $gambar_2->getClientOriginalName();
+                    $gambar_2->move(public_path('public/uploads/posts/'), $new_gambar_2);
+                }
+                $gambar->move(public_path('public/uploads/posts/'), $new_gambar);
+            }    
+            
             $post_data = [
                 'judul' => $request->judul,
                 'category_id' =>  $request->category_id,
                 'content' =>  $request->content,
+                'content_2' => $request->content_2,
+                'meta_description' => $request->meta_description,
+                'meta_keyword' => $request->meta_keyword,
+                'link_url' => $request->link_url, // Simpan URL pertama
+                'link_url_2' => $request->link_url_2, // Simpan URL kedua
                 'slug' => Str::slug($request->judul)
             ];
         }
+        // dd($post_data); // Tambahkan baris ini
 
 
         $post->tags()->sync($request->tags);
         $post->update($post_data);
 
 
+        // dd($post_data);
         return redirect()->route('artikel.index')->with('success', 'Postingan anda berhasil diupdate');
     }
 
