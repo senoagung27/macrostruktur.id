@@ -167,7 +167,7 @@ section {
 /*--------------------------------------------------------------
 # Scroll top button
 --------------------------------------------------------------*/
-.scroll-top {
+/* .scroll-top {
   position: fixed;
   visibility: hidden;
   opacity: 0;
@@ -195,7 +195,7 @@ section {
 .scroll-top.active {
   visibility: visible;
   opacity: 1;
-}
+} */
 
 /*--------------------------------------------------------------
 # Preloader

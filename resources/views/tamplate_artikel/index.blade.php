@@ -48,15 +48,15 @@
     <link href="{{ asset('assets_2/assets/css/main.css') }}" rel="stylesheet">
 </head>
  <!-- Vendor CSS Files -->
- <link href="{{ asset('assets_3/assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+ {{-- <link href="{{ asset('assets_3/assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
  <link href="{{ asset('assets_3/assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
  <link href="{{ asset('assets_3/assets/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet">
  <link href="{{ asset('assets_3/assets/vendor/aos/aos.css') }}" rel="stylesheet">
  <link href="{{ asset('assets_3/assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
- <link href="{{ asset('assets_3/assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+ <link href="{{ asset('assets_3/assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet"> --}}
 
  <!-- Template Main CSS File -->
- <link href="{{ asset('assets_3/assets/css/main.css') }}" rel="stylesheet">
+ {{-- <link href="{{ asset('assets_3/assets/css/main.css') }}" rel="stylesheet"> --}}
 
 <body>
 
@@ -65,7 +65,7 @@
     <main id="main">
         <div class="page-title" data-aos="fade">
             <div class="container d-lg-flex justify-content-between align-items-center">
-                <h1 class="mb-2 mb-lg-0">Macro Engineering Studio - Jasa Perencanaan &amp; Perhitungan Struktur Bangunan
+                <h1 class="mb-2 mb-lg-0">Artikel
                 </h1>
                 <nav class="breadcrumbs">
                     <ol>
@@ -75,6 +75,7 @@
                 </nav>
             </div>
         </div><!-- End Page Title -->
+        
 
         <!-- ======= Blog Section ======= -->
         <section id="blog" class="blog">
@@ -141,7 +142,7 @@
 
     @include('frontend.layout.footer')
 
-    <!-- Vendor JS Files -->
+    {{-- <!-- Vendor JS Files -->
     <script src="{{ asset('assets_3/assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('assets_3/assets/vendor/aos/aos.js') }}"></script>
     <script src="{{ asset('assets_3/assets/vendor/glightbox/js/glightbox.min.js') }}"></script>
@@ -151,7 +152,7 @@
     <script src="{{ asset('assets_3/assets/vendor/php-email-form/validate.js') }}"></script>
 
     <!-- Template Main JS File -->
-    <script src="{{ asset('assets_3/assets/js/main.js') }}"></script>
+    <script src="{{ asset('assets_3/assets/js/main.js') }}"></script> --}}
 
     <!-- Vendor JS Files -->
     <script src="{{ asset('assets_2/assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
