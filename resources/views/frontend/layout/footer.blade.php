@@ -21,7 +21,6 @@
                     <div class="col-lg-6 col-md-6 footer-about">
                         <picture>
                             <source srcset="{{ asset('assets_2/img/Group 3.webp') }}" type="image/webp">
-                            <source srcset="{{ asset('assets_2/img/Group 3.png') }}" type="image/png">
                             <img src="{{ asset('assets_2/img/Group 3.png') }}" class="img-fluid" alt="" style="width: 100%; height: auto; object-fit: contain;">
                         </picture>
                     </div>

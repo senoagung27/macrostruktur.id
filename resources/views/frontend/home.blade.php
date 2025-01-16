@@ -22,8 +22,12 @@
                         <!-- Right Image -->
                         <div class="col-lg-6 d-flex flex-column justify-content-center"
                             data-aos="zoom-out">
-                            <img src="assets_2/img/macrohitungstruktur-banner3 2.png" alt="Blueprints"
-                                class="img-fluid rounded w-100" loading="lazy">
+                            {{-- <img src="assets_2/img/macrohitungstruktur-banner3 2.png" alt="Blueprints"
+                                class="img-fluid rounded w-100" loading="lazy"> --}}
+                                <picture>
+                                    {{-- <source srcset="{{ asset('assets_2/img/macrohitungstruktur-banner3 2.webp') }}" type="image/webp"> --}}
+                                    <img src="{{ asset('assets_2/img/macrohitungstruktur-banner3 2.webp') }}" class="iimg-fluid rounded w-100" alt="">
+                                </picture>
                         </div>
                     </div>
                 </div>
@@ -80,7 +84,7 @@
                     <div class="row gy-3">
 
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                            <img src="assets_2/img/macro-hitung-struktur-profil.png" alt="" class="img-fluid">
+                            <img src="assets_2/img/macro-hitung-struktur-profil.webp" alt="" class="img-fluid">
                         </div>
 
                         <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up"
