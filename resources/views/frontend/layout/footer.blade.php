@@ -14,7 +14,7 @@
                     <p>Surabaya, Jawa Timur</p>
                     <p>Senin - Jumat : 08:00 - 17:00</p>
                     <p>Sabtu : 08:00 - 12:00</p>
-                    <p class="mt-3"><strong>Kontak: </strong> <span>0878-3439-9815/span></p>
+                    <p class="mt-3"><strong>Kontak: </strong> <span>0878-3439-9815</span></p>
                     <p><strong>Email: </strong> <span>customercare@macrostruktur.id</span> <span>macro.struktur@gmail.com</span></p>
                 </div>
             </div>
