@@ -26,10 +26,9 @@
     <div class="branding d-flex align-items-cente">
 
         <div class="container position-relative d-flex align-items-center justify-content-between">
-            <a href="{{ url('/') }}" class="logo d-flex align-items-center">
-                <!-- Uncomment the line below if you also wish to use an image logo -->
-                <img src="assets_2/img/Group 1.png" alt="">
-                {{-- <h1 class="sitename">BizLand</h1> --}}
+            <a href="{{ url('/') }}" class="logo d-flex align-items-center" aria-label="Homepage">
+                <!-- Add alt text to the image -->
+                <img src="assets_2/img/Group 1.png" alt="MacroStruktur">
             </a>
 
             <nav id="navmenu" class="navmenu">

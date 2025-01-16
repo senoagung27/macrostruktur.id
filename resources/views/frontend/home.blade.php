@@ -18,16 +18,21 @@
                             <h2 class="text-white fw-bold">Analisa dan Perencanaan Struktur Bangunan</h2>
                             <a href="#profil" class="btn btn-primary" style="width: 120px">Selengkapnya</a>
                         </div>
-            
+
                         <!-- Right Image -->
                         <div class="col-lg-6">
-                            <img src="assets_2/img/macrohitungstruktur-banner3 2.png" alt="Blueprints"
-                                 class="img-fluid rounded w-100" loading="lazy">
+                            {{-- <img src="assets_2/img/macrohitungstruktur-banner3 2.png" alt="Blueprints"
+                                class="img-fluid rounded w-100" loading="lazy"> --}}
+                                <picture>
+                                    <source srcset="assets_2/img/macrohitungstruktur-banner3 2.webp" type="image/webp">
+                                        <img src="assets_2/img/macrohitungstruktur-banner3 2.png" alt="Blueprints" class="img-fluid rounded w-100">
+                                  </picture>
+                                  
                         </div>
                     </div>
                 </div>
             </section>
-            
+
 
 
 
@@ -288,7 +293,8 @@
 
             <section id="testimonials" class="testimonials section dark-background">
 
-                <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
+                <img src="{{ asset('assets_2/assets/img/testimonials-bg.jpg') }}" class="testimonials-bg"
+                    alt="">
 
                 <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -1004,7 +1010,10 @@
                                 <iframe
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.1254042206797!2d112.7885445!3d-7.339811399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fab67425ad57%3A0x94de3d16a3161aef!2sJl.%20Legian%20III%20No.H6%2C%20RW.19%2C%20Gn.%20Anyar%2C%20Kec.%20Gn.%20Anyar%2C%20Surabaya%2C%20Jawa%20Timur%2060294!5e0!3m2!1sid!2sid!4v1736482229891!5m2!1sid!2sid"
                                     frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen=""
-                                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                                    title="Google Maps showing the location at Jl. Legian III, Surabaya, Indonesia">
+                                </iframe>
+
                             </div>
 
                         </div>

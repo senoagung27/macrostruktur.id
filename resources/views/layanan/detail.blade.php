@@ -67,7 +67,7 @@
 
     <style>
         .active>a {
-            color: #007bff;
+            color: #1F8AD1;
             /* Active link color */
             font-weight: bold;
             /* Optional styling */
