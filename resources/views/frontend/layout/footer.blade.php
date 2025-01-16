@@ -1,3 +1,27 @@
+<style>
+    .footer-about img {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .no-wrap {
+    white-space: nowrap;
+    letter-spacing: normal;
+    word-break: keep-all;
+    text-rendering: optimizeLegibility;
+}
+span {
+    white-space: nowrap;
+    letter-spacing: normal;
+    word-break: keep-all;
+    text-rendering: optimizeLegibility;
+}
+
+    </style>
+    
+
 <footer id="footer" class="footer">
 
     <div class="container footer-top">
@@ -5,18 +29,38 @@
             <div class="col-lg-4 col-md-6 footer-about">
                 <a href="{{ url('/') }}" class="d-flex align-items-center">
                     {{-- <span class="sitename">BizLand</span> --}}
-                    <div class="col-lg-6 col-md-6 footer-about">
+                    {{-- <div class="col-lg-6 col-md-6 footer-about">
                         <img src="{{ asset('assets_2/img/Group 3.png') }}" class="img-fluid " alt="">
+                    </div> --}}
+                    <div class="col-lg-6 col-md-6 footer-about">
+                        <picture>
+                            <source srcset="{{ asset('assets_2/img/Group 3.webp') }}" type="image/webp">
+                            <source srcset="{{ asset('assets_2/img/Group 3.png') }}" type="image/png">
+                            <img src="{{ asset('assets_2/img/Group 3.png') }}" class="img-fluid" alt="" style="width: 100%; height: auto; object-fit: contain;">
+                        </picture>
                     </div>
+                    
+                    
+                                        
                 </a>
-                <div class="footer-contact pt-3">
-                    <p>Jl. Legian III Blok H6/17, Gununganyar</p>
-                    <p>Surabaya, Jawa Timur</p>
-                    <p>Senin - Jumat : 08:00 - 17:00</p>
-                    <p>Sabtu : 08:00 - 12:00</p>
-                    <p class="mt-3"><strong>Kontak: </strong> <span>0878-3439-9815</span></p>
-                    <p><strong>Email: </strong> <span>customercare@macrostruktur.id</span> <span>macro.struktur@gmail.com</span></p>
-                </div>
+                @php
+                $isIOS = str_contains(request()->header('User-Agent'), 'iPhone') || str_contains(request()->header('User-Agent'), 'iPad');
+            @endphp
+            
+            <div class="footer-contact pt-3">
+                <p>Jl. Legian III Blok H6/17, Gununganyar</p>
+                <p>Surabaya, Jawa Timur</p>
+                <p>Senin - Jumat : 08:00 - 17:00</p>
+                <p>Sabtu : 08:00 - 12:00</p>
+                <p class="mt-3"><strong>Kontak: </strong> 
+                    <span class="{{ $isIOS ? 'no-wrap' : '' }}">0878-3439-9815</span>
+                </p>
+                <p><strong>Email: </strong> 
+                    <span class="{{ $isIOS ? 'no-wrap' : '' }}">customercare@macrostruktur.id</span> 
+                    <span class="{{ $isIOS ? 'no-wrap' : '' }}">macro.struktur@gmail.com</span>
+                </p>
+            </div>
+            
             </div>
 
             <div class="col-lg-2 col-md-3 footer-links">
