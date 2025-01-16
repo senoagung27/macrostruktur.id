@@ -5,20 +5,6 @@
         height: auto;
         object-fit: contain;
     }
-
-    .no-wrap {
-    white-space: nowrap;
-    letter-spacing: normal;
-    word-break: keep-all;
-    text-rendering: optimizeLegibility;
-}
-span {
-    white-space: nowrap;
-    letter-spacing: normal;
-    word-break: keep-all;
-    text-rendering: optimizeLegibility;
-}
-
     </style>
     
 
@@ -43,24 +29,14 @@ span {
                     
                                         
                 </a>
-                @php
-                $isIOS = str_contains(request()->header('User-Agent'), 'iPhone') || str_contains(request()->header('User-Agent'), 'iPad');
-            @endphp
-            
-            <div class="footer-contact pt-3">
-                <p>Jl. Legian III Blok H6/17, Gununganyar</p>
-                <p>Surabaya, Jawa Timur</p>
-                <p>Senin - Jumat : 08:00 - 17:00</p>
-                <p>Sabtu : 08:00 - 12:00</p>
-                <p class="mt-3"><strong>Kontak: </strong> 
-                    <span class="{{ $isIOS ? 'no-wrap' : '' }}">0878-3439-9815</span>
-                </p>
-                <p><strong>Email: </strong> 
-                    <span class="{{ $isIOS ? 'no-wrap' : '' }}">customercare@macrostruktur.id</span> 
-                    <span class="{{ $isIOS ? 'no-wrap' : '' }}">macro.struktur@gmail.com</span>
-                </p>
-            </div>
-            
+                <div class="footer-contact pt-3">
+                    <p>Jl. Legian III Blok H6/17, Gununganyar</p>
+                    <p>Surabaya, Jawa Timur</p>
+                    <p>Senin - Jumat : 08:00 - 17:00</p>
+                    <p>Sabtu : 08:00 - 12:00</p>
+                    <p class="mt-3"><strong>Kontak: </strong> 0878-3439-9815</p>
+                    <p><strong>Email: </strong> <span>customercare@macrostruktur.id</span> <span>macro.struktur@gmail.com</span></p>
+                </div>
             </div>
 
             <div class="col-lg-2 col-md-3 footer-links">
