@@ -91,8 +91,13 @@
                                     {{-- <span class="post-date">December 12</span> --}}
                                     <img src="{{ asset($details->gambar) }}" class="img-fluid"
                             alt="{{ $details->judul }}">
-                                    <span
-                                        class="post-date">{{ \Carbon\Carbon::parse($details['date'])->format('F j') }}</span>
+                                    {{-- <span
+                                        class="post-date">{{ \Carbon\Carbon::parse($details['date'])->format('F j') }}</span> --}}
+                                        <span
+    class="post-date"
+    style="background-color: rgba(31, 138, 209, 0.8);">
+    {{ \Carbon\Carbon::parse($details['date'])->format('F j') }}
+</span>
                                 </div>
 
                                 <div class="post-content d-flex flex-column">
