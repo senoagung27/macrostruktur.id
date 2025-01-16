@@ -64,7 +64,7 @@
 
 					<!-- logo -->
 					<div class="nav-logo">
-						<a href="index.html" class="logo"><img src="{{ asset('frontend/img/logo.png')}}" alt=""></a>
+						<a href="{{ url('/') }}" class="logo"><img src="{{ asset('frontend/img/logo.png')}}" alt=""></a>
 					</div>
 					<!-- /logo -->
 
@@ -117,7 +117,7 @@
 			<!-- Aside Nav -->
 			<div id="nav-aside">
 				<ul class="nav-aside-menu">
-					<li><a href="index.html">Home</a></li>
+					<li><a href="{{ url('/') }}">Home</a></li>
 					<li class="has-dropdown"><a>Categories</a>
 						<ul class="dropdown">
 							<li><a href="#">Lifestyle</a></li>
