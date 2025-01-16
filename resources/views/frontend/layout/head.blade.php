@@ -8,7 +8,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>MacroStruktur - Solusi Analisa dan Perencanaan Struktur Bangunan</title>
     <meta name="description" content="MacroStruktur adalah solusi terpercaya untuk analisa dan perencanaan struktur bangunan. Temukan layanan terbaik untuk kebutuhan konstruksi Anda di sini!">
-    <meta name="keywords" content="MacroStruktur, analisa struktur bangunan, perencanaan struktur bangunan, konstruksi terpercaya, perhitungan struktur, desain struktur, jasa konsultasi bangunan, layanan konstruksi, teknik sipil, rekayasa struktur, arsitektur dan konstruksi, analisis bangunan, solusi struktur bangunan">
+    <meta name="keywords" content="Analisa dan Perencanaan Struktur Bangunan">
     
     <meta name="author" content="MacroStruktur">
     <meta name="robots" content="index, follow">
@@ -16,17 +16,17 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:locale" content="id_ID">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://macrostruktur.id/">
+    <meta property="og:url" content="https://macrostruktur.id">
     <meta property="og:site_name" content="MacroStruktur">
-    <meta property="og:title" content="MacroStruktur - Solusi Terpercaya untuk Analisa dan Perencanaan Struktur Bangunan">
+    <meta property="og:title" content="MacroStruktur - Official Website MacroStruktur">
     <meta property="og:description" content="Solusi terbaik untuk analisa struktur bangunan dan perencanaan konstruksi. Tingkatkan kualitas proyek Anda bersama MacroStruktur.">
-    <meta property="og:image" content="https://blogtest-2.com/assets_2/img/Group%201.png">
+    <meta property="og:image" content="https://macrostruktur.id/assets_2/img/Group%201.png">
     
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="MacroStruktur - Solusi Analisa dan Perencanaan Struktur Bangunan">
     <meta name="twitter:description" content="MacroStruktur adalah partner terpercaya untuk kebutuhan analisa dan perencanaan struktur bangunan. Temukan layanan profesional kami sekarang!">
-    <meta name="twitter:image" content="https://blogtest-2.com/assets_2/img/Group%201.png">
+    <meta name="twitter:image" content="https://macrostruktur.id/assets_2/img/Group%201.png">
     
     <meta name="theme-color" content="#1F8AD1">
     <!-- Favicons -->

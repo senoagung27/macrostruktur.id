@@ -20,7 +20,7 @@
 	<meta property="og:description" content="{{ $artikel->meta_description }}">
 	<meta name="theme-color" content="#1F8AD1">
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="MacroStruktur Official Website - Analisa dan Perencanaan Struktur Bangunan">
+	<meta name="twitter:title" content="MacroStruktur Official Website">
 	<meta name="twitter:description" content="{{ $artikel->meta_description }}">
 
 
