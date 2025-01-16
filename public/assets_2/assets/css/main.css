@@ -941,25 +941,40 @@ section,
   background: linear-gradient(to right, #1F8AD1, #1F8AD1);
   color: white;
 }
-@media (max-width: 768px) {
-  .hero {
-    flex-direction: column;
-    padding: 20px 0;
+@media (max-width: 736px) {
+  #hero .container {
+    padding: 20px;
+  }
+
+  #hero .row {
+    flex-direction: column; /* Ubah layout menjadi kolom untuk layar kecil */
+  }
+
+  #hero .col-lg-6 {
+    width: 100%; /* Pastikan setiap kolom mengambil seluruh lebar */
+    margin-bottom: 20px; /* Beri jarak antar kolom */
+  }
+
+  #hero h2 {
+    font-size: 24px; /* Sesuaikan ukuran teks judul */
+    line-height: 1.4; /* Tingkatkan keterbacaan */
+  }
+
+  #hero span {
+    font-size: 16px; /* Sesuaikan ukuran teks pendukung */
+  }
+
+  #hero .btn {
+    width: 100%; /* Perlebar tombol */
     text-align: center;
   }
 
-  .hero .col-lg-6 {
-    width: 100%;
-  }
-
-  .hero .col-lg-6 img {
-    margin-top: 20px;
-  }
-
-  .hero .btn {
-    margin: 20px auto 0;
+  #hero img {
+    max-width: 100%;
+    height: auto; /* Pastikan gambar menyesuaikan ukuran layar */
   }
 }
+
 
 
 .hero h1 {

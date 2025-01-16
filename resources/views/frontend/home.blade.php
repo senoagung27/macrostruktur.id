@@ -18,25 +18,17 @@
                             <h2 class="text-white fw-bold">Analisa dan Perencanaan Struktur Bangunan</h2>
                             <a href="#profil" class="btn btn-primary" style="width: 120px">Selengkapnya</a>
                         </div>
-
+            
                         <!-- Right Image -->
-                        <div class="col-lg-6">
-                            {{-- <img src="assets_2/img/macrohitungstruktur-banner3 2.png" alt="Blueprints"
-                                class="img-fluid rounded w-100" loading="lazy"> --}}
-                                <picture>
-                                    <source srcset="assets_2/img/macrohitungstruktur-banner3 2.webp" type="image/webp">
-                                        <img src="assets_2/img/macrohitungstruktur-banner3 2.png" alt="Blueprints" class="img-fluid rounded w-100">
-                                  </picture>
-                                  
+                        <div class="col-lg-6 d-flex flex-column justify-content-center"
+                            data-aos="zoom-out">
+                            <img src="assets_2/img/macrohitungstruktur-banner3 2.png" alt="Blueprints"
+                                class="img-fluid rounded w-100" loading="lazy">
                         </div>
                     </div>
                 </div>
             </section>
-
-
-
-
-
+            
             <!-- Featured Services Section -->
             <section id="featured-services" class="featured-services section">
                 <div class="container">
