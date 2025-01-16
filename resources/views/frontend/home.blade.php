@@ -18,15 +18,16 @@
                             <h2 class="text-white fw-bold">Analisa dan Perencanaan Struktur Bangunan</h2>
                             <a href="#profil" class="btn btn-primary" style="width: 120px">Selengkapnya</a>
                         </div>
-
+            
                         <!-- Right Image -->
                         <div class="col-lg-6">
-                            <img src="assets_2/img/macrohitungstruktur-banner3.png" alt="Blueprints"
-                                class="img-fluid rounded w-100">
+                            <img src="assets_2/img/macrohitungstruktur-banner3 2.png" alt="Blueprints"
+                                 class="img-fluid rounded w-100" loading="lazy">
                         </div>
                     </div>
                 </div>
             </section>
+            
 
 
 
@@ -261,7 +262,8 @@
                                 <a href="{{ url('/layanan-detail/ded-arsitek-mep-rab') }}" class="stretched-link">
                                     <h3> special order and request</h3>
                                 </a>
-                                <p>Layanan spesial order dari MacroStruktur.id seperti jasa hitung RAB, DED Arsitek, DED Mechanical, Electrical & Plumbing</p>
+                                <p>Layanan spesial order dari MacroStruktur.id seperti jasa hitung RAB, DED Arsitek, DED
+                                    Mechanical, Electrical & Plumbing</p>
                                 <a href="{{ url('/layanan-detail/ded-arsitek-mep-rab') }}" class="stretched-link"></a>
                             </div>
                         </div><!-- End Service Item -->
@@ -671,7 +673,7 @@
                                 </div>
                             </div><!-- End Portfolio Item -->
 
-                           
+
 
                         </div><!-- End Portfolio Container -->
                         <div class="text-center mt-4">
