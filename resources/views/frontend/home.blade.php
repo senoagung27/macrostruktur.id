@@ -26,7 +26,7 @@
                                 class="img-fluid rounded w-100" loading="lazy"> --}}
                                 <picture>
                                     {{-- <source srcset="{{ asset('assets_2/img/macrohitungstruktur-banner3 2.webp') }}" type="image/webp"> --}}
-                                    <img src="{{ asset('assets_2/img/macrohitungstruktur-banner3 2.webp') }}" class="iimg-fluid rounded w-100" alt="">
+                                    <img src="{{ asset('assets_2/img/macrohitungstruktur-banner3 2.webp') }}" class="iimg-fluid rounded w-100" alt="" loading="lazy">
                                 </picture>
                         </div>
                     </div>
@@ -84,7 +84,7 @@
                     <div class="row gy-3">
 
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                            <img src="assets_2/img/macro-hitung-struktur-profil.webp" alt="" class="img-fluid">
+                            <img src="assets_2/img/macro-hitung-struktur-profil.webp" alt="" class="img-fluid" loading="lazy">
                         </div>
 
                         <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up"
