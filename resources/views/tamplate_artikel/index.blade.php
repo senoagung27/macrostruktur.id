@@ -7,20 +7,21 @@
 
     <title>MacroStruktur Official Website - Artikel</title>
     <meta name="description" content="Solusi Terpercaya untuk Analisa dan Perencanaan Struktur Bangunan">
-	<meta name="keywords" content="MacroStruktur, analisa struktur bangunan, perencanaan struktur bangunan, konstruksi terpercaya, perhitungan struktur, desain struktur, jasa konsultasi bangunan, layanan konstruksi, teknik sipil, rekayasa struktur, arsitektur dan konstruksi, analisis bangunan, solusi struktur bangunan">
+    <meta name="keywords"
+        content="MacroStruktur, analisa struktur bangunan, perencanaan struktur bangunan, konstruksi terpercaya, perhitungan struktur, desain struktur, jasa konsultasi bangunan, layanan konstruksi, teknik sipil, rekayasa struktur, arsitektur dan konstruksi, analisis bangunan, solusi struktur bangunan">
 
-	<meta name="author" content="MacroStruktur">
+    <meta name="author" content="MacroStruktur">
 
-	<meta property="og:locale" content="en_US">
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://macrostruktur.id/">
-	<meta property="og:site_name" content="MacroStruktur">
-	<meta property="og:title" content="MacroStruktur Official Website - Analisa dan Perencanaan Struktur Bangunan">
-	<meta property="og:description" content="Solusi Terpercaya untuk Analisa dan Perencanaan Struktur Bangunan">
-	<meta name="theme-color" content="#1F8AD1">
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="MacroStruktur Official Website - Analisa dan Perencanaan Struktur Bangunan">
-	<meta name="twitter:description" content="Solusi Terpercaya untuk Analisa dan Perencanaan Struktur Bangunan">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://macrostruktur.id/">
+    <meta property="og:site_name" content="MacroStruktur">
+    <meta property="og:title" content="MacroStruktur Official Website - Analisa dan Perencanaan Struktur Bangunan">
+    <meta property="og:description" content="Solusi Terpercaya untuk Analisa dan Perencanaan Struktur Bangunan">
+    <meta name="theme-color" content="#1F8AD1">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="MacroStruktur Official Website - Analisa dan Perencanaan Struktur Bangunan">
+    <meta name="twitter:description" content="Solusi Terpercaya untuk Analisa dan Perencanaan Struktur Bangunan">
 
 
     <!-- Favicons -->
@@ -34,7 +35,7 @@
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
 
-   
+
 
 
     <!-- Vendor CSS Files -->
@@ -47,16 +48,16 @@
     <!-- Main CSS File -->
     <link href="{{ asset('assets_2/assets/css/main.css') }}" rel="stylesheet">
 </head>
- <!-- Vendor CSS Files -->
- {{-- <link href="{{ asset('assets_3/assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+<!-- Vendor CSS Files -->
+{{-- <link href="{{ asset('assets_3/assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
  <link href="{{ asset('assets_3/assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
  <link href="{{ asset('assets_3/assets/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet">
  <link href="{{ asset('assets_3/assets/vendor/aos/aos.css') }}" rel="stylesheet">
  <link href="{{ asset('assets_3/assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
  <link href="{{ asset('assets_3/assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet"> --}}
 
- <!-- Template Main CSS File -->
- {{-- <link href="{{ asset('assets_3/assets/css/main.css') }}" rel="stylesheet"> --}}
+<!-- Template Main CSS File -->
+{{-- <link href="{{ asset('assets_3/assets/css/main.css') }}" rel="stylesheet"> --}}
 
 <body>
 
@@ -75,7 +76,7 @@
                 </nav>
             </div>
         </div><!-- End Page Title -->
-        
+
 
         <!-- ======= Blog Section ======= -->
         <section id="blog" class="blog">
@@ -89,15 +90,15 @@
                                 <div class="post-img position-relative overflow-hidden">
                                     {{-- <img src="assets_3/assets/img/blog/blog-1.jpg" class="img-fluid" alt=""> --}}
                                     {{-- <span class="post-date">December 12</span> --}}
-                                    <img src="{{ asset($details->gambar) }}" class="img-fluid"
-                            alt="{{ $details->judul }}">
+                                    <!--        <img src="{{ asset($details->gambar) }}" class="img-fluid"-->
+                                    <!--alt="{{ $details->judul }}">-->
+                                    <img src="data:image/png;base64,{{ $details->gambar }}" class="img-fluid"
+                                        alt="{{ $details->judul }}">
                                     {{-- <span
                                         class="post-date">{{ \Carbon\Carbon::parse($details['date'])->format('F j') }}</span> --}}
-                                        <span
-    class="post-date"
-    style="background-color: rgba(31, 138, 209, 0.8);">
-    {{ \Carbon\Carbon::parse($details['date'])->format('F j') }}
-</span>
+                                    <span class="post-date" style="background-color: rgba(31, 138, 209, 0.8);">
+                                        {{ \Carbon\Carbon::parse($details['date'])->format('F j') }}
+                                    </span>
                                 </div>
 
                                 <div class="post-content d-flex flex-column">
@@ -120,10 +121,10 @@
                                         </div>
                                     </div>
                                     <p>
-                                    <span>{!! Str::limit($details->content, 150) !!}</span>
+                                        <span>{!! Str::limit($details->content, 150) !!}</span>
                                     </p>
                                     <hr>
-                                    <a href="{{ route('artikel.detail', $details->slug ) }}"
+                                    <a href="{{ route('artikel.detail', $details->slug) }}"
                                         class="readmore stretched-link"><span>Read More</span><i
                                             class="bi bi-arrow-right"></i></a>
                                 </div>
@@ -138,7 +139,7 @@
                         {{ $data->links() }}
                     </ul>
                 </div>
-                
+
 
             </div>
         </section><!-- End Blog Section -->

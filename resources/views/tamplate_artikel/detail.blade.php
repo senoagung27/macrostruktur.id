@@ -7,21 +7,21 @@
 
     <title>MacroStruktur Official Website - Artikel Detail</title>
     <meta name="description" content="{{ $artikel->meta_description }}">
-	<meta name="keywords" content="{{ $artikel->meta_keyword }}">
+    <meta name="keywords" content="{{ $artikel->meta_keyword }}">
 
     <meta name="author" content="MacroStruktur">
     <meta name="robots" content="index, follow">
 
-	<meta property="og:locale" content="en_US">
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://macrostruktur.id/">
-	<meta property="og:site_name" content="MacroStruktur">
-	<meta property="og:title" content="MacroStruktur Official Website - Analisa dan Perencanaan Struktur Bangunan">
-	<meta property="og:description" content="{{ $artikel->meta_description }}">
-	<meta name="theme-color" content="#1F8AD1">
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="MacroStruktur Official Website">
-	<meta name="twitter:description" content="{{ $artikel->meta_description }}">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://macrostruktur.id/">
+    <meta property="og:site_name" content="MacroStruktur">
+    <meta property="og:title" content="MacroStruktur Official Website - Analisa dan Perencanaan Struktur Bangunan">
+    <meta property="og:description" content="{{ $artikel->meta_description }}">
+    <meta name="theme-color" content="#1F8AD1">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="MacroStruktur Official Website">
+    <meta name="twitter:description" content="{{ $artikel->meta_description }}">
 
 
     <!-- Favicons -->
@@ -114,14 +114,15 @@
 
                 <nav id="navmenu" class="navmenu">
                     <ul>
-                        <li><a href="{{ url('/') }}"class="{{ request()->is('/') ? 'active' : '' }}">Home</a></li>
+                        <li><a href="{{ url('/') }}"class="{{ request()->is('/') ? 'active' : '' }}">Home</a>
+                        </li>
                         <li><a href="#profil">Profil</a></li>
                         <li><a href="#services">Testimoni</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
                         {{-- <li><a href="#team">Team</a></li> --}}
                         <li class="{{ request()->routeIs('artikel.*') ? 'active' : '' }}">
                             <a href="{{ route('artikel.list_artikel') }}">Artikel</a>
-                        </li>                        
+                        </li>
                         <li class="dropdown {{ request()->is('layanan-detail/*') ? 'active' : '' }}">
                             <a href="#"><span>Jasa Layanan</span> <i
                                     class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -142,7 +143,8 @@
                                     <a href="{{ url('/layanan-detail/bim-tekla') }}">BIM, Tekla</a>
                                 </li>
                                 <li class="{{ request()->is('layanan-detail/ded-arsitek-mep-rab') ? 'active' : '' }}">
-                                    <a href="{{ url('/layanan-detail/ded-arsitek-mep-rab') }}">DED Arsitek, MEP, RAB</a>
+                                    <a href="{{ url('/layanan-detail/ded-arsitek-mep-rab') }}">DED Arsitek, MEP,
+                                        RAB</a>
                                 </li>
                             </ul>
                         </li>
@@ -187,21 +189,26 @@
                                 <i class="bi bi-folder2"></i> {{ $artikel->category->name }}
                             </span>
                             <span>
-                                <i class="bi bi-calendar"></i> {{ \Carbon\Carbon::parse($artikel->created_at)->format('d F Y') }}
+                                <i class="bi bi-calendar"></i>
+                                {{ \Carbon\Carbon::parse($artikel->created_at)->format('d F Y') }}
                             </span>
                         </div>
                         <a href="{{ $artikel->link_url }}" target="_blank">
-                            <img src="{{ asset($artikel->gambar) }}" class="img-fluid mb-3">
+                            <!--<img src="{{ asset($artikel->gambar) }}" class="img-fluid mb-3">-->
+                            <img src="data:image/png;base64,{{ $artikel->gambar }}" class="img-fluid mb-3"
+                                alt="{{ $artikel->judul }}">
+
                         </a>
                         <p>{!! $artikel->content !!}</p>
-                        <img src="{{ asset($artikel->gambar_2) }}" class="img-fluid mb-3">
+                        <!--<img src="{{ asset($artikel->gambar_2) }}" class="img-fluid mb-3">-->
+                        <img src="data:image/png;base64,{{ $artikel->gambar_2 }}" class="img-fluid mb-3">
                         <p>{!! $artikel->content_2 !!}</p>
 
                         <!-- Menambahkan daftar tags -->
                         <div class="tags mt-3">
                             <h6>Tags:</h6>
                             <div class="d-flex flex-wrap">
-                                @foreach($artikel->tags as $tag)
+                                @foreach ($artikel->tags as $tag)
                                     <span class="badge bg-info text-white me-2 mb-2">
                                         <i class="fas fa-tag me-1"></i>{{ $tag->name }}
                                     </span>
@@ -212,7 +219,7 @@
                 </div>
             </div>
         </section><!-- End Blog Details Section -->
-        
+
 
     </main><!-- End #main -->
 
