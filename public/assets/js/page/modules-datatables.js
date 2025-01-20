@@ -33,8 +33,20 @@ $("#table-1").dataTable({
     { "sortable": false, "targets": [2,3] }
   ]
 });
-$("#table-2").dataTable({
-  "columnDefs": [
-    { "sortable": false, "targets": [0,2,3] }
-  ]
+// $("#table-2").dataTable({
+//   "columnDefs": [
+//     { "sortable": false, "targets": [0,2,3] }
+//   ]
+// });
+$('#example2').DataTable({
+  "paging": true,
+  order: [
+      [2, 'asc'],
+      [1, 'asc']
+  ],
+  "lengthChange": true,
+  "searching": true,
+  "ordering": true,
+  "info": true,
+  "autoWidth": true,
 });

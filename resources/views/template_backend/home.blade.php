@@ -15,7 +15,16 @@
   <link rel="stylesheet" href="{{ asset('assets/modules/fontawesome/css/all.min.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/modules/select2/dist/css/select2.min.css') }}">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ asset('assets/modules/datatables.net-bs4/css/dataTables.bootstrap4.min.css') }}">
+  <link rel="stylesheet" href="{{ asset('assets/modules/datatables.net-select-bs4/css/select.bootstrap4.min.css') }}">
 
+
+  
+    <!-- CSS Libraries -->
+    <link rel="stylesheet" href="{{ asset('assets/modules/datatables/datatables.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/modules/datatables/DataTables-1.10.16/css/dataTables.bootstrap4.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/modules/datatables/Select-1.2.4/css/select.bootstrap4.min.css') }}">
+  
   <!-- CSS Libraries -->
 
   <!-- Template CSS -->
@@ -94,5 +103,6 @@
           </section>
         </section>
       </div>
+      @yield('bawah')
       
       @include('template_backend.footer')
