@@ -53,14 +53,6 @@
 
     <!-- Main CSS File -->
     <link href="{{ asset('assets_2/assets/css/main.css') }}" rel="stylesheet">
-
-    <!-- =======================================================
-  * Template Name: BizLand
-  * Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="service-details-page">
@@ -104,10 +96,9 @@
                 <nav id="navmenu" class="navmenu">
                     <ul>
                         <li><a href="{{ url('/') }}"class="{{ request()->is('/') ? 'active' : '' }}">Home</a></li>
-                        <li><a href="#profil">Profil</a></li>
-                        <li><a href="#services">Testimoni</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        {{-- <li><a href="#team">Team</a></li> --}}
+                        <li class="{{ request()->is('portfolio') ? 'active' : '' }}">
+                             <a href="{{ url('/portfolio') }}">Portfolio</a>
+                        </li>
                         <li class="{{ request()->routeIs('artikel.list_artikel') ? 'active' : '' }}">
                             <a href="{{ route('artikel.list_artikel') }}">Artikel</a>
                         </li>
@@ -135,8 +126,6 @@
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="#contact">Pricing</a></li>
-                        <li><a href="#contact">Contact</a></li>
                     </ul>
                     <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
                 </nav>

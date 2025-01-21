@@ -54,8 +54,8 @@
                 <ul>
                     <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/layanan-detail/bangunan-gudang') }}">Gudang Baja</a></li>
                     <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/layanan-detail/assesment') }}">Assesment</a></li>
-                    <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/layanan-detail/bim-tekla-rab') }}">BIM, Tekla, RAB</a></li>
-                    <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/layanan-detail/ded-arsitek-mep') }}">DED Arsitek, MEP</a></li>
+                    <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/layanan-detail/bim-tekla') }}">BIM, Tekla</a></li>
+                    <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/layanan-detail/ded-arsitek-mep-rab') }}">DED Arsitek, MEP, RAB</a></li>
                 </ul>
             </div>
 

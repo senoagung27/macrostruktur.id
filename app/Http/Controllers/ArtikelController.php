@@ -114,12 +114,15 @@ class ArtikelController extends Controller
     // }
     public function index()
     {
-        // $category_widget = Category::all();
+        $category_widget = Category::all();
         // $data = Posts::latest()->paginate(10);
-        // return view('admin.artikel.index', compact('data', 'category_widget'));
-        $data = Posts::paginate(5);
-        return view('admin.artikel.index', compact('data'));
+        $data = Posts::get();
+        return view('admin.artikel.index', compact('data', 'category_widget'));
+        // $data = Posts::paginate(5);
+        // return view('admin.artikel.index', compact('data'));
     }
+
+
     private $title = 'Artikel';
 
     public function list_artikel(Posts $posts)
@@ -271,65 +274,65 @@ class ArtikelController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
-    {
-        $request->validate([
-            'judul' => 'required|string|max:255',
-            'category_id' => 'required|integer',
-            'content' => 'required',
-            'content_2' => 'required',
-            'gambar' => 'nullable|image|mimes:jpeg,png,jpg,gif,webp',
-            'gambar_2' => 'nullable|image|mimes:jpeg,png,jpg,gif,webp',
-            'meta_description' => 'nullable|string|max:500',
-            'meta_keyword' => 'nullable|string|max:500',
-            'tags' => 'nullable|array',
-            'link_url' => 'nullable|url',
-            'link_url_2' => 'nullable|url',
-        ]);
+{
+    $request->validate([
+        'judul' => 'required|string|max:255',
+        'category_id' => 'required|integer',
+        'content' => 'required',
+        'content_2' => 'required',
+        'gambar' => 'nullable|image|mimes:jpeg,png,jpg,gif,webp',
+        'gambar_2' => 'nullable|image|mimes:jpeg,png,jpg,gif,webp',
+        'meta_description' => 'nullable|string|max:500',
+        'meta_keyword' => 'nullable|string|max:500',
+        'tags' => 'nullable|array',
+        'link_url' => 'nullable|url',
+        'link_url_2' => 'nullable|url',
+    ]);
 
-        // Default nilai gambar adalah null
-        $new_gambar = null;
-        $new_gambar_2 = null;
+    // Default nilai gambar adalah null
+    $new_gambar = null;
+    $new_gambar_2 = null;
 
-        if ($request->hasFile('gambar')) {
-            $gambar = $request->file('gambar');
-            $path = $gambar->store('public/uploads/posts');
-            $new_gambar = base64_encode(file_get_contents(storage_path('app/' . $path)));
-        }
-
-        if ($request->hasFile('gambar_2')) {
-            $gambar_2 = $request->file('gambar_2');
-            $path_2 = $gambar_2->store('public/uploads/posts');
-            $new_gambar_2 = base64_encode(file_get_contents(storage_path('app/' . $path_2)));
-        }
-
-        // Batasi meta_description jika ada
-        $meta_description = $request->meta_description
-            ? Str::limit($request->meta_description, 500)
-            : null;
-
-        // Simpan postingan ke database
-        $post = Posts::create([
-            'judul' => $request->judul,
-            'category_id' => $request->category_id,
-            'content' => $request->content,
-            'content_2' => $request->content_2,
-            'meta_description' => $meta_description,
-            'meta_keyword' => $request->meta_keyword,
-            'gambar' => $new_gambar,
-            'gambar_2' => $new_gambar_2,
-            'link_url' => $request->link_url,
-            'link_url_2' => $request->link_url_2,
-            'slug' => Str::slug($request->judul),
-            'users_id' => Auth::id(),
-        ]);
-
-        // Jika ada tags, attach ke postingan
-        if ($request->tags) {
-            $post->tags()->attach($request->tags);
-        }
-
-        return redirect('/artikel')->with('success', 'Postingan anda berhasil disimpan');
+    if ($request->hasFile('gambar')) {
+        $gambar = $request->file('gambar');
+        $path = $gambar->store('public/uploads/posts');
+        $new_gambar = base64_encode(file_get_contents(storage_path('app/' . $path)));
     }
+
+    if ($request->hasFile('gambar_2')) {
+        $gambar_2 = $request->file('gambar_2');
+        $path_2 = $gambar_2->store('public/uploads/posts');
+        $new_gambar_2 = base64_encode(file_get_contents(storage_path('app/' . $path_2)));
+    }
+
+    // Batasi meta_description jika ada
+    $meta_description = $request->meta_description 
+        ? Str::limit($request->meta_description, 500) 
+        : null;
+
+    // Simpan postingan ke database
+    $post = Posts::create([
+        'judul' => $request->judul,
+        'category_id' => $request->category_id,
+        'content' => $request->content,
+        'content_2' => $request->content_2,
+        'meta_description' => $meta_description,
+        'meta_keyword' => $request->meta_keyword,
+        'gambar' => $new_gambar,
+        'gambar_2' => $new_gambar_2,
+        'link_url' => $request->link_url,
+        'link_url_2' => $request->link_url_2,
+        'slug' => Str::slug($request->judul),
+        'users_id' => Auth::id(),
+    ]);
+
+    // Jika ada tags, attach ke postingan
+    if ($request->tags) {
+        $post->tags()->attach($request->tags);
+    }
+
+    return redirect('/artikel')->with('success', 'Postingan anda berhasil disimpan');
+}
 
     /**
      * Display the specified resource.
@@ -420,7 +423,7 @@ class ArtikelController extends Controller
     //             $gambar = $request->file('gambar');
     //             $new_gambar = time() . '_' . $gambar->getClientOriginalName();
     //             $gambar->move(public_path('public/uploads/posts/'), $new_gambar);
-
+    
     //             // Proses gambar kedua jika ada
     //             $new_gambar_2 = null;
     //             if ($request->hasFile('gambar_2')) {
@@ -430,7 +433,7 @@ class ArtikelController extends Controller
     //             }
     //             $gambar->move(public_path('public/uploads/posts/'), $new_gambar);
     //         }    
-
+            
     //         $post_data = [
     //             'judul' => $request->judul,
     //             'category_id' =>  $request->category_id,
@@ -455,61 +458,61 @@ class ArtikelController extends Controller
     //     // dd($post_data);
     //     return redirect()->route('artikel.index')->with('success', 'Postingan anda berhasil diupdate');
     // }
-
+    
     public function update(Request $request, $id)
-    {
-        $request->validate([
-            'judul' => 'required|string|max:255',
-            'category_id' => 'required|integer',
-            'content' => 'required',
-            'content_2' => 'required',
-            'gambar' => 'nullable|image|mimes:jpeg,png,jpg,gif,webp',
-            'gambar_2' => 'nullable|image|mimes:jpeg,png,jpg,gif,webp',
-            'meta_description' => 'nullable|string|max:500',
-            'meta_keyword' => 'nullable|string|max:500',
-            'tags' => 'nullable|array',
-            'link_url' => 'nullable|url',
-            'link_url_2' => 'nullable|url',
-        ]);
+{
+    $request->validate([
+        'judul' => 'required|string|max:255',
+        'category_id' => 'required|integer',
+        'content' => 'required',
+        'content_2' => 'required',
+        'gambar' => 'nullable|image|mimes:jpeg,png,jpg,gif,webp',
+        'gambar_2' => 'nullable|image|mimes:jpeg,png,jpg,gif,webp',
+        'meta_description' => 'nullable|string|max:500',
+        'meta_keyword' => 'nullable|string|max:500',
+        'tags' => 'nullable|array',
+        'link_url' => 'nullable|url',
+        'link_url_2' => 'nullable|url',
+    ]);
 
-        $post = Posts::findorfail($id);
+    $post = Posts::findorfail($id);
 
-        $new_gambar = $post->gambar; // Default ke gambar lama
-        $new_gambar_2 = $post->gambar_2; // Default ke gambar kedua lama
+    $new_gambar = $post->gambar; // Default ke gambar lama
+    $new_gambar_2 = $post->gambar_2; // Default ke gambar kedua lama
 
-        if ($request->hasFile('gambar')) {
-            $gambar = $request->file('gambar');
-            $path = $gambar->store('public/uploads/posts');
-            $new_gambar = base64_encode(file_get_contents(storage_path('app/' . $path)));
-        }
-
-        if ($request->hasFile('gambar_2')) {
-            $gambar_2 = $request->file('gambar_2');
-            $path_2 = $gambar_2->store('public/uploads/posts');
-            $new_gambar_2 = base64_encode(file_get_contents(storage_path('app/' . $path_2)));
-        }
-
-        $meta_description = Str::limit($request->meta_description, 255);
-        $post_data = [
-            'judul' => $request->judul,
-            'category_id' => $request->category_id,
-            'content' => $request->content,
-            'content_2' => $request->content_2,
-            'meta_description' => $meta_description,
-            'meta_keyword' => $request->meta_keyword,
-            'gambar' => $new_gambar,
-            'gambar_2' => $new_gambar_2,
-            'link_url' => $request->link_url,
-            'link_url_2' => $request->link_url_2,
-            'slug' => Str::slug($request->judul),
-            'users_id' => Auth::id(),
-        ];
-
-        $post->tags()->sync($request->tags);
-        $post->update($post_data);
-
-        return redirect()->route('artikel.index')->with('success', 'Postingan anda berhasil diupdate');
+    if ($request->hasFile('gambar')) {
+        $gambar = $request->file('gambar');
+        $path = $gambar->store('public/uploads/posts');
+        $new_gambar = base64_encode(file_get_contents(storage_path('app/' . $path)));
     }
+
+    if ($request->hasFile('gambar_2')) {
+        $gambar_2 = $request->file('gambar_2');
+        $path_2 = $gambar_2->store('public/uploads/posts');
+        $new_gambar_2 = base64_encode(file_get_contents(storage_path('app/' . $path_2)));
+    }
+
+    $meta_description = Str::limit($request->meta_description, 255);
+    $post_data = [
+        'judul' => $request->judul,
+        'category_id' => $request->category_id,
+        'content' => $request->content,
+        'content_2' => $request->content_2,
+        'meta_description' => $meta_description,
+        'meta_keyword' => $request->meta_keyword,
+        'gambar' => $new_gambar,
+        'gambar_2' => $new_gambar_2,
+        'link_url' => $request->link_url,
+        'link_url_2' => $request->link_url_2,
+        'slug' => Str::slug($request->judul),
+        'users_id' => Auth::id(),
+    ];
+
+    $post->tags()->sync($request->tags);
+    $post->update($post_data);
+
+    return redirect()->route('artikel.index')->with('success', 'Postingan anda berhasil diupdate');
+}
 
 
 

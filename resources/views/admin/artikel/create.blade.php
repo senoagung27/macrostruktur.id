@@ -2,21 +2,21 @@
 @section('sub-judul', 'Tambah Post')
 @section('content')
 
-    @if (count($errors) > 0)
-        @foreach ($errors->all() as $error)
-            <div class="alert alert-danger alert-dismissible" role="alert">
-                {{ $error }}
-                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            </div>
-        @endforeach
-    @endif
+@if (count($errors) > 0)
+@foreach ($errors->all() as $error)
+    <div class="alert alert-danger alert-dismissible" role="alert">
+        {{ $error }}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+@endforeach
+@endif
 
-    @if (Session::has('success'))
-        <div class="alert alert-success alert-dismissible" role="alert">
-            {{ Session('success') }}
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-        </div>
-    @endif
+@if (Session::has('success'))
+<div class="alert alert-success alert-dismissible" role="alert">
+    {{ Session('success') }}
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+@endif
 
     <form action="{{ route('artikel.store') }}" method="POST" enctype="multipart/form-data">
         @csrf
@@ -65,7 +65,7 @@
             <label>Link Url Kedua</label>
             <input type="text" class="form-control" name="link_url_2" placeholder="Masukkan URL kedua">
         </div>
-
+        
         <div class="form-group">
             <label>Meta Keyword</label>
             <input type="text" class="form-control" name="meta_keyword">
@@ -89,7 +89,7 @@
     <script>
         CKEDITOR.replace('content_2');
     </script>
-    {{-- <script src="{{ asset('vendor/unisharp/laravel-ckeditor/ckeditor.js') }}"></script>
+        {{-- <script src="{{ asset('vendor/unisharp/laravel-ckeditor/ckeditor.js') }}"></script>
         <link rel="stylesheet" href="{{ asset('vendor/unisharp/laravel-ckeditor/skins/moono-lisa/editor.css') }}">
         <script src="{{ asset('vendor/unisharp/laravel-ckeditor-upload/ckeditor.js') }}"> --}}
 @endsection

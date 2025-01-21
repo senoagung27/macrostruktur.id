@@ -103,6 +103,5 @@
           </section>
         </section>
       </div>
-      @yield('bawah')
       
       @include('template_backend.footer')

@@ -24,11 +24,11 @@
         <div class="col-12">
             <div class="card">
                 <div class="card-header">
-                    <h4>Advanced Table</h4>
+                    <h4>List Post</h4>
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">
-                        <table class="table table-striped table-hover table-sm table-bordered" id="example2">
+                        <table class="table table-striped table-hover table-sm table-bordered" id="table-2">
                             <thead>
                                 <tr>
                                     <th>No</th>
@@ -44,9 +44,9 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach ($data as $result => $hasil)
+                                @foreach ($data as $hasil)
                                     <tr>
-                                        <td>{{ $result + $data->firstitem() }}</td>
+                                        <td>{{ $loop->iteration }}</td>
                                         <td>{{ $hasil->judul }}</td>
                                         <td>{{ $hasil->category->name }}</td>
                                         <td>
@@ -121,7 +121,8 @@
         <tbody>
             @foreach ($data as $result => $hasil)
                 <tr>
-                    <td>{{ $result + $data->firstitem() }}</td>
+                    <!--<td>{{ $result + $data->firstitem() }}</td>-->
+                   <td>{{ ($loop->index + 1) + (($currentPage - 1) * $itemsPerPage) }}</td>
                     <td>{{ $hasil->judul }}</td>
                     <td>{{ $hasil->category->name }}</td>
                     <td>
@@ -217,24 +218,3 @@
         </nav>
     </div> --}}
     @endsection
-    @section('bawah')
-
-    <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-   <script>
-        $(function() {
-            $("#example1").DataTable();
-            $('#example2').DataTable({
-                "paging": true,
-                order: [
-                    [2, 'asc'],
-                    [1, 'asc']
-                ],
-                "lengthChange": true,
-                "searching": true,
-                "ordering": true,
-                "info": true,
-                "autoWidth": true,
-            });
-        });
-    </script>
-@endsection

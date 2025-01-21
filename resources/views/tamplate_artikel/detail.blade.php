@@ -7,21 +7,21 @@
 
     <title>MacroStruktur Official Website - Artikel Detail</title>
     <meta name="description" content="{{ $artikel->meta_description }}">
-    <meta name="keywords" content="{{ $artikel->meta_keyword }}">
+	<meta name="keywords" content="{{ $artikel->meta_keyword }}">
 
     <meta name="author" content="MacroStruktur">
     <meta name="robots" content="index, follow">
 
-    <meta property="og:locale" content="en_US">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://macrostruktur.id/">
-    <meta property="og:site_name" content="MacroStruktur">
-    <meta property="og:title" content="MacroStruktur Official Website - Analisa dan Perencanaan Struktur Bangunan">
-    <meta property="og:description" content="{{ $artikel->meta_description }}">
-    <meta name="theme-color" content="#1F8AD1">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="MacroStruktur Official Website">
-    <meta name="twitter:description" content="{{ $artikel->meta_description }}">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://macrostruktur.id/">
+	<meta property="og:site_name" content="MacroStruktur">
+	<meta property="og:title" content="MacroStruktur Official Website - Analisa dan Perencanaan Struktur Bangunan">
+	<meta property="og:description" content="{{ $artikel->meta_description }}">
+	<meta name="theme-color" content="#1F8AD1">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="MacroStruktur Official Website">
+	<meta name="twitter:description" content="{{ $artikel->meta_description }}">
 
 
     <!-- Favicons -->
@@ -63,13 +63,6 @@
 
     <!-- Main CSS File -->
     <link href="{{ asset('assets_2/assets/css/main.css') }}" rel="stylesheet">
-
-    <!-- =======================================================
-  * Template Name: UpConstruction - v1.3.0
-  * Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -85,7 +78,7 @@
         }
     </style>
 
-    <header id="header" class="header sticky-top">
+   <header id="header" class="header sticky-top">
 
         <div class="topbar d-flex align-items-center">
             <div class="container d-flex justify-content-center justify-content-md-between">
@@ -109,18 +102,15 @@
                 <a href="{{ url('/') }}" class="logo d-flex align-items-center">
                     <!-- Uncomment the line below if you also wish to use an image logo -->
                     <img src="{{ asset('assets_2/img/Group 1.png') }}" alt="">
-                    {{-- <h1 class="sitename">BizLand</h1> --}}
                 </a>
 
                 <nav id="navmenu" class="navmenu">
                     <ul>
-                        <li><a href="{{ url('/') }}"class="{{ request()->is('/') ? 'active' : '' }}">Home</a>
+                        <li><a href="{{ url('/') }}"class="{{ request()->is('/') ? 'active' : '' }}">Home</a></li>
+                        <li class="{{ request()->is('portfolio') ? 'active' : '' }}">
+                             <a href="{{ url('/portfolio') }}">Portfolio</a>
                         </li>
-                        <li><a href="#profil">Profil</a></li>
-                        <li><a href="#services">Testimoni</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        {{-- <li><a href="#team">Team</a></li> --}}
-                        <li class="{{ request()->routeIs('artikel.*') ? 'active' : '' }}">
+                        <li class="{{ request()->routeIs('artikel.list_artikel') ? 'active' : '' }}">
                             <a href="{{ route('artikel.list_artikel') }}">Artikel</a>
                         </li>
                         <li class="dropdown {{ request()->is('layanan-detail/*') ? 'active' : '' }}">
@@ -143,13 +133,10 @@
                                     <a href="{{ url('/layanan-detail/bim-tekla') }}">BIM, Tekla</a>
                                 </li>
                                 <li class="{{ request()->is('layanan-detail/ded-arsitek-mep-rab') ? 'active' : '' }}">
-                                    <a href="{{ url('/layanan-detail/ded-arsitek-mep-rab') }}">DED Arsitek, MEP,
-                                        RAB</a>
+                                    <a href="{{ url('/layanan-detail/ded-arsitek-mep-rab') }}">DED Arsitek, MEP, RAB</a>
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="#contact">Pricing</a></li>
-                        <li><a href="#contact">Contact</a></li>
                     </ul>
                     <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
                 </nav>
@@ -189,14 +176,12 @@
                                 <i class="bi bi-folder2"></i> {{ $artikel->category->name }}
                             </span>
                             <span>
-                                <i class="bi bi-calendar"></i>
-                                {{ \Carbon\Carbon::parse($artikel->created_at)->format('d F Y') }}
+                                <i class="bi bi-calendar"></i> {{ \Carbon\Carbon::parse($artikel->created_at)->format('d F Y') }}
                             </span>
                         </div>
                         <a href="{{ $artikel->link_url }}" target="_blank">
                             <!--<img src="{{ asset($artikel->gambar) }}" class="img-fluid mb-3">-->
-                            <img src="data:image/png;base64,{{ $artikel->gambar }}" class="img-fluid mb-3"
-                                alt="{{ $artikel->judul }}">
+                            <img src="data:image/png;base64,{{ $artikel->gambar }}" class="img-fluid mb-3" alt="{{ $artikel->judul }}">
 
                         </a>
                         <p>{!! $artikel->content !!}</p>
@@ -208,7 +193,7 @@
                         <div class="tags mt-3">
                             <h6>Tags:</h6>
                             <div class="d-flex flex-wrap">
-                                @foreach ($artikel->tags as $tag)
+                                @foreach($artikel->tags as $tag)
                                     <span class="badge bg-info text-white me-2 mb-2">
                                         <i class="fas fa-tag me-1"></i>{{ $tag->name }}
                                     </span>
@@ -219,7 +204,7 @@
                 </div>
             </div>
         </section><!-- End Blog Details Section -->
-
+        
 
     </main><!-- End #main -->
 

@@ -26,7 +26,7 @@
                                 class="img-fluid rounded w-100" loading="lazy"> --}}
                                 <picture>
                                     {{-- <source srcset="{{ asset('assets_2/img/macrohitungstruktur-banner3 2.webp') }}" type="image/webp"> --}}
-                                    <img src="{{ asset('assets_2/img/macrohitungstruktur-banner3 2.webp') }}" class="iimg-fluid rounded w-100" alt="" loading="lazy">
+                                    <img src="{{ asset('assets_2/img/macrohitungstruktur-banner3 2.webp') }}" class="iimg-fluid rounded w-100" alt="">
                                 </picture>
                         </div>
                     </div>
@@ -84,7 +84,7 @@
                     <div class="row gy-3">
 
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                            <img src="assets_2/img/macro-hitung-struktur-profil.webp" alt="" class="img-fluid" loading="lazy">
+                            <img src="assets_2/img/macro-hitung-struktur-profil.webp" alt="" class="img-fluid">
                         </div>
 
                         <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up"
@@ -458,6 +458,12 @@
             <!-- Clients Section -->
             <section id="clients" class="clients section light-background">
 
+             <div class="container section-title" data-aos="fade-up">
+                    <h2>CLIENT</h2>
+                    <p><span>Project </span> <span>Yang </span></p>
+                    <p class="description-title">Sudah Kami Kerjakan </p>
+                </div><!-- End Section Title -->
+
                 <div class="container">
 
                     <div class="swiper init-swiper">
@@ -495,50 +501,62 @@
             }
           </script>
 
-                        <div class="container my-4">
+                         <div class="container my-4">
                             <div class="row g-3">
-                                <div class="col-3 col-md-4 col-lg-3">
+                                <div class="col-3 col-md-4 col-lg-3 d-flex justify-content-center align-items-center">
                                     <img src="assets_2/img/ubaya-logo-width.png" class="img-fluid rounded"
                                         alt="">
                                 </div>
-                                <div class="col-2 col-md-4 col-lg-2">
+                                <div class="col-2 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
                                     <img src="assets_2/img/RS-Umum-Aminah.png" class="img-fluid rounded" alt="">
                                 </div>
-                                <div class="col-3 col-md-4 col-lg-3">
+                                <div class="col-3 col-md-4 col-lg-3 d-flex justify-content-center align-items-center">
                                     <img src="assets_2/img/LOGO-WEB4.png" class="img-fluid rounded" alt="">
                                 </div>
-                                <div class="col-2 col-md-4 col-lg-2">
+                                <div class="col-2 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
                                     <img src="assets_2/img/logo-ssb-hitam-2.png" class="img-fluid rounded"
                                         alt="">
                                 </div>
-                                <div class="col-2 col-md-4 col-lg-2">
+                                <div class="col-2 col-md-4 col-lg-2" d-flex justify-content-center align-items-center>
                                     <img src="assets_2/img/272965842_110381708222020_1530594946246873803_n 1.png"
                                         class="img-fluid rounded" alt="">
                                 </div>
-                            </div>
-                        </div>
-                        {{-- <div class="container my-4">
-                            <div class="row g-3 logo-slider">
-                                <div class="col-6 col-md-4 col-lg-2">
-                                    <img src="assets_2/img/ubaya-logo-width.png" class="img-fluid rounded" alt="">
+                                <div class="col-3 col-md-4 col-lg-3 d-flex justify-content-center align-items-center">
+                                    <img src="assets_2/img/citraland-logo.png" class="img-fluid rounded" alt="">
                                 </div>
-                                <div class="col-6 col-md-4 col-lg-2">
-                                    <img src="assets_2/img/RS-Umum-Aminah.png" class="img-fluid rounded" alt="">
-                                </div>
-                                <div class="col-6 col-md-4 col-lg-2">
-                                    <img src="assets_2/img/LOGO-WEB4.png" class="img-fluid rounded" alt="">
-                                </div>
-                                <div class="col-6 col-md-4 col-lg-2">
-                                    <img src="assets_2/img/logo-ssb-hitam-2.png" class="img-fluid rounded" alt="">
-                                </div>
-                                <div class="col-6 col-md-4 col-lg-2">
-                                    <img src="assets_2/img/272965842_110381708222020_1530594946246873803_n 1.png" class="img-fluid rounded"
+                                <div class="col-2 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
+                                    <img src="assets_2/img/pt-toyota-boshoku-indonesia-logo.png" class="img-fluid rounded"
                                         alt="">
                                 </div>
+                                <div class="col-3 col-md-4 col-lg-3 d-flex justify-content-center align-items-center">
+                                    <img src="assets_2/img/pertamina-putra-niaga-logo.png" class="img-fluid rounded"
+                                        alt="">
+                                </div>
+                                <div class="col-2 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
+                                    <img src="assets_2/img/pelindo-logo.png" class="img-fluid rounded" alt="">
+                                </div>
+                                <div class="col-2 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
+                                    <img src="assets_2/img/harvester-logo.png" class="img-fluid rounded" alt="">
+                                </div>
+                                <div class="col-2 col-md-4 col-lg-3 d-flex justify-content-center align-items-center">
+                                    <img src="assets_2/img/sinode-papua-logo.png" class="img-fluid rounded"
+                                        alt="">
+                                </div>
+                                <div class="col-3 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
+                                    <img src="assets_2/img/the-wave-hotel-logo.png" class="img-fluid rounded"
+                                        alt="">
+                                </div>
+                                <div class="col-2 col-md-4 col-lg-3 d-flex justify-content-center align-items-center">
+                                    <img src="assets_2/img/ponpes 1.png" class="img-fluid rounded" alt="">
+                                </div>
+                                <div class="col-3 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
+                                    <img src="assets_2/img/pik-2-logo.png" class="img-fluid rounded" alt="">
+                                </div>
+                                <div class="col-2 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
+                                    <img src="assets_2/img/unair-logo.png" class="img-fluid rounded" alt="">
+                                </div>
                             </div>
-                        </div> --}}
-
-
+                        </div>
                     </div>
 
                 </div>
@@ -1009,6 +1027,9 @@
                                     loading="lazy" referrerpolicy="no-referrer-when-downgrade"
                                     title="Google Maps showing the location at Jl. Legian III, Surabaya, Indonesia">
                                 </iframe>
+                                <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P4B4PRXW"
+                                height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
 
                             </div>
 

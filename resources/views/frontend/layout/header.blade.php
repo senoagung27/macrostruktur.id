@@ -23,16 +23,12 @@
         </div>
     </div><!-- End Top Bar -->
 
-    <div class="branding d-flex align-items-cente">
+    <div class="branding d-flex align-items-center">
 
         <div class="container position-relative d-flex align-items-center justify-content-between">
             <a href="{{ url('/') }}" class="logo d-flex align-items-center" aria-label="Homepage">
                 <!-- Add alt text to the image -->
-                <img src="assets_2/img/Group 1.webp" alt="MacroStruktur">
-                {{-- <picture>
-                    <source srcset="{{ asset('assets_2/img/Group 1.webp') }}" type="image/webp">
-                    <img src="{{ asset('assets_2/img/Group 1.webp') }}" class="img-fluid" alt="" style="width: 100%; height: auto; object-fit: contain;" loading="lazy">
-                </picture> --}}
+              <img src="assets_2/img/Group 1.webp" alt="MacroStruktur">
             </a>
 
             <nav id="navmenu" class="navmenu">

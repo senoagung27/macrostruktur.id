@@ -6,12 +6,13 @@
     {{-- <title>Home - MacroStruktur</title> --}}
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>MacroStruktur - Solusi Analisa dan Perencanaan Struktur Bangunan</title>
+    <title>MacroStruktur - Official Website</title>
     <meta name="description"
         content="MacroStruktur adalah solusi terpercaya untuk analisa dan perencanaan struktur bangunan. Temukan layanan terbaik untuk kebutuhan konstruksi Anda di sini!">
-    <meta name="keywords" content="Analisa dan Perencanaan Struktur Bangunan">
+    <meta name="keywords" content="⁠jasa konsultasi struktur profesional, ⁠jasa konsultasi struktur profesional dan terpercaya, ⁠jasa konsultasi struktur profesional surabaya, ⁠jasa konsultasi struktur profesional indonesia, jasa konsultasi struktur profesional jakarta, jasa konsultasi struktur murah, ⁠jasa konsultasi struktur">
 
     <meta name="author" content="MacroStruktur">
+    <meta name="google-site-verification" content="{{ env('GOOGLE_SITE_VERIFICATION') }}">
     <meta name="robots" content="index, follow">
 
     <!-- Open Graph / Facebook -->
@@ -45,9 +46,8 @@
     {{-- <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet"> --}}
-    {{-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> --}}
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-    <link href="assets_2/assets/css/roboto.css" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="{{ asset('assets_2/assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -92,14 +92,21 @@
             /* Agar gambar tetap proporsional */
         }
     </style>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4GK3ZNE3ZW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    <!-- =======================================================
-  * Template Name: BizLand
-  * Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  gtag('config', 'G-4GK3ZNE3ZW');
+</script>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P4B4PRXW');</script>
+
 
 </head>
 @yield('content')
