@@ -5,6 +5,30 @@
         height: auto;
         object-fit: contain;
     }
+    .whatsapp-float {
+            position: fixed;
+            width: 50px;
+            height: 50px;
+            bottom: 20px;
+            right: 10px;
+            background-color: #25d366;
+            color: white;
+            border-radius: 50px;
+            text-align: center;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 1000;
+        }
+
+        .whatsapp-float img {
+            margin-top: 10px;
+            width: 30px;
+            height: 30px;
+        }
+
+        .whatsapp-float:hover {
+            background-color: #1ebe5b;
+            cursor: pointer;
+        }
     </style>
     
 
@@ -83,6 +107,9 @@
 <!-- Scroll Top -->
 <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
         class="bi bi-arrow-up-short"></i></a>
+        <a href="https://wa.me/6281234567890" class="whatsapp-float mb-5" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+        </a>
 
 <!-- Preloader -->
 <div id="preloader">
