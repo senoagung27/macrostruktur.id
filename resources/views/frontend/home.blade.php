@@ -773,17 +773,34 @@
                                         alt="">
                                 </div>
                                 <div class="col-3 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
-                                    <img src="assets_2/img/the-wave-hotel-logo.png" class="img-fluid rounded"
+                                    <img src="assets_2/img/the-wave-hotel.png" class="img-fluid rounded"
                                         alt="">
                                 </div>
                                 <div class="col-2 col-md-4 col-lg-3 d-flex justify-content-center align-items-center">
                                     <img src="assets_2/img/ponpes 1.png" class="img-fluid rounded" alt="">
                                 </div>
-                                <div class="col-3 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
-                                    <img src="assets_2/img/pik-2-logo.png" class="img-fluid rounded" alt="">
+                                <div class="col-2 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
+                                    <img src="assets_2/img/pjb-logo.png" width="150" class="img-fluid rounded" alt="">
                                 </div>
                                 <div class="col-2 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
                                     <img src="assets_2/img/unair-logo.png" class="img-fluid rounded" alt="">
+                                </div>
+                                <div class="col-2 col-md-4 col-lg-3 d-flex justify-content-center align-items-center">
+                                    <img src="assets_2/img/pik-2-logo.png" class="img-fluid rounded"
+                                        alt="">
+                                </div>
+                                <div class="col-2 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
+                                    <img src="assets_2/img/logo-ppns.png" width="100" class="img-fluid rounded"
+                                        alt="">
+                                </div>
+                                <div class="col-2 col-md-4 col-lg-3 d-flex justify-content-center align-items-center">
+                                    <img src="assets_2/img/logo-unesa.png" class="img-fluid rounded" alt="">
+                                </div>
+                                <div class="col-2 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
+                                    <img src="assets_2/img/rsud-pare-logo.png" class="img-fluid rounded" width="100" alt="">
+                                </div>
+                                <div class="col-2 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
+                                    <img src="assets_2/img/logo-pln.png" class="img-fluid rounded" alt="">
                                 </div>
                             </div>
                         </div>

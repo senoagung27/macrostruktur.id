@@ -134,10 +134,8 @@
                 <i class="bi bi-phone d-flex align-items-center ms-4"><span>+62 87834399815</span></i>
             </div>
             <div class="social-links d-none d-md-flex align-items-center">
-                <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
                 <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
                 <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
             </div>
         </div>
     </div><!-- End Top Bar -->
@@ -251,183 +249,6 @@
                         {!! $data['image_header'] !!}
                 </div>
             </div>
-            {{-- <div class="grid-container">
-                <div class="grid-item">
-                    <img alt="3D model of Masjid Universitas Muhammadiyah Bengkulu" height="150"
-                        src="assets_2/img/13.MASJID UVIVERSITAS MUHAMMDIYAH BENGKULU.png" width="200" />
-                        {!! $data['image_1'] !!}
-                    <p>
-                        {{ $data['description_1'] }}
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Masjid Guod-Jombang" height="150"
-                        src="assets_2/img/14.MASJID GUDO - JOMBANG.png" width="200" />
-                        {!! $data['image_2'] !!}
-                    <p>
-                        {{ $data['description_2'] }}
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Auditorium Sekolah Al Hikmah-Batu" height="150"
-                        src="assets_2/img/15.AUDITORIUM SEKOLAH AL HIKMAH - BATU.png" width="200" />
-                        {!! $data['image_3'] !!}
-                        <p>
-                            {{ $data['description_3'] }}
-                        </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Gedung Serba Guna Kab. Gresik" height="150"
-                        src="assets_2/img/16. GEDUNG SERBA GUNA KAB. GRESIK.png" width="200" />
-                    {!! $data['image_4'] !!}
-                    <p>
-                        {{ $data['description_4'] }}
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Gedung Puskesmas Alun-Alun Gresik" height="150"
-                        src="assets_2/img/17. GEDUNG PUSKSEMAS ALUN-ALUN GRESIK.png" width="200" />
-                        {!! $data['image_5'] !!}
-                        <p>
-                            {{ $data['description_5'] }}
-                        </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Gedung Puskesmas Panceng" height="150"
-                        src="assets_2/img/18. GEDUNG PUSKSEMAS PANCENG.png"
-                        width="200" />
-                        {!! $data['image_6'] !!}
-                        <p>
-                            {{ $data['description_6'] }}
-                        </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Masjid Auliya 2 Lantai" height="150"
-                        src="assets_2/img/19. MASJID AULIYA 2 LANTAI.png"
-                        width="200" />
-                        {!! $data['image_7'] !!}
-                        <p>
-                            {{ $data['description_7'] }}
-                        </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Gedung Asrama Putra Auliya 4 Lantai" height="150"
-                        src="assets_2/img/20. GEDUNG ASRAMA PUTRA AUILYA 4 LANTAI (1).png"
-                        width="200" />
-                        {!! $data['image_8'] !!}
-                        <p>
-                            {{ $data['description_8'] }}
-                        </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Gedung Basic Science Fakultas Sains dan Teknologi - Unair C" height="150"
-                        src="assets_2/img/1.GEDUNG BASIC SCIENCE FAKULTAS SAINS DAN TEKNOLOGI - UNAIR C.png"
-                        width="200" />
-                        {!! $data['image_9'] !!}
-                        <p>
-                            {{ $data['description_9'] }}
-                        </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Gedung Asrama Mahasiswa Univ Trunojoyo" height="150"
-                        src="assets_2/img/2.GEDUNG ASRAMA MAHASISWA UNIV TRUNOJOYO.png"
-                        width="200" />
-                        {!! $data['image_10'] !!}
-                        <p>
-                            {{ $data['description_10'] }}
-                        </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Gedung Auditorium Universitas Muhammadiyah Sidoarjo" height="150"
-                        src="assets_2/img/3.GEDUNG AUDITORIUM UNIVERISTAS MUHAMMAIDYAH SIDOARJO.png"
-                        width="200" />
-                        {!! $data['image_11'] !!}
-                        <p>
-                            {{ $data['description_11'] }}
-                        </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Gedung Laboratorium PAUD Unesa" height="150"
-                        src="assets_2/img/4.GEDUNG LABORATORIUM PAUD UNESA.png"
-                        width="200" />
-                        {!! $data['image_12'] !!}
-                        <p>
-                            {{ $data['description_12'] }}
-                        </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Gedung Bengkel PPNS ITS-Surabaya" height="150"
-                        src="assets_2/img/5.GEDUNG BENGKEL PPNS ITS - SURABAYA.png"
-                        width="200" />
-                        {!! $data['image_13'] !!}
-                        <p>
-                            {{ $data['description_13'] }}
-                        </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of RSU Aminah Blitar" height="150"
-                        src="assets_2/img/6.RSU AMINAH BLITAR (1).png"
-                        width="200" />
-                        {!! $data['image_14'] !!}
-                        <p>
-                            {{ $data['description_14'] }}
-                        </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Gedung Fakultas Farmasi Universitas Surabaya - Ubaya" height="150"
-                        src="assets_2/img/7.GEDUNG FAKULTAS FARMASI UNIVERSITAS SURABAYA - UBAYA.png"
-                        width="200" />
-                        {!! $data['image_15'] !!}
-                        <p>
-                            {{ $data['description_15'] }}
-                        </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Gedung Student Center Universitas Surabaya - Ubaya" height="150"
-                        src="assets_2/img/8.GEDUNG STUDENT CENTER UNIVERSITAS SURABAYA - UBAYA.png"
-                        width="200" />
-                        {!! $data['image_16'] !!}
-                        <p>
-                            {{ $data['description_16'] }}
-                        </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Hotel Kalpataru - Malang" height="150"
-                        src="assets_2/img/9.HOTEL KALPATARU - MALANG.png"
-                        width="200" />
-                        {!! $data['image_17'] !!}
-                        <p>
-                            {{ $data['description_17'] }}
-                        </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of Hotel Syariah Surabaya" height="150"
-                        src="assets_2/img/10..HOTEL SYARIAH SURABAYA.png"
-                        width="200" />
-                        {!! $data['image_18'] !!}
-                        <p>
-                            {{ $data['description_18'] }}
-                        </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of RSWA Soreang - Bandung" height="150"
-                        src="assets_2/img/26.RSWIA SOREANG - BANDUNG.png"
-                        width="200" />
-                        {!! $data['image_19'] !!}
-                        <p>
-                            {{ $data['description_19'] }}
-                        </p>
-                </div>
-                <div class="grid-item">
-                    <img alt="3D model of SDM Muhammadiyah H5 Surabaya" height="150"
-                        src="assets_2/img/12. SDN MUHAMMAIDYAH 15 SURABAYA.png"
-                        width="200" />
-                        {!! $data['image_20'] !!}
-                        <p>
-                            {{ $data['description_20'] }}
-                        </p>
-                </div>
-            </div> --}}
             <div class="grid-container">
                 {{-- Tampilkan Gambar dan Deskripsi --}}
                 @for ($i = 1; $i <= 20; $i++)
@@ -491,10 +312,8 @@
                     <h4 class="text-white">Follow Us</h4>
                     <p class="text-white">Ikuti akun sosial media kami agar tidak ketinggalan info terkini !</p>
                     <div class="social-links d-flex">
-                        <a href=""><i class="bi bi-twitter-x"></i></a>
                         <a href=""><i class="bi bi-facebook"></i></a>
                         <a href=""><i class="bi bi-instagram"></i></a>
-                        <a href=""><i class="bi bi-linkedin"></i></a>
                     </div>
                 </div>
 

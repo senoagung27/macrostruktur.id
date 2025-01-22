@@ -63,10 +63,8 @@
                 <h4 class="text-white">Follow Us</h4>
                 <p class="text-white">Ikuti akun sosial media kami agar tidak ketinggalan info terkini !</p>
                 <div class="social-links d-flex">
-                    <a href=""><i class="bi bi-twitter-x"></i></a>
                     <a href=""><i class="bi bi-facebook"></i></a>
                     <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
             </div>
 
