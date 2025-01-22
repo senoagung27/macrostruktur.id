@@ -88,11 +88,9 @@
 
                 <nav id="navmenu" class="navmenu">
                     <ul>
-                        <li><a href="{{ url('/') }}"class="{{ request()->is('/') ? 'active' : '' }}">Home</a>
-                        </li>
-                        <li class="dropdown {{ request()->is('portfolio*') ? 'active' : '' }}">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                                Portfolio <span class="caret"></span>
+                        <li><a href="{{ url('/') }}"class="{{ request()->is('/') ? 'active' : '' }}"> Home</a></li>
+                        <li class="dropdown {{ request()->is('portfolio-detail/*') ? 'active' : '' }}">
+                            <a href="{{ url('/portfolio') }}"><span>Portfolio</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                             </a>
                             <ul class="dropdown-menu" role="menu">
                                 <li class="{{ request()->is('/portfolio-detail/bangunan-gedung') ? 'active' : '' }}">
@@ -115,12 +113,12 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="{{ request()->routeIs('artikel.list_artikel') ? 'active' : '' }}">
+                        
+                        <li class="{{ request()->routeIs('artikel.*') ? 'active' : '' }}">
                             <a href="{{ route('artikel.list_artikel') }}">Artikel</a>
-                        </li>
+                        </li>                    
                         <li class="dropdown {{ request()->is('layanan-detail/*') ? 'active' : '' }}">
-                            <a href="#"><span>Jasa Layanan</span> <i
-                                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <a href="#"><span>Jasa Layanan</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                             <ul>
                                 <li class="{{ request()->is('layanan-detail/bangunan-gedung') ? 'active' : '' }}">
                                     <a href="{{ url('/layanan-detail/bangunan-gedung') }}">Bangunan Gedung</a>
@@ -138,8 +136,7 @@
                                     <a href="{{ url('/layanan-detail/bim-tekla') }}">BIM, Tekla</a>
                                 </li>
                                 <li class="{{ request()->is('layanan-detail/ded-arsitek-mep-rab') ? 'active' : '' }}">
-                                    <a href="{{ url('/layanan-detail/ded-arsitek-mep-rab') }}">DED Arsitek, MEP,
-                                        RAB</a>
+                                    <a href="{{ url('/layanan-detail/ded-arsitek-mep-rab') }}">DED Arsitek, MEP, RAB</a>
                                 </li>
                             </ul>
                         </li>
