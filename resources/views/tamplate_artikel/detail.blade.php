@@ -107,8 +107,30 @@
                 <nav id="navmenu" class="navmenu">
                     <ul>
                         <li><a href="{{ url('/') }}"class="{{ request()->is('/') ? 'active' : '' }}">Home</a></li>
-                        <li class="{{ request()->is('portfolio') ? 'active' : '' }}">
-                             <a href="{{ url('/portfolio') }}">Portfolio</a>
+                        <li class="dropdown {{ request()->is('portfolio*') ? 'active' : '' }}">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                Portfolio <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li class="{{ request()->is('/portfolio-detail/bangunan-gedung') ? 'active' : '' }}">
+                                    <a href="{{ url('/portfolio-detail/bangunan-gedung') }}">Bagunan Gedung</a>
+                                </li>
+                                <li class="{{ request()->is('/portfolio-detail/rumah-tinggal') ? 'active' : '' }}">
+                                    <a href="{{ url('/portfolio-detail/rumah-tinggal') }}">Rumah Tinggal</a>
+                                </li>
+                                <li class="{{ request()->is('/portfolio-detail/bangunan-gudang') ? 'active' : '' }}">
+                                    <a href="{{ url('/portfolio-detail/bangunan-gudang') }}"> Bagunan Gudang</a>
+                                </li>
+                                <li class="{{ request()->is('/portfolio-detail/bangunan-non-gedung') ? 'active' : '' }}">
+                                    <a href="{{ url('/portfolio-detail/bangunan-non-gedung') }}"> Bagunan Non Gedung</a>
+                                </li>
+                                <li class="{{ request()->is('/portfolio-detail/bim-modeling') ? 'active' : '' }}">
+                                    <a href="{{ url('/portfolio-detail/bim-modeling') }}"> BIM Modeling</a>
+                                </li>
+                                <li class="{{ request()->is('/portfolio-detail/mep') ? 'active' : '' }}">
+                                    <a href="{{ url('/portfolio-detail/mep') }}">MEP</a>
+                                </li>
+                            </ul>
                         </li>
                         <li class="{{ request()->routeIs('artikel.list_artikel') ? 'active' : '' }}">
                             <a href="{{ route('artikel.list_artikel') }}">Artikel</a>

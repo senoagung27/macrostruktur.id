@@ -40,7 +40,8 @@ Route::get('/layanan', [LayananController::class, 'index']);
 Route::get('/layanan-detail/{slug}', [LayananController::class, 'detail'])->name('layanan.detail');
 
 // Route::get('/portfolio', 'PortfolioController@index');
-Route::get('/portfolio', [PortfolioController::class, 'index']);
+Route::get('/portfolio', [PortfolioController::class, 'index'])->name('portfolio.index');
+Route::get('/portfolio-detail/{slug}', [PortfolioController::class, 'detail'])->name('portfolio.detail');
 
 /*Route::get('/isi_post', function(){
 	return view('blog.isi_post');

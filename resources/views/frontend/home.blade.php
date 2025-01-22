@@ -18,21 +18,21 @@
                             <h2 class="text-white fw-bold">Analisa dan Perencanaan Struktur Bangunan</h2>
                             <a href="#profil" class="btn btn-primary" style="width: 120px">Selengkapnya</a>
                         </div>
-            
+
                         <!-- Right Image -->
-                        <div class="col-lg-6 d-flex flex-column justify-content-center"
-                            data-aos="zoom-out">
+                        <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="zoom-out">
                             {{-- <img src="assets_2/img/macrohitungstruktur-banner3 2.png" alt="Blueprints"
                                 class="img-fluid rounded w-100" loading="lazy"> --}}
-                                <picture>
-                                    {{-- <source srcset="{{ asset('assets_2/img/macrohitungstruktur-banner3 2.webp') }}" type="image/webp"> --}}
-                                    <img src="{{ asset('assets_2/img/macrohitungstruktur-banner3 2.webp') }}" class="iimg-fluid rounded w-100" alt="">
-                                </picture>
+                            <picture>
+                                {{-- <source srcset="{{ asset('assets_2/img/macrohitungstruktur-banner3 2.webp') }}" type="image/webp"> --}}
+                                <img src="{{ asset('assets_2/img/macrohitungstruktur-banner3 2.webp') }}"
+                                    class="iimg-fluid rounded w-100" alt="">
+                            </picture>
                         </div>
                     </div>
                 </div>
             </section>
-            
+
             <!-- Featured Services Section -->
             <section id="featured-services" class="featured-services section">
                 <div class="container">
@@ -161,43 +161,257 @@
 
                         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                             <div class="service-item position-relative ">
-                                <div class="img-fluid">
+                                {{-- <div class="img-fluid">
 
                                     <img src="assets_2/img/45.png" alt="" class="img-fluid">
+                                </div> --}}
+                                <div id="carouselExampleDark1" class="carousel carousel-dark slide"
+                                    data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="1"
+                                            aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="2"
+                                            aria-label="Slide 3"></button>
+                                            <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="3"
+                                            aria-label="Slide 4"></button>
+                                            <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="4"
+                                            aria-label="Slide 5"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-bs-interval="10000">
+                                            {{-- <img src="..." class="d-block w-100" alt="..."> --}}
+                                            <img src="assets_2/img/KSJ_003_01.png" alt="" class="d-block w-100">
+                                            {{-- <div class="carousel-caption d-none d-md-block">
+                                                <h5>First slide label</h5>
+                                                <p>Some representative placeholder content for the first slide.</p>
+                                            </div> --}}
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="2000">
+                                            {{-- <img src="..." class="d-block w-100" alt="..."> --}}
+                                            <img src="assets_2/img/jasa-struktur-gedung-sinode-papua-etabs.jpg" alt="" class="d-block w-100">
+                                            {{-- <div class="carousel-caption d-none d-md-block">
+                                                <h5>Second slide label</h5>
+                                                <p>Some representative placeholder content for the second slide.</p>
+                                            </div> --}}
+                                        </div>
+                                        <div class="carousel-item">
+                                            {{-- <img src="..." class="d-block w-100" alt="..."> --}}
+                                            <img src="assets_2/img/jasa-struktur-gedung-sinode-papua-2d-1.jpg" alt="" class="d-block w-100">
+                                            {{-- <div class="carousel-caption d-none d-md-block">
+                                                <h5>Third slide label</h5>
+                                                <p>Some representative placeholder content for the third slide.</p>
+                                            </div> --}}
+                                        </div>
+                                        <div class="carousel-item">
+                                            {{-- <img src="..." class="d-block w-100" alt="..."> --}}
+                                            <img src="assets_2/img/jasa-struktur-gedung-sinode-papua-2d-2.jpg" alt="" class="d-block w-100">
+                                            {{-- <div class="carousel-caption d-none d-md-block">
+                                                <h5>Third slide label</h5>
+                                                <p>Some representative placeholder content for the third slide.</p>
+                                            </div> --}}
+                                        </div>
+                                        <div class="carousel-item">
+                                            {{-- <img src="..." class="d-block w-100" alt="..."> --}}
+                                            <img src="assets_2/img/jasa-struktur-gedung-sinode-papua2d-3.jpg" alt="" class="d-block w-100">
+                                            {{-- <div class="carousel-caption d-none d-md-block">
+                                                <h5>Third slide label</h5>
+                                                <p>Some representative placeholder content for the third slide.</p>
+                                            </div> --}}
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselExampleDark1" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselExampleDark1" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
                                 </div>
-                                <a href="{{ url('/layanan-detail/bangunan-gedung') }}" class="stretched-link">
+                                <h3>Jasa Hitung Struktur Gedung</h3>
+                                {{-- <a href="{{ url('/layanan-detail/bangunan-gedung') }}" class="stretched-link disabled">
                                     <h3>Jasa Hitung Struktur Gedung</h3>
-                                </a>
+                                </a> --}}
                                 <p>Analisa struktur bangunan Gedung yang mengacu pada SNI pembebanan,
                                     SNI gempa, dan SNI beton terbaru</p>
+                                    <a href="{{ url('/layanan-detail/bangunan-gedung') }}" title="More Details" class="btn btn-primary details-link mt-5">
+                                        <i class="bi bi-link-45deg"></i> Selengkapnya
+                                    </a>
+                                    
                             </div>
                         </div><!-- End Service Item -->
 
                         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                             <div class="service-item position-relative">
-                                <div class="img-fluid">
+                                {{-- <div class="img-fluid">
 
                                     <img src="assets_2/img/jasa-hitung-struktur-rumah-tinggal-ruko (1).png" alt=""
                                         class="img-fluid">
+                                </div> --}}
+                                <div id="carouselExampleDark2" class="carousel carousel-dark slide"
+                                data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="3"
+                                        aria-label="Slide 4"></button>
+                                        <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="4"
+                                        aria-label="Slide 5"></button>
                                 </div>
-                                <a href="{{ url('/layanan-detail/rumah-tinggal-ruko') }}" class="stretched-link">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="10000">
+                                        {{-- <img src="..." class="d-block w-100" alt="..."> --}}
+                                        <img src="assets_2/img/ETABS.png" alt="" class="d-block w-100">
+                                        {{-- <div class="carousel-caption d-none d-md-block">
+                                            <h5>First slide label</h5>
+                                            <p>Some representative placeholder content for the first slide.</p>
+                                        </div> --}}
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        {{-- <img src="..." class="d-block w-100" alt="..."> --}}
+                                        <img src="assets_2/img/ETABS.png" alt="" class="d-block w-100">
+                                        {{-- <div class="carousel-caption d-none d-md-block">
+                                            <h5>Second slide label</h5>
+                                            <p>Some representative placeholder content for the second slide.</p>
+                                        </div> --}}
+                                    </div>
+                                    <div class="carousel-item">
+                                        {{-- <img src="..." class="d-block w-100" alt="..."> --}}
+                                        <img src="assets_2/img/jasa-struktur-rumah-2d-1.jpg" alt="" class="d-block w-100">
+                                        {{-- <div class="carousel-caption d-none d-md-block">
+                                            <h5>Third slide label</h5>
+                                            <p>Some representative placeholder content for the third slide.</p>
+                                        </div> --}}
+                                    </div>
+                                    <div class="carousel-item">
+                                        {{-- <img src="..." class="d-block w-100" alt="..."> --}}
+                                        <img src="assets_2/img/jasa-struktur-rumah-2d-2.jpg" alt="" class="d-block w-100">
+                                        {{-- <div class="carousel-caption d-none d-md-block">
+                                            <h5>Third slide label</h5>
+                                            <p>Some representative placeholder content for the third slide.</p>
+                                        </div> --}}
+                                    </div>
+                                    <div class="carousel-item">
+                                        {{-- <img src="..." class="d-block w-100" alt="..."> --}}
+                                        <img src="assets_2/img/jasa-struktur-rumah-2d-3.jpg" alt="" class="d-block w-100">
+                                        {{-- <div class="carousel-caption d-none d-md-block">
+                                            <h5>Third slide label</h5>
+                                            <p>Some representative placeholder content for the third slide.</p>
+                                        </div> --}}
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleDark2" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleDark2" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                                <h3> Jasa Hitung Struktur Rumah & Ruko</h3>
+                                {{-- <a href="{{ url('/layanan-detail/rumah-tinggal-ruko') }}" class="stretched-link">
                                     <h3> Jasa Hitung Struktur Rumah & Ruko</h3>
-                                </a>
+                                </a> --}}
                                 <p> Analisa struktur rumah tinggal yang mengutamakan keamanan saat ditinggali dan tetap
                                     efisien</p>
+                                    <a href="{{ url('/layanan-detail/rumah-tinggal-ruko') }}" title="More Details" class="btn btn-primary details-link mt-5">
+                                        <i class="bi bi-link-45deg"></i> Selengkapnya
+                                    </a>
                             </div>
                         </div><!-- End Service Item -->
 
                         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                             <div class="service-item position-relative ">
-                                <div class="img-fluid">
+                                {{-- <div class="img-fluid">
                                     <img src="assets_2/img/jasa-hitung-struktur-gudang (1).png" alt=""
                                         class="img-fluid">
+                                </div> --}}
+                                <div id="carouselExampleDark3" class="carousel carousel-dark slide"
+                                data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="3"
+                                        aria-label="Slide 4"></button>
+                                        <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="4"
+                                        aria-label="Slide 5"></button>
                                 </div>
-                                <a href="{{ url('/layanan-detail/bangunan-gudang') }}" class="stretched-link">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="10000">
+                                        {{-- <img src="..." class="d-block w-100" alt="..."> --}}
+                                        <img src="assets_2/img/Ceva Logistic 4.jpg" alt="" class="d-block w-100">
+                                        {{-- <div class="carousel-caption d-none d-md-block">
+                                            <h5>First slide label</h5>
+                                            <p>Some representative placeholder content for the first slide.</p>
+                                        </div> --}}
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        {{-- <img src="..." class="d-block w-100" alt="..."> --}}
+                                        <img src="assets_2/img/jasa-struktur-gudang-baja-etabs.jpg" alt="" class="d-block w-100">
+                                        {{-- <div class="carousel-caption d-none d-md-block">
+                                            <h5>Second slide label</h5>
+                                            <p>Some representative placeholder content for the second slide.</p>
+                                        </div> --}}
+                                    </div>
+                                    <div class="carousel-item">
+                                        {{-- <img src="..." class="d-block w-100" alt="..."> --}}
+                                        <img src="assets_2/img/jasa-struktur-gudang-baja-2d-1.jpg" alt="" class="d-block w-100">
+                                        {{-- <div class="carousel-caption d-none d-md-block">
+                                            <h5>Third slide label</h5>
+                                            <p>Some representative placeholder content for the third slide.</p>
+                                        </div> --}}
+                                    </div>
+                                    <div class="carousel-item">
+                                        {{-- <img src="..." class="d-block w-100" alt="..."> --}}
+                                        <img src="assets_2/img/jasa-struktur-gudang-baja-2d-2.jpg" alt="" class="d-block w-100">
+                                        {{-- <div class="carousel-caption d-none d-md-block">
+                                            <h5>Third slide label</h5>
+                                            <p>Some representative placeholder content for the third slide.</p>
+                                        </div> --}}
+                                    </div>
+                                    <div class="carousel-item">
+                                        {{-- <img src="..." class="d-block w-100" alt="..."> --}}
+                                        <img src="assets_2/img/jasa-struktur-gudang-baja-2d-3.jpg" alt="" class="d-block w-100">
+                                        {{-- <div class="carousel-caption d-none d-md-block">
+                                            <h5>Third slide label</h5>
+                                            <p>Some representative placeholder content for the third slide.</p>
+                                        </div> --}}
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleDark3" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleDark3" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                                <h3>Jasa Hitung Struktur Gudang/Warehouse</h3>
+                                {{-- <a href="{{ url('/layanan-detail/bangunan-gudang') }}" class="stretched-link">
                                     <h3>Jasa Hitung Struktur Gudang/Warehouse</h3>
-                                </a>
+                                </a> --}}
                                 <p> Analisa struktur Gudang dan Pabrik dengan struktur baja berat</p>
+                                <a href="{{ url('/layanan-detail/bangunan-gudang') }}" title="More Details" class="btn btn-primary details-link mt-5">
+                                    <i class="bi bi-link-45deg"></i> Selengkapnya
+                                </a>
                             </div>
                         </div><!-- End Service Item -->
 
@@ -207,12 +421,16 @@
 
                                     <img src="assets_2/img/46.png" alt="" class="img-fluid">
                                 </div>
-                                <a href="{{ url('/layanan-detail/bangunan-gudang') }}" class="stretched-link">
+                                <h3>Jasa hitung struktur Non Gedung</h3>
+                                {{-- <a href="{{ url('/layanan-detail/bangunan-gudang') }}" class="stretched-link">
                                     <h3>Jasa hitung struktur Non Gedung</h3>
-                                </a>
+                                </a> --}}
                                 <p> Analisa struktur non Gedung, atap kanopi, rangka atap cremona, Bangunan IPAL, dan
                                     lain-lain</p>
-                                <a href="{{ url('/layanan-detail/bangunan-gudang') }}" class="stretched-link"></a>
+                                {{-- <a href="{{ url('/layanan-detail/bangunan-gudang') }}" class="stretched-link"></a> --}}
+                                <a href="{{ url('/layanan-detail/bangunan-gudang') }}" title="More Details" class="btn btn-primary details-link mt-5">
+                                    <i class="bi bi-link-45deg"></i> Selengkapnya
+                                </a>
                             </div>
                         </div><!-- End Service Item -->
 
@@ -221,12 +439,16 @@
                                 <div class="img-fluid">
                                     <img src="assets_2/img/44.png" alt="" class="img-fluid">
                                 </div>
-                                <a href="{{ url('/layanan-detail/assesment') }}" class="stretched-link">
+                                <h3> Assesment Struktur</h3>
+                                {{-- <a href="{{ url('/layanan-detail/assesment') }}" class="stretched-link">
                                     <h3> Assesment Struktur</h3>
-                                </a>
+                                </a> --}}
                                 <p> Assesment dan SLF Struktur dipergunakan untuk Gedung atau Gudang
                                     atau pabrik yang membutuhkan studi kelayakan struktur</p>
-                                <a href="{{ url('/layanan-detail/assesment') }}" class="stretched-link"></a>
+                                {{-- <a href="{{ url('/layanan-detail/assesment') }}" class="stretched-link"></a> --}}
+                                <a href="{{ url('/layanan-detail/assesment') }}" title="More Details" class="btn btn-primary details-link mt-5">
+                                    <i class="bi bi-link-45deg"></i> Selengkapnya
+                                </a>
                             </div>
                         </div><!-- End Service Item -->
 
@@ -235,12 +457,16 @@
                                 <div class="img-fluid">
                                     <img src="assets_2/img/48.png" alt="" class="img-fluid">
                                 </div>
-                                <a href="{{ url('/layanan-detail/bim-tekla') }}" class="stretched-link">
+                                <h3> Modeling Bim & Tekla Structures</h3>
+                                {{-- <a href="{{ url('/layanan-detail/bim-tekla') }}" class="stretched-link">
                                     <h3> Modeling Bim & Tekla Structures</h3>
-                                </a>
+                                </a> --}}
                                 <p> Modeling struktur baja dengan tekla, membantu proses gambar kerja agar hasil lebih
                                     detail dan akurat.</p>
-                                <a href="{{ url('/layanan-detail/bim-tekla') }}" class="stretched-link"></a>
+                                {{-- <a href="{{ url('/layanan-detail/bim-tekla') }}" class="stretched-link"></a> --}}
+                                <a href="{{ url('/layanan-detail/bim-tekla') }}" title="More Details" class="btn btn-primary details-link mt-5">
+                                    <i class="bi bi-link-45deg"></i> Selengkapnya
+                                </a>
                             </div>
                         </div><!-- End Service Item -->
                         {{-- <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
@@ -260,12 +486,16 @@
                                 <div class="img-fluid">
                                     <img src="assets_2/img/49.png" alt="" class="img-fluid">
                                 </div>
-                                <a href="{{ url('/layanan-detail/ded-arsitek-mep-rab') }}" class="stretched-link">
+                                <h3> special order and request</h3>
+                                {{-- <a href="{{ url('/layanan-detail/ded-arsitek-mep-rab') }}" class="stretched-link">
                                     <h3> special order and request</h3>
-                                </a>
+                                </a> --}}
                                 <p>Layanan spesial order dari MacroStruktur.id seperti jasa hitung RAB, DED Arsitek, DED
                                     Mechanical, Electrical & Plumbing</p>
-                                <a href="{{ url('/layanan-detail/ded-arsitek-mep-rab') }}" class="stretched-link"></a>
+                                    <a href="{{ url('/layanan-detail/ded-arsitek-mep-rab') }}" title="More Details" class="btn btn-primary details-link mt-5">
+                                        <i class="bi bi-link-45deg"></i> Selengkapnya
+                                    </a>
+                                    {{-- <a href="{{ url('/layanan-detail/ded-arsitek-mep-rab') }}" class="stretched-link"></a> --}}
                             </div>
                         </div><!-- End Service Item -->
                         {{-- <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
@@ -458,7 +688,7 @@
             <!-- Clients Section -->
             <section id="clients" class="clients section light-background">
 
-             <div class="container section-title" data-aos="fade-up">
+                <div class="container section-title" data-aos="fade-up">
                     <h2>CLIENT</h2>
                     <p><span>Project </span> <span>Yang </span></p>
                     <p class="description-title">Sudah Kami Kerjakan </p>
@@ -501,7 +731,7 @@
             }
           </script>
 
-                         <div class="container my-4">
+                        <div class="container my-4">
                             <div class="row g-3">
                                 <div class="col-3 col-md-4 col-lg-3 d-flex justify-content-center align-items-center">
                                     <img src="assets_2/img/ubaya-logo-width.png" class="img-fluid rounded"
@@ -577,6 +807,7 @@
                     <p><span>MacroStruktur.id&nbsp;</span> <span class="description-title">Portfolio</span></p>
                 </div><!-- End Section Title -->
 
+
                 <div class="container">
 
                     <div class="isotope-layout" data-default-filter="*" data-layout="masonry"
@@ -588,6 +819,7 @@
                             <li data-filter=".rumah-tinggal">Rumah Tinggal</li>
                             <li data-filter=".gudang">Gudang</li>
                             <li data-filter=".bim-modeling">BIM Modeling</li>
+                            <li data-filter=".mep">MEP</li>
                         </ul><!-- End Portfolio Filters -->
 
                         <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
@@ -604,6 +836,19 @@
                                             class="bi bi-link-45deg"></i></a>
                                 </div>
                             </div><!-- End Portfolio Item -->
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item gedung">
+                                <img src="assets_2/img/Group 41.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>GEDUNG ASRAMA MAHASISWA UNIV TRUNOJOYO</h4>
+                                    <p>Gedung</p>
+                                    <a href="assets_2/img/Group 41.png" title="Gedung"
+                                        data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="{{ url('/portfolio') }}" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
+                            </div><!-- End Portfolio Item -->
+                            
 
                             <div class="col-lg-4 col-md-6 portfolio-item isotope-item gedung">
                                 <img src="assets_2/img/Group 40.png" class="img-fluid" alt="">
@@ -630,6 +875,18 @@
                                 </div>
                             </div><!-- End Portfolio Item -->
                             <div class="col-lg-4 col-md-6 portfolio-item isotope-item rumah-tinggal">
+                                <img src="assets_2/img/Group 54.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>RUMAH TINGGAL 2 LANTAI - TANGERANG</h4>
+                                    <p>Project Rumah Tinggal</p>
+                                    <a href="assets_2/img/Group 54.png" title="Product 1"
+                                        data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="{{ url('/portfolio') }}" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
+                            </div><!-- End Portfolio Item -->
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item rumah-tinggal">
                                 <img src="assets_2/img/Group 52.png" class="img-fluid" alt="">
                                 <div class="portfolio-info">
                                     <h4>RUMAH 2 LANTAI JAKARTA</h4>
@@ -648,6 +905,18 @@
                                     <h4>HANGGAR PESAWAT - NTT</h4>
                                     <p>Project Gudang</p>
                                     <a href="assets_2/img/Group 64.png" title="Project Gudang"
+                                        data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="{{ url('/portfolio') }}" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
+                            </div><!-- End Portfolio Item -->
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item gudang">
+                                <img src="assets_2/img/Group 63.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>GUDANG WATER TREATMENT - DOMPU - NTB</h4>
+                                    <p>Project Gudang</p>
+                                    <a href="assets_2/img/Group 63.png" title="Project Gudang"
                                         data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
                                             class="bi bi-zoom-in"></i></a>
                                     <a href="{{ url('/portfolio') }}" title="More Details" class="details-link"><i
@@ -681,11 +950,60 @@
                                 </div>
                             </div><!-- End Portfolio Item -->
                             <div class="col-lg-4 col-md-6 portfolio-item isotope-item bim-modeling">
+                                <img src="assets_2/img/Group 71.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Pembangunan PLTU Dome (PT. Indonesia Power)</h4>
+                                    <p>Project BIM Modeling</p>
+                                    <a href="assets_2/img/Portfolio/MEP DEPAN HOME/mep-project-macrostruktur-1.png" title="Project BIM Modeling"
+                                        data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="{{ url('/portfolio') }}" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
+                            </div><!-- End Portfolio Item -->
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item bim-modeling">
                                 <img src="assets_2/img/Group 68.png" class="img-fluid" alt="">
                                 <div class="portfolio-info">
                                     <h4>Pelabuhan Benoa (PT. Pelindo)</h4>
                                     <p>Project BIM Modeling</p>
                                     <a href="assets_2/img/Group 68.png" title="Project BIM Modeling"
+                                        data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="{{ url('/portfolio') }}" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
+                            </div><!-- End Portfolio Item -->
+
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item mep">
+                                <img src="assets_2/img/Portfolio/MEP DEPAN HOME/mep-project-macrostruktur-1.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Sketsa</h4>
+                                    <p>Project MEP</p>
+                                    <a href="assets_2/img/Portfolio/MEP DEPAN HOME/mep-project-macrostruktur-1.png" title="Project MEP"
+                                        data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="{{ url('/portfolio') }}" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
+                            </div><!-- End Portfolio Item -->
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item mep">
+                                <img src="assets_2/img/Portfolio/MEP DEPAN HOME/mep-project-macrostruktur-2.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Sketsa</h4>
+                                    <p>Project MEP</p>
+                                    <a href="assets_2/img/Portfolio/MEP DEPAN HOME/mep-project-macrostruktur-2.png" title="Project MEP"
+                                        data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="{{ url('/portfolio') }}" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
+                            </div><!-- End Portfolio Item -->
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item mep">
+                                <img src="assets_2/img/Portfolio/MEP DEPAN HOME/mep-project-macrostruktur-3.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Sketsa</h4>
+                                    <p>Project MEP</p>
+                                    <a href="assets_2/img/Portfolio/MEP DEPAN HOME/mep-project-macrostruktur-3.png" title="Project MEP"
                                         data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
                                             class="bi bi-zoom-in"></i></a>
                                     <a href="{{ url('/portfolio') }}" title="More Details" class="details-link"><i
@@ -986,7 +1304,7 @@
                                                 <div>
                                                     <h3>Alamat</h3>
                                                     <p>Jl. Legian III Blok H6/17, Gununganyar, Surabaya, Jawa Timur</p>
-                                                    <a href="https://maps.app.goo.gl/Cn8htCpTaDffDtdP7" target="_blank"
+                                                    <a href="https://maps.app.goo.gl/vUo2yhsR6hAMTqn58" target="_blank"
                                                         class="btn text-white mt-2" style="background-color: #1F8AD1">
                                                         lihat lokasi di Maps
                                                     </a>
@@ -1021,14 +1339,21 @@
                                 frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen=""
                                 loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> --}}
 
-                                <iframe
+                                {{-- <iframe
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.1254042206797!2d112.7885445!3d-7.339811399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fab67425ad57%3A0x94de3d16a3161aef!2sJl.%20Legian%20III%20No.H6%2C%20RW.19%2C%20Gn.%20Anyar%2C%20Kec.%20Gn.%20Anyar%2C%20Surabaya%2C%20Jawa%20Timur%2060294!5e0!3m2!1sid!2sid!4v1736482229891!5m2!1sid!2sid"
                                     frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen=""
                                     loading="lazy" referrerpolicy="no-referrer-when-downgrade"
                                     title="Google Maps showing the location at Jl. Legian III, Surabaya, Indonesia">
-                                </iframe>
+                                </iframe> --}}
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.1254042206797!2d112.7885445!3d-7.339811399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa4a2b974332e9119%3A0xc8773eb3964397c1!2sMacro%20Engineering%20Studio!5e0!3m2!1sid!2sid!4v1737433565762!5m2!1sid!2sid"
+                                    frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen=""
+                                    loading="lazy" referrerpolicy="no-referrer-when-downgrade" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"
+                                    title="Google Maps showing the Macro Engineering Studio"></iframe>
                                 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P4B4PRXW"
-                                height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+                                        height="0" width="0"
+                                        style="display:none;visibility:hidden"></iframe></noscript>
 
 
                             </div>
@@ -1045,4 +1370,17 @@
         </main>
 
     </body>
+
+    <script>
+        let currentIndex = 0;
+        const slides = document.querySelector('.slides');
+        const totalSlides = document.querySelectorAll('.slide').length;
+
+        function showNextSlide() {
+            currentIndex = (currentIndex + 1) % totalSlides;
+            slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+        }
+
+        setInterval(showNextSlide, 3000);
+    </script>
 @endsection

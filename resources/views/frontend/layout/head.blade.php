@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -9,7 +10,8 @@
     <title>MacroStruktur - Official Website</title>
     <meta name="description"
         content="MacroStruktur adalah solusi terpercaya untuk analisa dan perencanaan struktur bangunan. Temukan layanan terbaik untuk kebutuhan konstruksi Anda di sini!">
-    <meta name="keywords" content="⁠jasa konsultasi struktur profesional, ⁠jasa konsultasi struktur profesional dan terpercaya, ⁠jasa konsultasi struktur profesional surabaya, ⁠jasa konsultasi struktur profesional indonesia, jasa konsultasi struktur profesional jakarta, jasa konsultasi struktur murah, ⁠jasa konsultasi struktur">
+    <meta name="keywords"
+        content="⁠jasa konsultasi struktur profesional, ⁠jasa konsultasi struktur profesional dan terpercaya, ⁠jasa konsultasi struktur profesional surabaya, ⁠jasa konsultasi struktur profesional indonesia, jasa konsultasi struktur profesional jakarta, jasa konsultasi struktur murah, ⁠jasa konsultasi struktur">
 
     <meta name="author" content="MacroStruktur">
     <meta name="google-site-verification" content="{{ env('GOOGLE_SITE_VERIFICATION') }}">
@@ -91,21 +93,39 @@
             object-fit: cover;
             /* Agar gambar tetap proporsional */
         }
+
+        .stretched-link.disabled {
+            pointer-events: none;
+        }
     </style>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4GK3ZNE3ZW"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4GK3ZNE3ZW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-4GK3ZNE3ZW');
-</script>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-P4B4PRXW');</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-4GK3ZNE3ZW');
+    </script>
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-P4B4PRXW');
+    </script>
 
 
 </head>
