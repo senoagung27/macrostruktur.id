@@ -182,7 +182,7 @@
                                     <div class="carousel-inner">
                                         <div class="carousel-item active" data-bs-interval="10000">
                                             {{-- <img src="..." class="d-block w-100" alt="..."> --}}
-                                            <img src="assets_2/img/KSJ_003_01.png" alt="" class="d-block w-100">
+                                            <img src="{{ asset('assets_2/img/slide gedung/jasa-struktur-gedung-sinode-papua-slide1.jpg') }}" alt="" class="d-block w-100">
                                             {{-- <div class="carousel-caption d-none d-md-block">
                                                 <h5>First slide label</h5>
                                                 <p>Some representative placeholder content for the first slide.</p>
@@ -190,7 +190,7 @@
                                         </div>
                                         <div class="carousel-item" data-bs-interval="2000">
                                             {{-- <img src="..." class="d-block w-100" alt="..."> --}}
-                                            <img src="assets_2/img/jasa-struktur-gedung-sinode-papua-etabs.jpg" alt="" class="d-block w-100">
+                                            <img src="{{ asset('assets_2/img/slide gedung/jasa-struktur-gedung-sinode-papua-slide2-etabs.jpg') }}" alt="" class="d-block w-100">
                                             {{-- <div class="carousel-caption d-none d-md-block">
                                                 <h5>Second slide label</h5>
                                                 <p>Some representative placeholder content for the second slide.</p>
@@ -198,7 +198,7 @@
                                         </div>
                                         <div class="carousel-item">
                                             {{-- <img src="..." class="d-block w-100" alt="..."> --}}
-                                            <img src="assets_2/img/jasa-struktur-gedung-sinode-papua-2d-1.jpg" alt="" class="d-block w-100">
+                                            <img src="{{ asset('assets_2/img/slide gedung/jasa-struktur-gedung-sinode-papua-slide3-2d-1.jpg') }}" alt="" class="d-block w-100">
                                             {{-- <div class="carousel-caption d-none d-md-block">
                                                 <h5>Third slide label</h5>
                                                 <p>Some representative placeholder content for the third slide.</p>
@@ -206,7 +206,7 @@
                                         </div>
                                         <div class="carousel-item">
                                             {{-- <img src="..." class="d-block w-100" alt="..."> --}}
-                                            <img src="assets_2/img/jasa-struktur-gedung-sinode-papua-2d-2.jpg" alt="" class="d-block w-100">
+                                            <img src="{{ asset('assets_2/img/slide gedung/jasa-struktur-gedung-sinode-papua-slide4-2d-2.jpg') }}" alt="" class="d-block w-100">
                                             {{-- <div class="carousel-caption d-none d-md-block">
                                                 <h5>Third slide label</h5>
                                                 <p>Some representative placeholder content for the third slide.</p>
@@ -214,7 +214,7 @@
                                         </div>
                                         <div class="carousel-item">
                                             {{-- <img src="..." class="d-block w-100" alt="..."> --}}
-                                            <img src="assets_2/img/jasa-struktur-gedung-sinode-papua2d-3.jpg" alt="" class="d-block w-100">
+                                            <img src="{{ asset('assets_2/img/slide gedung/jasa-struktur-gedung-sinode-papua-slide5-2d-3.jpg') }}" alt="" class="d-block w-100">
                                             {{-- <div class="carousel-caption d-none d-md-block">
                                                 <h5>Third slide label</h5>
                                                 <p>Some representative placeholder content for the third slide.</p>
@@ -269,7 +269,7 @@
                                 <div class="carousel-inner">
                                     <div class="carousel-item active" data-bs-interval="10000">
                                         {{-- <img src="..." class="d-block w-100" alt="..."> --}}
-                                        <img src="assets_2/img/ETABS.png" alt="" class="d-block w-100">
+                                        <img src="{{ asset('assets_2/img/slide rumah/jasa-struktur-rumah-slide1.jpg') }}" alt="" class="d-block w-100">
                                         {{-- <div class="carousel-caption d-none d-md-block">
                                             <h5>First slide label</h5>
                                             <p>Some representative placeholder content for the first slide.</p>
@@ -277,7 +277,7 @@
                                     </div>
                                     <div class="carousel-item" data-bs-interval="2000">
                                         {{-- <img src="..." class="d-block w-100" alt="..."> --}}
-                                        <img src="assets_2/img/ETABS.png" alt="" class="d-block w-100">
+                                        <img src="{{ asset('assets_2/img/slide rumah/jasa-struktur-rumah-slide2-etabs.jpg') }}" alt="" class="d-block w-100">
                                         {{-- <div class="carousel-caption d-none d-md-block">
                                             <h5>Second slide label</h5>
                                             <p>Some representative placeholder content for the second slide.</p>
@@ -285,7 +285,7 @@
                                     </div>
                                     <div class="carousel-item">
                                         {{-- <img src="..." class="d-block w-100" alt="..."> --}}
-                                        <img src="assets_2/img/jasa-struktur-rumah-2d-1.jpg" alt="" class="d-block w-100">
+                                        <img src="{{ asset('assets_2/img/slide rumah/jasa-struktur-rumah-slide3-2d-1.jpg') }}" alt="" class="d-block w-100">
                                         {{-- <div class="carousel-caption d-none d-md-block">
                                             <h5>Third slide label</h5>
                                             <p>Some representative placeholder content for the third slide.</p>
@@ -293,7 +293,7 @@
                                     </div>
                                     <div class="carousel-item">
                                         {{-- <img src="..." class="d-block w-100" alt="..."> --}}
-                                        <img src="assets_2/img/jasa-struktur-rumah-2d-2.jpg" alt="" class="d-block w-100">
+                                        <img src="{{ asset('assets_2/img/slide rumah/jasa-struktur-rumah-slide4-2d-2.jpg') }}" alt="" class="d-block w-100">
                                         {{-- <div class="carousel-caption d-none d-md-block">
                                             <h5>Third slide label</h5>
                                             <p>Some representative placeholder content for the third slide.</p>
@@ -301,7 +301,7 @@
                                     </div>
                                     <div class="carousel-item">
                                         {{-- <img src="..." class="d-block w-100" alt="..."> --}}
-                                        <img src="assets_2/img/jasa-struktur-rumah-2d-3.jpg" alt="" class="d-block w-100">
+                                        <img src="{{ asset('assets_2/img/slide rumah/jasa-struktur-rumah-slide5-2d-3.jpg') }}" alt="" class="d-block w-100">
                                         {{-- <div class="carousel-caption d-none d-md-block">
                                             <h5>Third slide label</h5>
                                             <p>Some representative placeholder content for the third slide.</p>
@@ -354,7 +354,7 @@
                                 <div class="carousel-inner">
                                     <div class="carousel-item active" data-bs-interval="10000">
                                         {{-- <img src="..." class="d-block w-100" alt="..."> --}}
-                                        <img src="assets_2/img/Ceva Logistic 4.jpg" alt="" class="d-block w-100">
+                                        <img src="{{ asset('assets_2/img/slide gudang/jasa-struktur-gudang-baja-slide1.jpg') }}" alt="" class="d-block w-100">
                                         {{-- <div class="carousel-caption d-none d-md-block">
                                             <h5>First slide label</h5>
                                             <p>Some representative placeholder content for the first slide.</p>
@@ -362,7 +362,7 @@
                                     </div>
                                     <div class="carousel-item" data-bs-interval="2000">
                                         {{-- <img src="..." class="d-block w-100" alt="..."> --}}
-                                        <img src="assets_2/img/jasa-struktur-gudang-baja-etabs.jpg" alt="" class="d-block w-100">
+                                        <img src="{{ asset('assets_2/img/slide gudang/jasa-struktur-gudang-baja-slide2-etabs.jpg') }}" alt="" class="d-block w-100">
                                         {{-- <div class="carousel-caption d-none d-md-block">
                                             <h5>Second slide label</h5>
                                             <p>Some representative placeholder content for the second slide.</p>
@@ -370,7 +370,7 @@
                                     </div>
                                     <div class="carousel-item">
                                         {{-- <img src="..." class="d-block w-100" alt="..."> --}}
-                                        <img src="assets_2/img/jasa-struktur-gudang-baja-2d-1.jpg" alt="" class="d-block w-100">
+                                        <img src="{{ asset('assets_2/img/slide gudang/jasa-struktur-gudang-baja-slide3-2d-1.jpg') }}" alt="" class="d-block w-100">
                                         {{-- <div class="carousel-caption d-none d-md-block">
                                             <h5>Third slide label</h5>
                                             <p>Some representative placeholder content for the third slide.</p>
@@ -378,7 +378,7 @@
                                     </div>
                                     <div class="carousel-item">
                                         {{-- <img src="..." class="d-block w-100" alt="..."> --}}
-                                        <img src="assets_2/img/jasa-struktur-gudang-baja-2d-2.jpg" alt="" class="d-block w-100">
+                                        <img src="{{ asset('assets_2/img/slide gudang/jasa-struktur-gudang-baja-slide4-2d-2.jpg') }}" alt="" class="d-block w-100">
                                         {{-- <div class="carousel-caption d-none d-md-block">
                                             <h5>Third slide label</h5>
                                             <p>Some representative placeholder content for the third slide.</p>
@@ -386,7 +386,7 @@
                                     </div>
                                     <div class="carousel-item">
                                         {{-- <img src="..." class="d-block w-100" alt="..."> --}}
-                                        <img src="assets_2/img/jasa-struktur-gudang-baja-2d-3.jpg" alt="" class="d-block w-100">
+                                        <img src="{{ asset('assets_2/img/slide gudang/jasa-struktur-gudang-baja-slide5-2d-3.jpg') }}" alt="" class="d-block w-100">
                                         {{-- <div class="carousel-caption d-none d-md-block">
                                             <h5>Third slide label</h5>
                                             <p>Some representative placeholder content for the third slide.</p>
@@ -734,73 +734,73 @@
                         <div class="container my-4">
                             <div class="row g-3">
                                 <div class="col-3 col-md-4 col-lg-3 d-flex justify-content-center align-items-center">
-                                    <img src="assets_2/img/ubaya-logo-width.png" class="img-fluid rounded"
+                                    <img src="assets_2/img/ubaya-logo-width.png" class="img-fluid"
                                         alt="">
                                 </div>
                                 <div class="col-2 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
-                                    <img src="assets_2/img/RS-Umum-Aminah.png" class="img-fluid rounded" alt="">
+                                    <img src="assets_2/img/RS-Umum-Aminah.png" class="img-fluid" alt="">
                                 </div>
                                 <div class="col-3 col-md-4 col-lg-3 d-flex justify-content-center align-items-center">
-                                    <img src="assets_2/img/LOGO-WEB4.png" class="img-fluid rounded" alt="">
+                                    <img src="assets_2/img/LOGO-WEB4.png" class="img-fluid" alt="">
                                 </div>
                                 <div class="col-2 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
-                                    <img src="assets_2/img/logo-ssb-hitam-2.png" class="img-fluid rounded"
+                                    <img src="assets_2/img/logo-ssb-hitam-2.png" class="img-fluid"
                                         alt="">
                                 </div>
                                 <div class="col-2 col-md-4 col-lg-2" d-flex justify-content-center align-items-center>
                                     <img src="assets_2/img/272965842_110381708222020_1530594946246873803_n 1.png"
-                                        class="img-fluid rounded" alt="">
+                                        class="img-fluid" alt="">
                                 </div>
                                 <div class="col-3 col-md-4 col-lg-3 d-flex justify-content-center align-items-center">
-                                    <img src="assets_2/img/citraland-logo.png" class="img-fluid rounded" alt="">
+                                    <img src="assets_2/img/citraland-logo.png" class="img-fluid" alt="">
                                 </div>
                                 <div class="col-2 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
-                                    <img src="assets_2/img/pt-toyota-boshoku-indonesia-logo.png" class="img-fluid rounded"
+                                    <img src="assets_2/img/pt-toyota-boshoku-indonesia-logo.png" class="img-fluid"
                                         alt="">
                                 </div>
                                 <div class="col-3 col-md-4 col-lg-3 d-flex justify-content-center align-items-center">
-                                    <img src="assets_2/img/pertamina-putra-niaga-logo.png" class="img-fluid rounded"
+                                    <img src="assets_2/img/pertamina-putra-niaga-logo.png" class="img-fluid"
                                         alt="">
                                 </div>
                                 <div class="col-2 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
-                                    <img src="assets_2/img/pelindo-logo.png" class="img-fluid rounded" alt="">
+                                    <img src="assets_2/img/pelindo-logo.png" class="img-fluid" alt="">
                                 </div>
                                 <div class="col-2 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
-                                    <img src="assets_2/img/harvester-logo.png" class="img-fluid rounded" alt="">
+                                    <img src="assets_2/img/harvester-logo.png" class="img-fluid" alt="">
                                 </div>
                                 <div class="col-2 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
-                                    <img src="assets_2/img/sinode-papua-logo.png" class="img-fluid rounded" alt="">
+                                    <img src="assets_2/img/sinode-papua-logo.png" class="img-fluid" alt="">
                                 </div>
                                 <div class="col-3 col-md-4 col-lg-3 d-flex justify-content-center align-items-center">
-                                    <img src="assets_2/img/the-wave-hotel.png" class="img-fluid rounded"
+                                    <img src="assets_2/img/the-wave-hotel.png" class="img-fluid"
                                         alt="">
                                 </div>
                                 <div class="col-2 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
-                                    <img src="assets_2/img/ponpes 1.png" class="img-fluid rounded w-50"
+                                    <img src="assets_2/img/ponpes 1.png" class="img-fluid w-50"
                                         alt="">
                                 </div>
                                 <div class="col-3 col-md-4 col-lg-3 d-flex justify-content-center align-items-center">
-                                    <img src="assets_2/img/pjb-logo.png" class="img-fluid rounded w-50" alt="">
+                                    <img src="assets_2/img/pjb-logo.png" class="img-fluid w-50" alt="">
                                 </div>
                                 <div class="col-2 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
-                                    <img src="assets_2/img/unair-logo.png" class="img-fluid rounded" alt="">
+                                    <img src="assets_2/img/unair-logo.png" class="img-fluid" alt="">
                                 </div>
                                 <div class="col-3 col-md-4 col-lg-3 d-flex justify-content-center align-items-center">
-                                    <img src="assets_2/img/pik-2-logo.png" class="img-fluid rounded"
+                                    <img src="assets_2/img/pik-2-logo.png" class="img-fluid"
                                         alt="">
                                 </div>
                                 <div class="col-2 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
-                                    <img src="assets_2/img/logo-ppns.png" class="img-fluid rounded w-50"
+                                    <img src="assets_2/img/logo-ppns.png" class="img-fluid w-50"
                                         alt="">
                                 </div>
                                 <div class="col-3 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
-                                    <img src="assets_2/img/logo-unesa.png"  class="img-fluid rounded w-100" alt="">
+                                    <img src="assets_2/img/logo-unesa.png"  class="img-fluid w-100" alt="">
                                 </div>
                                 <div class="col-2 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
-                                    <img src="assets_2/img/rsud-pare-logo.png" class="img-fluid rounded w-50" alt="">
+                                    <img src="assets_2/img/BAP_logo.png" class="img-fluid w-50" alt="">
                                 </div>
                                 <div class="col-2 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
-                                    <img src="assets_2/img/logo-pln.png" class="img-fluid rounded w-100" alt="">
+                                    <img src="assets_2/img/logo-pln.png" class="img-fluid w-100" alt="">
                                 </div>
                             </div>
                         </div>

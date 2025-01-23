@@ -140,7 +140,7 @@
 <script src="{{ asset('assets_2/assets/vendor/glightbox/js/glightbox.min.js') }}"></script>
 <script src="{{ asset('assets_2/assets/vendor/waypoints/noframework.waypoints.js') }}"></script>
 <script src="{{ asset('assets_2/assets/vendor/purecounter/purecounter_vanilla.js') }}"></script>
-<script src="{{ asset('assets_2/assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
+{{-- <script src="{{ asset('assets_2/assets/vendor/swiper/swiper-bundle.min.js') }}"></script> --}}
 <script src="{{ asset('assets_2/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js') }}"></script>
 <script src="{{ asset('assets_2/assets/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
 

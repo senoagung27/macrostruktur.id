@@ -16,7 +16,7 @@
             </div>
             <div class="social-links d-none d-md-flex align-items-center">
                 <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.instagram.com/macrostruktur.id/" class="instagram"><i class="bi bi-instagram"></i></a>
             </div>
         </div>
     </div><!-- End Top Bar -->

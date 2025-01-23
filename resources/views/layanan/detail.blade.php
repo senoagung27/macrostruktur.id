@@ -76,10 +76,8 @@
                     <i class="bi bi-phone d-flex align-items-center ms-4"><span>+62 87834399815</span></i>
                 </div>
                 <div class="social-links d-none d-md-flex align-items-center">
-                    <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
                     <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                    <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                    <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://www.instagram.com/macrostruktur.id/" class="instagram"><i class="bi bi-instagram"></i></a>
                 </div>
             </div>
         </div><!-- End Top Bar -->
@@ -316,7 +314,7 @@
                     <p class="text-white">Ikuti akun sosial media kami agar tidak ketinggalan info terkini !</p>
                     <div class="social-links d-flex">
                         <a href=""><i class="bi bi-facebook"></i></a>
-                        <a href=""><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.instagram.com/macrostruktur.id/"><i class="bi bi-instagram"></i></a>
                     </div>
                 </div>
     
